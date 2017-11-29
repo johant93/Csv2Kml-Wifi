@@ -254,6 +254,16 @@ public class CsvProcessor {
 		else
 			return false ;
 	}
+	/**
+	 * this function print the wifi Arraylist
+	 * @param list
+	 */
+	public static void printWifilist ( ArrayList <Wifi> list) {
+		Iterator<Wifi> it = list.iterator();
+		while (it.hasNext())
+			System.out.println(it.next().toString());
+	}
+	
 }
 
 
