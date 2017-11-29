@@ -17,7 +17,7 @@ public class getFileTest {
 	//	File file2 = new File ("WigleWifi_20171028203300.csv");
 		String newcsv = "wifisorted2.csv";
 		CsvProcessor csv = new CsvProcessor() ;
-		ArrayList<Wifi> wifiArr = csv.writeFile(file);
+		ArrayList<Wifi> wifiArr = csv.Csv2Array(file);
 		csv.signalsort(wifiArr);
 		ArrayList<Wifi> wifitimeChecked = csv.checkArraybyTime(wifiArr, "16:16:45");
 
@@ -25,6 +25,8 @@ public class getFileTest {
 	     WriteWifiKml kml = new WriteWifiKml();
 	    //kml.createWifiKml(wifiArr, "NewFile");
 	   kml.createWifiKml(wifitimeChecked, "NewFilebytime4");
+	   
+	   // Csv.printWifi(WifiArr)
 
 	   
 System.out.println(" Kml created succesfuly! ");
