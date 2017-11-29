@@ -26,7 +26,7 @@ public class getFileTest {
 	    //kml.createWifiKml(wifiArr, "NewFile");
 	   kml.createWifiKml(wifitimeChecked, "NewFilebytime4");
 	   
-	   // Csv.printWifi(WifiArr)
+	   // Csv.printWifilist(WifiArr)
 
 	   
 System.out.println(" Kml created succesfuly! ");
