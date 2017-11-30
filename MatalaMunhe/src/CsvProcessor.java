@@ -152,7 +152,7 @@ public class CsvProcessor {
 		bw.write(",");
 		bw.write(list.get(0).getAlt());
 		bw.write(",");
-		bw.write(wifiCounter(list,0)+"");
+		bw.write(wifiCounter(list,0,wifilimit)+"");
 		bw.write(",");
 		bw.write(list.get(0).getSsid());
 		bw.write(",");
@@ -182,12 +182,13 @@ public class CsvProcessor {
 					if(timeisequal(list, i+1) && wifiFound < wifilimit  ) bw.write(list.get(i).getSignal()+",");
 					else bw.write(list.get(i).getSignal());
 					i++;
+					wifiFound++;
 				}
 			} 
 			else {
 				fullStack =false;
 				netCounter=1;
-				wifiFound = wifiCounter(list,i);
+				wifiFound = 1;
 				bw.newLine();
 				bw.write(list.get(i).getTime());
 				bw.write(",");
@@ -199,7 +200,7 @@ public class CsvProcessor {
 				bw.write(",");
 				bw.write(list.get(i).getAlt());
 				bw.write(",");
-				bw.write(wifiCounter(list,i)+"");
+				bw.write(wifiCounter(list,i,wifilimit)+"");
 				bw.write(",");
 				bw.write(list.get(i).getSsid());
 				bw.write(",");
@@ -215,12 +216,12 @@ public class CsvProcessor {
 		bw.close();
 	}
 	
-	private int wifiCounter(ArrayList<Wifi> list,int index ) {
+	private int wifiCounter(ArrayList<Wifi> list,int index, int wifilimit ) {
 		int counter=1;
 		for(int i=index;i<list.size()-1;i++) {
 			if(list.get(i).getTime().equals(list.get(i+1).getTime())) {
 				counter++;
-				if(counter==10)return 10;	
+				if(counter==wifilimit)return wifilimit;	
 			}
 			else return counter;
 		}

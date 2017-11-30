@@ -1,5 +1,5 @@
-
-
+import java.util.ArrayList;
+import java.util.Iterator;
 
 public class Wifi implements Comparable  {
 	String time, id, lat, lon, alt, ssid, mac, freq, signal;
@@ -138,7 +138,15 @@ public class Wifi implements Comparable  {
 		}
 		return -1;
 	}
-
+	/**
+	 * this function print the wifi Arraylist
+	 * @param list
+	 */
+	public void printWifilist ( ArrayList <Wifi> list) {
+		Iterator<Wifi> it = list.iterator();
+		while (it.hasNext())
+			System.out.println(it.next().toString());
+	}
 }
 
 
