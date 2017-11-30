@@ -212,7 +212,7 @@ public class CsvProcessor {
 				else bw.write(list.get(i).getSignal());
 				i++;
 			}
-		}///////////////////////#wifi
+		}
 		bw.close();
 	}
 	
