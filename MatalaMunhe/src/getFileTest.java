@@ -111,5 +111,6 @@ public class getFileTest {
 		while (it.hasNext())
 			System.out.println(it.next().toString());
 	}
+	// verification du lien guitubh
 
 }
