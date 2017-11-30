@@ -94,8 +94,8 @@ public class TestProcessor {
 				int open = sc.nextInt() ;				
 				if ( open == 1){
 					System.out.println(newfile);
-					String path = "Users/joh/git/Csv2Kml-Wifi/MatalaMunhe/"; 
-					Runtime.getRuntime().exec("open "+path+newfile);
+					String path = System.getProperty("user.dir"); 
+					Runtime.getRuntime().exec("open "+path+"/"+newfile);
 				}
 				else if (open == 2) { 
 					input = false ;
