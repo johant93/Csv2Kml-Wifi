@@ -74,7 +74,7 @@ public class TestProcessor {
 							break;
 						case 3 :
 				            sc.nextLine();
-                           System.out.println("input  the latitude :");
+                           System.out.println("input the latitude :");
 							String Lat = sc.nextLine();
 							System.out.println("input the longitude :");
 							String Lon = sc.nextLine();
