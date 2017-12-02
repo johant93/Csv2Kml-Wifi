@@ -52,7 +52,7 @@ public class TestProcessor {
 					input = true ;
 					break;
 				case 3:
-					System.out.println("enter the maximum number of wifi : ");
+					System.out.println("input the maximum number of wifi : ");
 					int limit = sc.nextInt();
 					while (!input){
 						System.out.println(" 1:by time  2:by Id   3:by location"); 
@@ -60,23 +60,23 @@ public class TestProcessor {
 						switch ( selcheck){
 						case 1:
 				            sc.nextLine(); // get the sc.getInt() that precede
-							System.out.println("impress the time :");
+							System.out.println("input the time :");
 							check = sc.nextLine();
 							wkml.createWifiKml(Wsort.checkArraybyTime(wifiArr, check, limit), newfile);
 							input = true ;
 							break ;
 						case 2 :
 				            sc.nextLine();
-                           System.out.println("impress the id :");
+                           System.out.println("input the id :");
 							check = sc.nextLine();
 							wkml.createWifiKml(Wsort.checkArraybyId(wifiArr, check, limit), newfile);
 							input = true ;
 							break;
 						case 3 :
 				            sc.nextLine();
-                           System.out.println("impress the latitude :");
+                           System.out.println("input the latitude :");
 							String Lat = sc.nextLine();
-							System.out.println("impress the longitude :");
+							System.out.println("input the longitude :");
 							String Lon = sc.nextLine();
 							wkml.createWifiKml(Wsort.checkArraybyLocation(wifiArr, Lat, Lon,limit), newfile);
 							input = true ;
