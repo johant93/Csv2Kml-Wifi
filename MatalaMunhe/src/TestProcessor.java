@@ -30,7 +30,7 @@ public class TestProcessor {
 			ArrayList<Wifi> wifiArr = csv.getArrayList(file);
 			System.out.println();
 			while ( !input ){
-				System.out.println(" 1: sort the file by signal");
+				System.out.println(" 1: create a csv file sorted by date and signal");
 				System.out.println(" 2: create a kml file");
 				System.out.println(" 3: create a kml file by data ");
 				System.out.println("make a choice : ");
@@ -52,6 +52,8 @@ public class TestProcessor {
 					input = true ;
 					break;
 				case 3:
+					System.out.println("enter the maximum number of wifi : ");
+					int limit = sc.nextInt();
 					while (!input){
 						System.out.println(" 1:by time  2:by Id   3:by location"); 
 						selcheck = sc.nextInt();
@@ -60,14 +62,14 @@ public class TestProcessor {
 				            sc.nextLine(); // get the sc.getInt() that precede
 							System.out.println("impress the time :");
 							check = sc.nextLine();
-							wkml.createWifiKml(Wsort.checkArraybyTime(wifiArr, check), newfile);
+							wkml.createWifiKml(Wsort.checkArraybyTime(wifiArr, check, limit), newfile);
 							input = true ;
 							break ;
 						case 2 :
 				            sc.nextLine();
                            System.out.println("impress the id :");
 							check = sc.nextLine();
-							wkml.createWifiKml(Wsort.checkArraybyId(wifiArr, check), newfile);
+							wkml.createWifiKml(Wsort.checkArraybyId(wifiArr, check, limit), newfile);
 							input = true ;
 							break;
 						case 3 :
@@ -76,7 +78,7 @@ public class TestProcessor {
 							String Lat = sc.nextLine();
 							System.out.println("impress the longitude :");
 							String Lon = sc.nextLine();
-							wkml.createWifiKml(Wsort.checkArraybyLocation(wifiArr, Lat, Lon), newfile);
+							wkml.createWifiKml(Wsort.checkArraybyLocation(wifiArr, Lat, Lon,limit), newfile);
 							input = true ;
 							break;
 						default : System.out.println("wrong input");	
@@ -93,7 +95,7 @@ public class TestProcessor {
 				System.out.println(" 1:open the file   2:back to main menu  \n to exit press any other number ");
 				int open = sc.nextInt() ;				
 				if ( open == 1){
-					System.out.println(newfile);
+					System.out.println(newfile+" is opening...");
 					String path = System.getProperty("user.dir"); 
 					Runtime.getRuntime().exec("open "+path+"/"+newfile);
 				}

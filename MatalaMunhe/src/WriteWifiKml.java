@@ -63,18 +63,27 @@ public class WriteWifiKml {
 	// get a wifi, return the good timestamp's format YYYY-MM-DDTHH:MM:SSZ
 	public static String timestampformat (String temp){
 		String timestampf = "",YYYY= "",MM ="",DD="",HH="",mm="",SS="00";
-		temp = temp.replaceAll("/", "index");
-		temp = temp.replaceAll(" ", "index");
-		temp = temp.replaceAll(":", "index");
-		String [] date = temp.split("index");
+		char [] ch = temp.toCharArray();
+		int ascii = 0;
+		for (int i = 0; i < ch.length; i++){
+			ascii = (int)ch[i];
+			if ( ascii < 48 || ascii > 57) ch[i]=','; 
+		}
+		temp = new String(ch) ;
+		String [] date = temp.split(",");
+		if ( date[2].length() == 4 ){
 		YYYY = date[2];
-		MM = date[1];
 		DD = date[0];
+		}
+		else {
+			YYYY = date[0];
+			DD = date[2];
+		}
+		MM = date[1];
 		HH = date[3];
 		mm = date[4];
 		if (date.length==6)  SS = date[5];
 		timestampf = YYYY+"-"+MM+"-"+DD+"T"+HH+":"+mm+":"+SS+"Z";
-		
 		return timestampf;
 	}
 
@@ -88,7 +97,7 @@ public class WriteWifiKml {
 		TimeStamp timestamp = new TimeStamp(timestampformat(wf.getTime())) ;
 		//timestamp.setWhen(timestampformat(wf.time));
 		placemark.setTimePrimitive(timestamp);
-		placemark.setDescription("![CDATA[BSSID:"+wf.getMac()+"\nId: "+wf.getId()+"\nFrequency:"+wf.getFreq()+"\ndate: "+wf.getTime() );
+		placemark.setDescription("![CDATA[BSSID:"+wf.getMac()+"\nId: "+wf.getId()+"\nFrequency:"+wf.getFreq()+"\nsignal: "+wf.getSignal()+"\ndate: "+wf.getTime() );
 		placemark.setStyleUrl(getstyleUrl(wf));
 		double Lon,Lat ;
 		Lon = Double.parseDouble(wf.getLon());

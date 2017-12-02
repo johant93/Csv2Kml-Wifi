@@ -6,11 +6,11 @@ public class WifiSort {
 	public  void signalsort (ArrayList <Wifi> list) {
 		Collections.sort(list);
 	}
-	public ArrayList<Wifi> checkArraybyTime (ArrayList<Wifi> wifiarr,String time ){
+	public ArrayList<Wifi> checkArraybyTime (ArrayList<Wifi> wifiarr,String time,int limit ){
 		signalsort(wifiarr);
 		ArrayList<Wifi> wifichecked = new ArrayList<Wifi>();
 		int index = 0, counter = 0;
-		while(index<wifiarr.size() && counter < 10) {
+		while(index<wifiarr.size() && counter < limit) {
 			if(wifiarr.get(index).getTime().contains(time)){
 				wifichecked.add(wifiarr.get(index));
 				counter++;
@@ -24,17 +24,16 @@ public class WifiSort {
 			return true ;
 		else return false ;
 	}
-	public ArrayList<Wifi> checkArraybyId (ArrayList<Wifi> wifiarr,String Id ){
+	public ArrayList<Wifi> checkArraybyId (ArrayList<Wifi> wifiarr,String Id,int limit ){
 		signalsort(wifiarr);
 		ArrayList<Wifi> wifichecked = new ArrayList<Wifi>();
 		int index = 0 , counter = 0;
-		while(index<wifiarr.size()&& counter < 10) {
+		while(index<wifiarr.size() && counter < limit) {
 			if(wifiarr.get(index).getId().contains(Id)){
 				wifichecked.add(wifiarr.get(index));
 				counter++;
 			}
 			index++;
-
 		}
 		return wifichecked ;
 	}
@@ -43,11 +42,11 @@ public class WifiSort {
 			return true ;
 		else return false ;
 	}
-	public ArrayList<Wifi> checkArraybyLocation (ArrayList<Wifi> wifiarr,String Lat,String Lon ){
+	public ArrayList<Wifi> checkArraybyLocation (ArrayList<Wifi> wifiarr,String Lat,String Lon,int limit ){
 		signalsort(wifiarr);
 		ArrayList<Wifi> wifichecked = new ArrayList<Wifi>();
 		int index = 0, counter = 0;
-		while(index<wifiarr.size()&& counter < 10) {
+		while(index<wifiarr.size()&& counter < limit) {
 			if(Lat == "" && wifiarr.get(index).getLon().equals(Lon)){
 				wifichecked.add(wifiarr.get(index));
 				counter++;
