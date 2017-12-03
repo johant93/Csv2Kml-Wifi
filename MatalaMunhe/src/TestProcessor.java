@@ -13,7 +13,7 @@ public class TestProcessor {
 		Scanner sc = new Scanner(System.in);
 		Wifi wifi = new Wifi();
 
-		int select = 0,selcheck = 0;
+		int select = 0, selcheck = 0;
 		String check = "";
 		boolean input = false, loop = false ;
 
