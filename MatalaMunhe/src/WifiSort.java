@@ -1,11 +1,27 @@
 import java.util.ArrayList;
 import java.util.Collections;
 
+/**
+ * the class responsable for the sort of the wifi networks
+ *
+ */
+
 public class WifiSort {
-	
+	/**
+	 * sort the signals in the list
+	 * @param list
+	 */
 	public  void signalsort (ArrayList <Wifi> list) {
 		Collections.sort(list);
 	}
+	
+	/**
+	 * checks the amount of wifi for each time
+	 * @param wifiarr
+	 * @param time
+	 * @param limit- limit of Wifis
+	 * @return a list of wifi networks according to the limit restriction
+	 */
 	public ArrayList<Wifi> checkArraybyTime (ArrayList<Wifi> wifiarr,String time,int limit ){
 		signalsort(wifiarr);
 		ArrayList<Wifi> wifichecked = new ArrayList<Wifi>();
@@ -19,11 +35,25 @@ public class WifiSort {
 		}
 		return wifichecked ;
 	}
+	
+	/**
+	 * check if the time is right
+	 * @param wifi
+	 * @param time
+	 * @return true for right false for wrong
+	 */
 	public boolean checkTime(Wifi wifi,String time ){
 		if(wifi.getTime().contains(time))
 			return true ;
 		else return false ;
 	}
+	
+	/**
+	 * 
+	 * @param wifiarr- arrays list of wifi networks
+	 * @param Id
+	 * @return  the amount of wifi networks for each id
+	 */
 	public ArrayList<Wifi> checkArraybyId (ArrayList<Wifi> wifiarr,String Id,int limit ){
 		signalsort(wifiarr);
 		ArrayList<Wifi> wifichecked = new ArrayList<Wifi>();
@@ -37,11 +67,26 @@ public class WifiSort {
 		}
 		return wifichecked ;
 	}
+	/**
+	 * check if the id is right
+	 * @param wifi
+	 * @param Id
+	 * @return true for correct id false for wrong id
+	 */
+
 	public boolean checkId(Wifi wifi,String Id ){
 		if(wifi.getId().contains(Id))
 			return true ;
 		else return false ;
 	}
+	
+	/**
+	 * @param wifiarr- arraylist of wifi networks
+	 * @param Lat
+	 * @param Lon
+	 * @return the amount of wifi networks for each location
+	 */
+
 	public ArrayList<Wifi> checkArraybyLocation (ArrayList<Wifi> wifiarr,String Lat,String Lon,int limit ){
 		signalsort(wifiarr);
 		ArrayList<Wifi> wifichecked = new ArrayList<Wifi>();
@@ -65,6 +110,14 @@ public class WifiSort {
 		}
 		return wifichecked ;
 	}
+	/**
+	 * check if the location is right
+	 * @param wifi
+	 * @param Lat
+	 * @param Lon
+	 * @return true for correct location false for wrong location
+	 */
+
 	public boolean checkLocation(Wifi wifi,String Lat,String Lon ){
 		if(Lat == "" && wifi.getLon().equals(Lon))
 			return true ;

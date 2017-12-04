@@ -1,11 +1,16 @@
 import java.util.ArrayList;
 import java.util.Iterator;
 
+/**
+ * Wifi object Class.
+ */
+
 public class Wifi implements Comparable  {
 	String time, id, lat, lon, alt, ssid, mac, freq, signal;
-	
-	
 
+/**
+ * builds a Wifi object
+ */
 	public Wifi() {
 		this.time = null;
 		this.id = null;
@@ -19,6 +24,10 @@ public class Wifi implements Comparable  {
 		
 	}
 
+/**
+ * builds a Wifi object
+ */
+
 	public  Wifi(String time,String id,String lat,String lon,String alt,String ssid,String mac,String freq,String signal) {
 		this.time=time;
 		this.id=id;
@@ -31,12 +40,20 @@ public class Wifi implements Comparable  {
 		this.signal=signal;
 	}
 
+/**
+ * builds a Wifi object
+ */
+
 	public Wifi(String ssid, String mac, String freq, String signal) {
 		this.ssid = ssid;
 		this.mac = mac;
 		this.freq = freq;
 		this.signal = signal;
 	}
+
+/**
+ * builds a Wifi object
+ */
 
 	public  Wifi(String[]s,String id) {
 		this.time=s[3];
@@ -127,7 +144,12 @@ public class Wifi implements Comparable  {
 		return "Wifi [time=" + time + ", id=" + id + ", lat=" + lat + ", lon=" + lon + ", alt=" + alt + ", ssid=" + ssid
 				+ ", mac=" + mac + ", freq=" + freq + ", signal=" + signal + "]";
 	}
-	//@Override
+
+	/**
+	 *the function sort by time and signal and by that it can compare between the objects
+	 *@return if the second object smaller return negetive value and if its bigger positive vale.
+	 *if they are equal return 0;
+	 */
 	public int compareTo(Object o) {
 		if (o.getClass().equals(Wifi.class)){
 			Wifi wf = (Wifi)o;

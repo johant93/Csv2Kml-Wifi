@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.Scanner;
 
+// Main class
 public class TestProcessor {
 
 	public static void main(String[] args) throws IOException {

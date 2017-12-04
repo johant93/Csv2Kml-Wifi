@@ -15,6 +15,10 @@ import org.boehn.kmlframework.kml.Style;
 import org.boehn.kmlframework.kml.StyleSelector;
 import org.boehn.kmlframework.kml.TimeStamp;
 
+/***
+ *  this class WriteWifikml implements the Interface WriteKml.
+ */
+
 public class WriteWifiKml {
 
 	private static Document doc = new Document();
@@ -22,7 +26,11 @@ public class WriteWifiKml {
 	public WriteWifiKml() {
 
 	}
-	// get an Wifi arraylist and the the name of the futur file. return a new Klm file
+	/**
+	 * /  create new Kml file
+	 * @param array-Wifi arraylist
+	 * @param newKmlname- the name of the new file
+	 */
 	public void createWifiKml(ArrayList<Wifi> array,String newKmlname) {
 		initialisation();
 		int i = 0;
@@ -32,7 +40,12 @@ public class WriteWifiKml {
 		}
 		createFile(newKmlname);
 	}
-	// write the style of each placemark on our document (color/sign to display on the map at the wifis location )
+	 
+	/**
+	 * write the style of each placemark on our document
+	 * (color/sign to display on the map at the wifis location )
+	 * @param color
+	 */
 	public static void writeStyle (String color){
 		Style style = new Style();
 		style.setId(color);
@@ -42,7 +55,11 @@ public class WriteWifiKml {
 		doc.addStyleSelector(style);
 
 	}
-	// we are initialise our kml file by writing the sign and creating a new folder (Wifi networks)
+	
+	/**
+	 * we are initialize our kml file by writing the sign and creating a new folder (Wifi networks)
+	 * 
+	 */
 	public void initialisation() {
 
 		writeStyle("red");
@@ -51,7 +68,11 @@ public class WriteWifiKml {
 		folder.setName("Wifi Networks");
 
 	}
-	// get a wifi, check her signal and return the StyleUrl that correspond to.
+		/***
+	 * the function  choose a color for the Wifi
+	 * @param wifi
+	 * @return the StyleUrl that correspond to by the signal
+	 */
 	public static String getstyleUrl (Wifi wifi){
 		String red = "#red", green = "#green", yellow = "#yellow";
 		int signal = Integer.parseInt(wifi.getSignal());
@@ -59,8 +80,10 @@ public class WriteWifiKml {
 		else if (signal >= -90 && signal <= -70 ) return yellow ;
 		else  return green ;
 	}
-
-	// get a wifi, return the good timestamp's format YYYY-MM-DDTHH:MM:SSZ
+	/**
+	 * @param temp- wifi's time
+	 * @return the required timestamp's format YYYY-MM-DDTHH:MM:SSZ
+	 */
 	public static String timestampformat (String temp){
 		String timestampf = "",YYYY= "",MM ="",DD="",HH="",mm="",SS="00";
 		char [] ch = temp.toCharArray();
@@ -86,9 +109,11 @@ public class WriteWifiKml {
 		timestampf = YYYY+"-"+MM+"-"+DD+"T"+HH+":"+mm+":"+SS+"Z";
 		return timestampf;
 	}
-
-	// get a wifi and create here placemark 
-	// here inputData create our Placemark with the Wifi data and add him to our folder.
+	
+	/**
+	 *  here inputData create our Placemark with the Wifi data and add him to our folder.
+	 * @param o- get a wifi and create here placemark 
+	 */
 	public void inputData(Object o) {
 		Wifi wf = new Wifi();
 		wf = (Wifi)o ;
@@ -106,7 +131,11 @@ public class WriteWifiKml {
 		folder.addFeature(placemark);
 	}
 
-	// createFile create a kml file by adding the folder to the doc and the doc to the new Kml file.
+	
+	/**
+	 *createFile create a kml file by adding the folder to the doc and the doc to the new Kml file. 
+	 * @param Filename
+	 */
 	public void createFile(String Filename)  {
 		Kml kml = new Kml();	
 		doc.addFeature(folder); 

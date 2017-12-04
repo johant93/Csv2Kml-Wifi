@@ -20,6 +20,11 @@ import java.util.logging.Logger;
 import java.util.Collections;
 import java.util.Comparator;
 
+
+/**
+ * this class is used to process Csv files.
+ * @author joh
+ */
 public class CsvProcessor {
 
 	WifiSort Wsort = new WifiSort() ;
@@ -27,12 +32,11 @@ public class CsvProcessor {
 
 	/**
 	 * This function receive a file or a doc file
-	 * @param doc // if need explanation, send  @see
-	 * @return An array of the file's objects
-	 * @exception Exception
+	 * @param file csv doc or file
+	 * @return An arraylist of the file's objects
+	 * @exception Exception file not found
 	 * @see Scanner
 	 */
-
 	public ArrayList<Wifi> getArrayList(File doc){
 		ArrayList<Wifi> wifiArr = new ArrayList<Wifi>();
 
@@ -110,7 +114,15 @@ public class CsvProcessor {
 
 	}
 
-
+	/**
+	 * 
+	 * @return objects with one or many wifis until the limited amount in our case wifilimit=10,
+	 * all wifi by object have the same time,id,coordonates.
+	 * @param list- arraylists of wifi
+	 * @param newCsvDirection- file name
+	 * @param wifilimit- number of wifi by object in our project is 10
+	 * @throws IOException
+	 */
 	public void Array2csvSorted (ArrayList <Wifi> list,String newCsvDirection,int wifilimit) throws IOException{
 
 		Wsort.signalsort(list);
@@ -216,6 +228,13 @@ public class CsvProcessor {
 		bw.close();
 	}
 	
+	/**
+	 * 
+	 * @param list
+	 * @param index
+	 * @param wifilimit
+	 * @return the number of wifis
+	 */
 	private int wifiCounter(ArrayList<Wifi> list,int index, int wifilimit ) {
 		int counter=1;
 		for(int i=index;i<list.size()-1;i++) {
@@ -227,6 +246,12 @@ public class CsvProcessor {
 		}
 		return counter;
 	}
+	/**
+	 * checks if times are equals in the list for the index and one before it
+	 * @param list- Wifi arraylist
+	 * @param i- index
+	 * @return true for equal and false for not equal
+	 */
 	private boolean timeisequal(ArrayList<Wifi> list,int i){
 		if (list.get(i).getTime().equals(list.get(i - 1).getTime())) return true ;
 		else
