@@ -1,11 +1,11 @@
 import java.util.ArrayList;
 import java.util.Iterator;
-
+import java.util.Comparator;
 /**
  * Wifi object Class.
  */
 
-public class Wifi implements Comparable  {
+public class Wifi   {
 	String time, id, lat, lon, alt, ssid, mac, freq, signal;
 
 /**
@@ -145,21 +145,41 @@ public class Wifi implements Comparable  {
 				+ ", mac=" + mac + ", freq=" + freq + ", signal=" + signal + "]";
 	}
 
-	/**
-	 *the function sort by time and signal and by that it can compare between the objects
-	 *@return if the second object smaller return negetive value and if its bigger positive vale.
-	 *if they are equal return 0;
-	 */
-	public int compareTo(Object o) {
-		if (o.getClass().equals(Wifi.class)){
-			Wifi wf = (Wifi)o;
-			// if the 2 wifi have the same time, we sort the signal
-			if (this.time.compareTo(wf.getTime())==0)
-				return this.signal.compareTo(wf.getSignal());
-			return this.time.compareTo(wf.getTime());
-		}
-		return -1;
-	}
+	 /**
+	    * new Comparator class for Signal and Time
+	    */
+	public static Comparator<Wifi> ComparatorSignalAndTime = new Comparator<Wifi>() {
+	
+		/**
+	     *comparator for Signal and Time
+		 *@return if the second object smaller return negative value and if its bigger positive value.
+		 *if they are equal return 0;
+		 */
+        @Override
+        public int compare(Wifi w1, Wifi w2) {
+        	if (w1.getTime().compareTo(w2.getTime())==0)
+    			return w1.getSignal().compareTo(w2.getSignal());
+    		return w1.getTime().compareTo(w2.getTime());
+        }
+    };
+   /**
+    * new Comparator class for Signal and Mac
+    */
+    public static Comparator<Wifi> ComparatorSignalAndMac = new Comparator<Wifi>() {
+    	
+    	/**
+    	 *comparator for Signal and Mac
+    	 *@return if the second object smaller return negative value and if its bigger positive value.
+    	 *if they are equal return 0;
+    	 */
+        @Override
+        public int compare(Wifi w1, Wifi w2) {
+        	if (w1.getMac().compareTo(w2.getMac())==0)
+    			return w1.getSignal().compareTo(w2.getSignal());
+    		return w1.getMac().compareTo(w2.getMac());
+        }
+        
+    };
 	/**
 	 * this function print the wifi Arraylist
 	 * @param list
@@ -169,6 +189,10 @@ public class Wifi implements Comparable  {
 		while (it.hasNext())
 			System.out.println(it.next().toString());
 	}
+	
+
+	
+	
 }
 
 

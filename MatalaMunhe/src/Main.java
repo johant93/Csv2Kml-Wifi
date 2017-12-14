@@ -5,48 +5,63 @@ import java.util.Iterator;
 import java.util.Scanner;
 
 // Main class
-public class TestProcessor {
+public class Main {
 
 	public static void main(String[] args) throws IOException {
 		CsvProcessor csv = new CsvProcessor() ;
+		CsvWrite cw = new CsvProcessor();
 		WifiSort Wsort = new WifiSort() ;
 		WriteWifiKml wkml = new WriteWifiKml();
+		Algorithme algo = new Algorithme();
 		Scanner sc = new Scanner(System.in);
 		Wifi wifi = new Wifi();
-
+		Mac mac = new Mac() ;
 		int select = 0, selcheck = 0;
 		String check = "";
 		boolean input = false, loop = false ;
+		
 
 		while ( !input ){
 
 			if (loop) sc.nextLine();
 			String filename = "",newfile = "";
-			System.out.println("- Welcome to the main application of Csv2Kml -");
+			System.out.println("- Welcome to the main application -");
 			System.out.println("Please, enter the Path name of your Csv file : ");
 			filename = sc.nextLine();
 			System.out.println("new file's name : ");
 			newfile = sc.nextLine();
 			File file = new File(filename);
 			ArrayList<Wifi> wifiArr = csv.getArrayList(file);
+			ArrayList<Mac> Wifismac = algo.getRouter(wifiArr, 4); 
+             
 			System.out.println();
 			while ( !input ){
+				System.out.println(" 0: create a csv file of Macs");
 				System.out.println(" 1: create a csv file sorted by date and signal");
-				System.out.println(" 2: create a kml file");
+				System.out.println(" 2: create a kml file ");
 				System.out.println(" 3: create a kml file by data ");
+				System.out.println(" 4: create a kml file of centers ");
+
 				System.out.println("make a choice : ");
 				select = sc.nextInt();
 				switch (select){
+				case 0:
+					cw.Array2csv(Wifismac, newfile);
+					System.out.println("print the list ?  1:yes 2:no  ");
+					int print = sc.nextInt();
+					if ( print == 1 ) mac.printMaclist(Wifismac);
+					input = true ;
+					break;
 				case 1:
 					System.out.println(" choose the max number of wifi per list: ");
 					int maxnumber = sc.nextInt();
-					csv.Array2csvSorted(wifiArr,newfile, maxnumber);
-					System.out.println("impress the list ?  1:yes 2:no  ");
-                    int impress = sc.nextInt();
-                    if ( impress == 1 ) wifi.printWifilist(wifiArr);
-            
+					cw.Array2csvSorted(wifiArr,newfile, maxnumber);
+					System.out.println("print the list ?  1:yes 2:no  ");
+					print = sc.nextInt();
+					if ( print == 1 ) wifi.printWifilist(wifiArr);
+
 					input = true ;
-					
+
 					break;
 				case 2:
 					wkml.createWifiKml(wifiArr,newfile);
@@ -60,33 +75,41 @@ public class TestProcessor {
 						selcheck = sc.nextInt();
 						switch ( selcheck){
 						case 1:
-				            sc.nextLine(); // get the sc.getInt() that precede
+							sc.nextLine(); // get the sc.getInt() that precede
 							System.out.println("input the time :");
 							check = sc.nextLine();
 							wkml.createWifiKml(Wsort.checkArraybyTime(wifiArr, check, limit), newfile);
 							input = true ;
 							break ;
 						case 2 :
-				            sc.nextLine();
-                           System.out.println("input the id :");
+							sc.nextLine();
+							System.out.println("input the id :");
 							check = sc.nextLine();
 							wkml.createWifiKml(Wsort.checkArraybyId(wifiArr, check, limit), newfile);
 							input = true ;
 							break;
 						case 3 :
-				            sc.nextLine();
-                           System.out.println("input the latitude :");
+							sc.nextLine();
+							System.out.println("input the latitude :");
 							String Lat = sc.nextLine();
 							System.out.println("input the longitude :");
 							String Lon = sc.nextLine();
 							wkml.createWifiKml(Wsort.checkArraybyLocation(wifiArr, Lat, Lon,limit), newfile);
 							input = true ;
 							break;
+
 						default : System.out.println("wrong input");	
-						}
-					  }	
+						}	
+					}	
 					break;
-					default : System.out.println("wrong input");
+				case 4 :
+					wkml.createMacKml(Wifismac,newfile);
+					System.out.println("print the list ?  1:yes 2:no  ");
+					print = sc.nextInt();
+					if ( print == 1 ) mac.printMaclist(Wifismac);
+					input = true ;
+					break;
+				default : System.out.println("wrong input");
 				}
 			}
 

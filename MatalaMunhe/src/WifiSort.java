@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Comparator;
 
 /**
  * the class responsable for the sort of the wifi networks
@@ -11,8 +12,14 @@ public class WifiSort {
 	 * sort the signals in the list
 	 * @param list
 	 */
-	public  void signalsort (ArrayList <Wifi> list) {
-		Collections.sort(list);
+	
+	public void signalAndMacsort (ArrayList <Wifi> list){
+		Collections.sort(list,Wifi.ComparatorSignalAndMac);
+
+		
+	}
+	public  void signalAndTimesort (ArrayList <Wifi> list) {
+		Collections.sort(list,Wifi.ComparatorSignalAndTime);
 	}
 	
 	/**
@@ -23,7 +30,7 @@ public class WifiSort {
 	 * @return a list of wifi networks according to the limit restriction
 	 */
 	public ArrayList<Wifi> checkArraybyTime (ArrayList<Wifi> wifiarr,String time,int limit ){
-		signalsort(wifiarr);
+		signalAndTimesort(wifiarr);
 		ArrayList<Wifi> wifichecked = new ArrayList<Wifi>();
 		int index = 0, counter = 0;
 		while(index<wifiarr.size() && counter < limit) {
@@ -55,7 +62,7 @@ public class WifiSort {
 	 * @return  the amount of wifi networks for each id
 	 */
 	public ArrayList<Wifi> checkArraybyId (ArrayList<Wifi> wifiarr,String Id,int limit ){
-		signalsort(wifiarr);
+		signalAndTimesort(wifiarr);
 		ArrayList<Wifi> wifichecked = new ArrayList<Wifi>();
 		int index = 0 , counter = 0;
 		while(index<wifiarr.size() && counter < limit) {
@@ -88,7 +95,7 @@ public class WifiSort {
 	 */
 
 	public ArrayList<Wifi> checkArraybyLocation (ArrayList<Wifi> wifiarr,String Lat,String Lon,int limit ){
-		signalsort(wifiarr);
+		signalAndTimesort(wifiarr);
 		ArrayList<Wifi> wifichecked = new ArrayList<Wifi>();
 		int index = 0, counter = 0;
 		while(index<wifiarr.size()&& counter < limit) {

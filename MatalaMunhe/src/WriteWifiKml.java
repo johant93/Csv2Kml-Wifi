@@ -28,6 +28,20 @@ public class WriteWifiKml {
 	}
 	/**
 	 * /  create new Kml file
+	 * @param array-Mac arraylist
+	 * @param newKmlname- the name of the new file
+	 */
+	public void createMacKml(ArrayList<Mac> array,String newKmlname) {
+		initialisation();
+		int i = 0;
+		while(i<array.size()) {
+			inputMac(array.get(i));
+			i++;
+		}
+		createFile(newKmlname);
+	}
+	/**
+	 * /  create new Kml file
 	 * @param array-Wifi arraylist
 	 * @param newKmlname- the name of the new file
 	 */
@@ -35,7 +49,7 @@ public class WriteWifiKml {
 		initialisation();
 		int i = 0;
 		while(i<array.size()) {
-			inputData(array.get(i));
+			inputWifi(array.get(i));
 			i++;
 		}
 		createFile(newKmlname);
@@ -111,13 +125,10 @@ public class WriteWifiKml {
 	}
 	
 	/**
-	 *  here inputData create our Placemark with the Wifi data and add him to our folder.
-	 * @param o- get a wifi and create here placemark 
+	 *  here inputWifi create our Placemark with the Wifi data and add him to our folder.
+	 * @param o- get a wifi object and create here placemark 
 	 */
-	public void inputData(Object o) {
-		Wifi wf = new Wifi();
-		wf = (Wifi)o ;
-
+	public void inputWifi(Wifi wf) {
 		Placemark placemark = new Placemark(wf.getSsid());
 		TimeStamp timestamp = new TimeStamp(timestampformat(wf.getTime())) ;
 		//timestamp.setWhen(timestampformat(wf.time));
@@ -127,6 +138,20 @@ public class WriteWifiKml {
 		double Lon,Lat ;
 		Lon = Double.parseDouble(wf.getLon());
 		Lat = Double.parseDouble(wf.getLat());
+		placemark.setLocation(Lon,Lat);
+		folder.addFeature(placemark);
+	}
+	/**
+	 *   inputMac create our Placemark with the Mac data and add him to our folder.
+	 * @param o- get a Mac object and create here placemark 
+	 */
+	public void inputMac(Mac mac) {
+    
+		Placemark placemark = new Placemark(mac.getSsid());
+		placemark.setDescription("![CDATA[BSSID:"+mac.getMac()+"\nChannel: "+mac.getChannel()+"\nsignal: "+mac.getSignal()+"\ndate: "+mac.getTime() );
+		double Lon,Lat ;
+		Lon = Double.parseDouble(mac.getLon());
+		Lat = Double.parseDouble(mac.getLat());
 		placemark.setLocation(Lon,Lat);
 		folder.addFeature(placemark);
 	}

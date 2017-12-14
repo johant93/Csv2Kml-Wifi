@@ -19,14 +19,13 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import java.util.Collections;
 import java.util.Comparator;
-//juan//
-//ofir//
-//sergey////
+
+
 /**
  * this class is used to process Csv files.
  * @author joh
  */
-public class CsvProcessor {
+public class CsvProcessor implements CsvWrite{
 
 	WifiSort Wsort = new WifiSort() ;
 
@@ -117,18 +116,22 @@ public class CsvProcessor {
 
 	/**
 	 * 
-	 * @return objects with one or many wifis until the limited amount in our case wifilimit=10,
-	 * all wifi by object have the same time,id,coordonates.
 	 * @param list- arraylists of wifi
 	 * @param newCsvDirection- file name
 	 * @param wifilimit- number of wifi by object in our project is 10
-	 * @throws IOException
+	 *  @return File with one or many wifis sorted, by until the limited amount. in our case wifilimit=10,
+	 * all wifi by object have the same time,id,coordonates.
+	 * @throws IOException 
 	 */
-	public void Array2csvSorted (ArrayList <Wifi> list,String newCsvDirection,int wifilimit) throws IOException{
+	public void Array2csvSorted (ArrayList <Wifi> list,String newCsvDirection,int wifilimit) {
 
-		Wsort.signalsort(list);
+		Wsort.signalAndTimesort(list);
+		//Wsort.signalAndMacsort(list);
 		int i = 1, wifiFound = 0;
-		FileWriter fw = new FileWriter(newCsvDirection);
+		FileWriter fw;
+		try {
+			fw = new FileWriter(newCsvDirection);
+		
 		BufferedWriter bw = new BufferedWriter(fw);
 		boolean fullStack= false;
 		bw.write("Time");
@@ -227,8 +230,48 @@ public class CsvProcessor {
 			}
 		}
 		bw.close();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
 	}
-	
+	public void Array2csv (ArrayList <Mac> list,String newCsvDirection) {
+        
+		int i = 1 ;
+		FileWriter fw;
+		try {
+			fw = new FileWriter(newCsvDirection);
+		
+		BufferedWriter bw = new BufferedWriter(fw);
+		
+		bw.write("Mac,");
+		bw.write("Ssid,");
+		bw.write("Channel,");
+		bw.write("Signal,");
+		bw.write("Lat,");
+		bw.write("Lon,");
+		bw.write("Alt,");
+		bw.write("Time,");
+		bw.write("comment");
+		
+		while (i < list.size()-1) {
+			bw.write(list.get(i).getMac()+",");
+			bw.write(list.get(i).getSsid()+",");
+			bw.write(list.get(i).getChannel()+",");
+			bw.write(list.get(i).getSignal()+",");
+			bw.write(list.get(i).getLat()+",");
+			bw.write(list.get(i).getLon()+",");
+			bw.write(list.get(i).getAlt()+",");
+			bw.write(list.get(i).getTime()+",");
+			bw.write(list.get(i).getComment());
+			}
+		bw.close();
+	} catch (IOException e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+	       }
+		}
 	/**
 	 * 
 	 * @param list
@@ -258,8 +301,8 @@ public class CsvProcessor {
 		else
 			return false ;
 	}
-
-
+	
+	
 }
 
 
