@@ -1,0 +1,34 @@
+import java.io.File;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Iterator;
+
+public class getFileTest {
+	
+	public static void main(String[] args) throws IOException {
+///Users/Ofir/Desktop/mn/WigleWifi_20171027162929.csv
+		String loc="/Users/Ofir/Desktop/mn/WigleWifi_20171027162929.csv";
+	//	String loc="/Users/joh/Downloads/data/28.10/WigleWifi_20171028203300.csv";
+		File file = new File("/Users/Ofir/Desktop/mn/WigleWifi_20171027162929.csv");
+		//File file = new File("/Users/joh/Desktop/csv test/27.10/Nvidia_Shield/WigleWifi_20171027163008.csv");
+		File doc = new File("Users/Ofir/Desktop/mn/filelelel");
+		//	File doc = new File("/Users/joh/Downloads/data-2/27.10/Lenovo");
+		File file2 = new File ("WigleWifi_20171027162929.csv");
+	//	File file2 = new File ("WigleWifi_20171028203300.csv");
+		String newcsv = "wifisorted2.csv";
+		CsvProcessor csv = new CsvProcessor() ;
+		ArrayList<Wifi> wifiArr = csv.Csv2Array(file);
+		csv.signalsort(wifiArr);
+		ArrayList<Wifi> wifitimeChecked = csv.checkArraybyTime(wifiArr, "16:16:45");
+
+	  //  csv.OrgWifi2csv(wifiArr, newcsv, 10);
+	     WriteWifiKml kml = new WriteWifiKml();
+	    //kml.createWifiKml(wifiArr, "NewFile");
+	   kml.createWifiKml(wifitimeChecked, "NewFilebytime4");
+	   
+	   // Csv.printWifilist(WifiArr)
+
+	   
+System.out.println(" Kml created succesfuly! ");
+	}
+}

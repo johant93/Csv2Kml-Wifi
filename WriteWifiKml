@@ -1,0 +1,113 @@
+import java.awt.Point;
+import java.io.IOException;
+import java.util.ArrayList;
+
+import org.boehn.kmlframework.kml.Document;
+import org.boehn.kmlframework.kml.Feature;
+import org.boehn.kmlframework.kml.Folder;
+import org.boehn.kmlframework.kml.Geometry;
+import org.boehn.kmlframework.kml.Icon;
+import org.boehn.kmlframework.kml.IconStyle;
+import org.boehn.kmlframework.kml.Kml;
+import org.boehn.kmlframework.kml.KmlException;
+import org.boehn.kmlframework.kml.Placemark;
+import org.boehn.kmlframework.kml.Style;
+import org.boehn.kmlframework.kml.StyleSelector;
+import org.boehn.kmlframework.kml.TimeStamp;
+
+/***
+ *  
+ *
+ */
+public class WriteWifiKml   {
+
+	private static Document doc = new Document();
+	private static Folder folder = new Folder();
+	public WriteWifiKml() {
+		
+	}
+	public void createWifiKml(ArrayList<Wifi> array,String newKmlname) {
+		initialisation();
+		int i = 0;
+          while(i<array.size()) {
+			inputData(array.get(i));
+			i++;
+		}
+			createFile(newKmlname+".kml");
+	}
+	/***
+	 * 
+	 * @param color
+	 */
+	public static void writeStyle (String color){
+		Style style = new Style();
+		style.setId(color);
+		IconStyle iconstyle = new IconStyle();
+			style.setIconStyle(iconstyle);
+			iconstyle.setIconHref("http://maps.google.com/mapfiles/ms/icons/"+color+"-dot.png");
+		doc.addStyleSelector(style);
+
+	}
+	/***
+	 * we are initialise our kml file.
+	 */
+	public void initialisation() {
+		
+		writeStyle("red");
+		writeStyle("green");
+		writeStyle("yellow");   
+		folder.setName("Wifi Networks");
+
+	}
+	
+	//public void checkDatabyid(ArrayList<Wifi> array); 
+	//for qui prends tout les wifi, ceux qui ont bnne t envoie dans input, une fois que tt est rentree tu createFile
+	/***
+	 * the function  choose a color for the Wifi
+	 * @param wifi
+	 * @return
+	 */
+	public static String getstyleUrl (Wifi wifi){
+		String red = "#red", green = "#green", yellow = "#yellow";
+		int signal = Integer.parseInt(wifi.getSignal());
+		if (signal <= -90 ) return red ;
+		else if (signal >= -90 && signal <= -70 ) return yellow ;
+		else  return green ;
+	}
+	
+	/***
+	 * here inputData create our Placemark with the Wifi data;
+	 * @param o
+	 */
+	public void inputData(Object o) {
+	    Wifi wf = new Wifi();
+	    wf = (Wifi)o ;
+		TimeStamp timestamp = new TimeStamp() ;
+		timestamp.setWhen(wf.getTime());
+		Placemark placemark = new Placemark(wf.getSsid());
+		placemark.setTimePrimitive(timestamp);
+		placemark.setDescription("![CDATA[BSSID:"+wf.getMac()+"\nId: "+wf.getId()+"\nFrequency:"+wf.getFreq()+"\nTimestamp: "+timestamp.getWhen()+"\ndate: "+wf.time );
+		placemark.setStyleUrl(getstyleUrl(wf));
+		double Lon,Lat ;
+		Lon = Double.parseDouble(wf.getLon());
+		Lat = Double.parseDouble(wf.getLat());
+		placemark.setLocation(Lon,Lat);
+		folder.addFeature(placemark);
+	}
+	
+	/***
+	 * createFile create a kml file
+	 * @param Filename- the name you choose for the file.
+	 */
+	public void createFile(String Filename)  {
+		Kml kml = new Kml();	
+		doc.addFeature(folder); 
+		kml.setFeature(doc);
+		try {
+			kml.createKml(Filename);
+		} catch (KmlException | IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+}

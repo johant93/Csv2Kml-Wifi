@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="f179888e-3a9f-4916-b5d4-a3dec48f269e">
+<Style id="red">
+<IconStyle id="fd813495-b852-45f4-9cbb-49f5bf1f8624">
+<Icon>
+<href>http://maps.google.com/mapfiles/ms/icons/red-dot.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Style id="green">
+<IconStyle id="990ce9fc-7c9d-4e7e-814f-99f747c03413">
+<Icon>
+<href>http://maps.google.com/mapfiles/ms/icons/green-dot.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Style id="yellow">
+<IconStyle id="18b0341a-8b13-45ab-ab52-99734610cda6">
+<Icon>
+<href>http://maps.google.com/mapfiles/ms/icons/yellow-dot.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Folder id="e9ffa242-ccc9-45b4-ab82-d4848929e6f3">
+<name>Wifi Networks</name>
+<Placemark id="b6de84c9-9c98-4775-994b-d8fb7236d596">
+<name>Glenda</name>
+<description>![CDATA[BSSID:08:6a:0a:22:4d:25
+Id: model=ONEPLUS A3003
+Frequency:1
+signal: -72
+date: 28/10/2017 20:11</description>
+<TimeStamp id="0d62ebad-2b3e-4115-8098-7dff080e53b0">
+<when>2017-10-28T20:11:00Z</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="47998ee4-a172-475c-929e-795e7c7ed834">
+<coordinates>34.87696121,32.09048524</coordinates>
+</Point>
+</Placemark>
+<Placemark id="b14eaab3-3c89-4c20-9730-b5104c10c993">
+<name>mherab</name>
+<description>![CDATA[BSSID:a0:ab:1b:5d:4f:10
+Id: model=ONEPLUS A3003
+Frequency:11
+signal: -73
+date: 28/10/2017 20:11</description>
+<TimeStamp id="93533c9a-d3a1-4163-b67a-5981ebede167">
+<when>2017-10-28T20:11:00Z</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="598cd7d2-c7c3-444a-8f05-a24e926cec3a">
+<coordinates>34.87696121,32.09048524</coordinates>
+</Point>
+</Placemark>
+<Placemark id="6501c8d9-39da-41a5-80f2-5bbb24657b13">
+<name>Bezeq Free</name>
+<description>![CDATA[BSSID:6a:ab:1b:5d:4f:11
+Id: model=ONEPLUS A3003
+Frequency:11
+signal: -74
+date: 28/10/2017 20:11</description>
+<TimeStamp id="b61f47d0-8e57-492e-b714-e82ac1e8887c">
+<when>2017-10-28T20:11:00Z</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="9374a727-485e-477e-b967-8f1de7be440b">
+<coordinates>34.87696121,32.09048524</coordinates>
+</Point>
+</Placemark>
+<Placemark id="08b95921-7ef6-4bca-9823-47f811020ec8">
+<name>Nirman</name>
+<description>![CDATA[BSSID:c4:12:f5:f6:7c:0a
+Id: model=ONEPLUS A3003
+Frequency:11
+signal: -77
+date: 28/10/2017 20:11</description>
+<TimeStamp id="79b1c960-342b-4669-9f0f-6f66db038bca">
+<when>2017-10-28T20:11:00Z</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="530d9547-dd50-451d-976b-2f87fdba823a">
+<coordinates>34.87696121,32.09048524</coordinates>
+</Point>
+</Placemark>
+<Placemark id="4fb2e7d3-e241-4beb-a863-96e913d3da9d">
+<name>Dimitry26</name>
+<description>![CDATA[BSSID:14:ae:db:52:9e:45
+Id: model=ONEPLUS A3003
+Frequency:1
+signal: -78
+date: 28/10/2017 20:11</description>
+<TimeStamp id="a2f1a04a-0909-4f7e-afc0-1492c46975f3">
+<when>2017-10-28T20:11:00Z</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="699492df-5b47-41ec-b8c6-747cb3dc44de">
+<coordinates>34.87696121,32.09048524</coordinates>
+</Point>
+</Placemark>
+<Placemark id="7aa78b63-26b6-4dab-b5de-c5fb5b729dfa">
+<name>HOTBOX-52F3</name>
+<description>![CDATA[BSSID:e8:d1:1b:73:52:f9
+Id: model=ONEPLUS A3003
+Frequency:1
+signal: -78
+date: 28/10/2017 20:11</description>
+<TimeStamp id="04e5f2a2-2e5b-48fd-aefe-1d0d33da32da">
+<when>2017-10-28T20:11:00Z</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="be02ea59-1114-4ebf-b043-31f0426d8a0d">
+<coordinates>34.87696121,32.09048524</coordinates>
+</Point>
+</Placemark>
+<Placemark id="1c5afdb8-94a9-4793-8536-76ce93a180f4">
+<name>Solomon</name>
+<description>![CDATA[BSSID:10:be:f5:3c:a7:b4
+Id: model=ONEPLUS A3003
+Frequency:3
+signal: -79
+date: 28/10/2017 20:11</description>
+<TimeStamp id="e9046e23-11ce-4354-9d00-9a112f51f498">
+<when>2017-10-28T20:11:00Z</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="3cfd8a8c-73d2-4ebd-b9bb-c4da62d74b2c">
+<coordinates>34.87696121,32.09048524</coordinates>
+</Point>
+</Placemark>
+<Placemark id="73d5db96-9638-4f10-85c0-0d1c256eb3b8">
+<name>Bobrov</name>
+<description>![CDATA[BSSID:80:1f:02:e3:9a:4b
+Id: model=ONEPLUS A3003
+Frequency:8
+signal: -79
+date: 28/10/2017 20:11</description>
+<TimeStamp id="16bb4f1b-b79c-401a-9d52-ee4b871d0f6c">
+<when>2017-10-28T20:11:00Z</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="2e9a1160-8043-4048-94ff-2be85e129312">
+<coordinates>34.87696121,32.09048524</coordinates>
+</Point>
+</Placemark>
+<Placemark id="e6fb1d18-2c94-402d-b973-ccc7ec0fd39d">
+<name>Anatoliy</name>
+<description>![CDATA[BSSID:00:78:9e:fb:85:8e
+Id: model=ONEPLUS A3003
+Frequency:1
+signal: -79
+date: 28/10/2017 20:11</description>
+<TimeStamp id="1a427791-6f09-4173-8b04-584f1383d257">
+<when>2017-10-28T20:11:00Z</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="87d23923-7ea2-404b-91ac-15cad085c069">
+<coordinates>34.87696121,32.09048524</coordinates>
+</Point>
+</Placemark>
+<Placemark id="3beccd63-bd0c-410e-b40a-dadd06bb9804">
+<name>BezeqFree</name>
+<description>![CDATA[BSSID:6a:12:f5:f6:7c:0b
+Id: model=ONEPLUS A3003
+Frequency:11
+signal: -79
+date: 28/10/2017 20:11</description>
+<TimeStamp id="416c3de9-44f0-4c6f-b3c1-af3bfd91d9ef">
+<when>2017-10-28T20:11:00Z</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="1ffc1dd1-b223-44f4-a705-b9b48631205d">
+<coordinates>34.87696121,32.09048524</coordinates>
+</Point>
+</Placemark>
+<Placemark id="04b03ce6-fe8d-4c24-9c88-e083c730f106">
+<name>ester10</name>
+<description>![CDATA[BSSID:c0:ac:54:f5:b5:7b
+Id: model=ONEPLUS A3003
+Frequency:1
+signal: -81
+date: 28/10/2017 20:11</description>
+<TimeStamp id="a0890274-6468-4d71-aaa1-b4bcb4c03ab5">
+<when>2017-10-28T20:11:00Z</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="93185892-257b-448b-83c8-7807249f8f9e">
+<coordinates>34.87696121,32.09048524</coordinates>
+</Point>
+</Placemark>
+<Placemark id="18d9be20-e38a-4ab5-ae5f-c9012ad3c9ed">
+<name>igor</name>
+<description>![CDATA[BSSID:14:ae:db:44:fa:bd
+Id: model=ONEPLUS A3003
+Frequency:1
+signal: -81
+date: 28/10/2017 20:11</description>
+<TimeStamp id="5d5fca4f-ed72-474d-9719-03cc745ee148">
+<when>2017-10-28T20:11:00Z</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="9044d363-8e74-4743-9c9c-333a06b817a8">
+<coordinates>34.87696121,32.09048524</coordinates>
+</Point>
+</Placemark>
+<Placemark id="fba278bc-56b2-41c0-82da-36bc97481046">
+<name>HOTBOX-Tatyana</name>
+<description>![CDATA[BSSID:d4:7b:b0:79:ca:1e
+Id: model=ONEPLUS A3003
+Frequency:1
+signal: -81
+date: 28/10/2017 20:11</description>
+<TimeStamp id="d02c4b0b-9dae-4d5d-94b6-175ae6278874">
+<when>2017-10-28T20:11:00Z</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="0c288c0f-931e-45f8-bb1d-62d447236e51">
+<coordinates>34.87696121,32.09048524</coordinates>
+</Point>
+</Placemark>
+<Placemark id="552b0779-6974-4d2b-8767-76692e5ca987">
+<name>Diana</name>
+<description>![CDATA[BSSID:40:65:a3:23:a1:04
+Id: model=ONEPLUS A3003
+Frequency:11
+signal: -82
+date: 28/10/2017 20:11</description>
+<TimeStamp id="bf46ad0d-cecc-4901-8116-2bec2e2eb6ec">
+<when>2017-10-28T20:11:00Z</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="273b3f36-1f4b-4eb4-9fd4-e15385fb6dfa">
+<coordinates>34.87696121,32.09048524</coordinates>
+</Point>
+</Placemark>
+<Placemark id="d131ffd7-37f7-4493-a27e-627aeed428c2">
+<name>pninat-hashen</name>
+<description>![CDATA[BSSID:00:21:04:e7:70:ca
+Id: model=ONEPLUS A3003
+Frequency:6
+signal: -82
+date: 28/10/2017 20:11</description>
+<TimeStamp id="b5961c03-e0fd-4d49-8948-4b238ed65b5d">
+<when>2017-10-28T20:11:00Z</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="6c4d6561-9ed6-4e90-8a17-2988b417626c">
+<coordinates>34.87696121,32.09048524</coordinates>
+</Point>
+</Placemark>
+</Folder>
+</Document>
+</kml>

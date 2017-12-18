@@ -1,0 +1,5174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="746d52b9-73d4-4a61-b6f2-66a910acecfe">
+<Style id="red">
+<IconStyle id="958e8fd0-6f5f-4e0d-ab4b-72391892f636">
+<Icon>
+<href>http://maps.google.com/mapfiles/ms/icons/red-dot.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Style id="green">
+<IconStyle id="b73018b7-28f1-428e-ab9c-66a29b09717e">
+<Icon>
+<href>http://maps.google.com/mapfiles/ms/icons/green-dot.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Style id="yellow">
+<IconStyle id="e426ba56-9668-4d0b-b082-011b4bf208f6">
+<Icon>
+<href>http://maps.google.com/mapfiles/ms/icons/yellow-dot.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Folder id="05bfd771-1227-4c2a-b7aa-b675a7fb2330">
+<name>Wifi Networks</name>
+<Placemark id="ebc1401e-c626-4570-b98f-4e9e18caa819">
+<name>HOTBOX-D1D7</name>
+<description>![CDATA[BSSID:fc:b4:e6:cf:d1:dd
+Id: model=SHIELD Tablet
+Frequency:1
+Timestamp: 2017-10-27 16:16:45
+date: 2017-10-27 16:16:45</description>
+<TimeStamp id="9f4f4f87-a8ba-4519-a1b8-876512b876c9">
+<when>2017-10-27 16:16:45</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="c82fb57d-ab74-40bd-8865-d8ae4da71afe">
+<coordinates>34.80988155918773,32.16766121892341</coordinates>
+</Point>
+</Placemark>
+<Placemark id="ffdcf8c3-c6bf-4064-930e-e89a8ca59b79">
+<name>888Corp</name>
+<description>![CDATA[BSSID:0a:8d:db:6e:71:6d
+Id: model=SHIELD Tablet
+Frequency:1
+Timestamp: 2017-10-27 16:16:45
+date: 2017-10-27 16:16:45</description>
+<TimeStamp id="e597a0fe-e8b7-4401-b371-0a58ac97eb30">
+<when>2017-10-27 16:16:45</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="6bc1d8e8-0a1b-4df6-b0fc-15f8490a5b09">
+<coordinates>34.80988155918773,32.16766121892341</coordinates>
+</Point>
+</Placemark>
+<Placemark id="e2d366f5-57e7-45ef-9506-1777f505315d">
+<name>888Guest</name>
+<description>![CDATA[BSSID:02:8d:db:6e:71:bf
+Id: model=SHIELD Tablet
+Frequency:1
+Timestamp: 2017-10-27 16:16:45
+date: 2017-10-27 16:16:45</description>
+<TimeStamp id="416ad9b1-3085-4431-bdc1-3d236d6cc165">
+<when>2017-10-27 16:16:45</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="fcb252b4-a0e4-4092-acda-96e2e5730386">
+<coordinates>34.80988155918773,32.16766121892341</coordinates>
+</Point>
+</Placemark>
+<Placemark id="68292e00-564b-4371-b390-22f36abc0721">
+<name>888Free</name>
+<description>![CDATA[BSSID:06:8d:db:6e:71:6d
+Id: model=SHIELD Tablet
+Frequency:1
+Timestamp: 2017-10-27 16:16:45
+date: 2017-10-27 16:16:45</description>
+<TimeStamp id="84df27ac-28f2-4605-b659-c9bb54dd02b9">
+<when>2017-10-27 16:16:45</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="f75d8697-684e-4f8c-8ead-fe660dfa770a">
+<coordinates>34.80988155918773,32.16766121892341</coordinates>
+</Point>
+</Placemark>
+<Placemark id="ac472d6b-c012-44f5-886a-58ba3e39cfac">
+<name>888Guest</name>
+<description>![CDATA[BSSID:02:8d:db:6e:71:6d
+Id: model=SHIELD Tablet
+Frequency:1
+Timestamp: 2017-10-27 16:16:45
+date: 2017-10-27 16:16:45</description>
+<TimeStamp id="b8a3a0ea-cfa9-4bb5-8791-d73825d88ef8">
+<when>2017-10-27 16:16:45</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="32d5837a-ccf4-4b8e-bbf8-1ea377ec5d0d">
+<coordinates>34.80988155918773,32.16766121892341</coordinates>
+</Point>
+</Placemark>
+<Placemark id="ad52e6c5-22bb-4801-9432-56dbbc618500">
+<name>Mouly</name>
+<description>![CDATA[BSSID:7c:b7:33:2e:76:73
+Id: model=SHIELD Tablet
+Frequency:11
+Timestamp: 2017-10-27 16:16:45
+date: 2017-10-27 16:16:45</description>
+<TimeStamp id="611de8ae-3035-40bf-890e-559ef35bf9e9">
+<when>2017-10-27 16:16:45</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="76f5496f-cda5-454a-b767-9018e4ce9656">
+<coordinates>34.80988155918773,32.16766121892341</coordinates>
+</Point>
+</Placemark>
+<Placemark id="1343ba62-6477-4fbb-a053-5dc46db07984">
+<name>888Corp</name>
+<description>![CDATA[BSSID:0a:8d:db:6e:71:bf
+Id: model=SHIELD Tablet
+Frequency:1
+Timestamp: 2017-10-27 16:16:45
+date: 2017-10-27 16:16:45</description>
+<TimeStamp id="f1d4d929-9922-442c-b71d-917bfcefbee6">
+<when>2017-10-27 16:16:45</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="36722b28-f8ad-4e2d-bf8c-863bb8de8868">
+<coordinates>34.80988155918773,32.16766121892341</coordinates>
+</Point>
+</Placemark>
+<Placemark id="c1c43c1f-0e6d-483b-9302-15e53f01c10d">
+<name>888Free</name>
+<description>![CDATA[BSSID:06:8d:db:6e:71:bf
+Id: model=SHIELD Tablet
+Frequency:1
+Timestamp: 2017-10-27 16:16:45
+date: 2017-10-27 16:16:45</description>
+<TimeStamp id="658a9545-81d2-4811-9b07-89ddb5e2c2a2">
+<when>2017-10-27 16:16:45</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="368bfcbb-516b-4e23-9517-197b2264f0e2">
+<coordinates>34.80988155918773,32.16766121892341</coordinates>
+</Point>
+</Placemark>
+<Placemark id="31da41c8-d30e-42e0-875f-b35e2e9cd34f">
+<name></name>
+<description>![CDATA[BSSID:06:8d:db:6e:71:be
+Id: model=SHIELD Tablet
+Frequency:11
+Timestamp: 2017-10-27 16:16:45
+date: 2017-10-27 16:16:45</description>
+<TimeStamp id="de2b6fa1-79ab-4742-80a3-70a911fc138f">
+<when>2017-10-27 16:16:45</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="84c94508-c885-4983-bc9f-91e898473fb1">
+<coordinates>34.80988155918773,32.16766121892341</coordinates>
+</Point>
+</Placemark>
+<Placemark id="ac63c1cd-38d4-4464-b570-ea8f25ebc64f">
+<name></name>
+<description>![CDATA[BSSID:02:8d:db:6e:71:be
+Id: model=SHIELD Tablet
+Frequency:11
+Timestamp: 2017-10-27 16:16:45
+date: 2017-10-27 16:16:45</description>
+<TimeStamp id="506dd8fc-642d-4925-8d36-7e77c9440ba1">
+<when>2017-10-27 16:16:45</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="144154ad-b570-41de-9d01-bfca82f21c1c">
+<coordinates>34.80988155918773,32.16766121892341</coordinates>
+</Point>
+</Placemark>
+<Placemark id="4ea3bd98-c093-4925-94b5-f3721d3d6116">
+<name>888Corp</name>
+<description>![CDATA[BSSID:0a:8d:db:6e:71:be
+Id: model=SHIELD Tablet
+Frequency:11
+Timestamp: 2017-10-27 16:16:45
+date: 2017-10-27 16:16:45</description>
+<TimeStamp id="fe35b992-c2e5-4b28-8ded-d47f76ca5353">
+<when>2017-10-27 16:16:45</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="c5f92b9c-3f5b-4e2a-8a92-9d616350c397">
+<coordinates>34.80988155918773,32.16766121892341</coordinates>
+</Point>
+</Placemark>
+<Placemark id="1f15e908-1d95-45b4-8708-31a46e471ec2">
+<name>smartsell</name>
+<description>![CDATA[BSSID:78:e8:b6:69:2a:e9
+Id: model=SHIELD Tablet
+Frequency:11
+Timestamp: 2017-10-27 16:16:45
+date: 2017-10-27 16:16:45</description>
+<TimeStamp id="b29f7264-b747-4038-9cca-aaa86b1478a1">
+<when>2017-10-27 16:16:45</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="aeac7b07-9e94-46b1-9b67-9d8c34eb04a9">
+<coordinates>34.80988155918773,32.16766121892341</coordinates>
+</Point>
+</Placemark>
+<Placemark id="76848e0d-b307-4f4b-bad1-4945e102a437">
+<name>RS_GUEST</name>
+<description>![CDATA[BSSID:ec:08:6b:38:0d:dd
+Id: model=SHIELD Tablet
+Frequency:13
+Timestamp: 2017-10-27 16:16:45
+date: 2017-10-27 16:16:45</description>
+<TimeStamp id="efce4a5b-91ec-4e0b-9fae-36e677a33048">
+<when>2017-10-27 16:16:45</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="c7c7cb3e-4d4e-403d-a27b-43b052f10172">
+<coordinates>34.80988155918773,32.16766121892341</coordinates>
+</Point>
+</Placemark>
+<Placemark id="53efa3b1-86c4-4a8a-a49d-5c8eae9f8420">
+<name>MOULY MAISON</name>
+<description>![CDATA[BSSID:00:78:9e:fa:15:91
+Id: model=SHIELD Tablet
+Frequency:1
+Timestamp: 2017-10-27 16:16:45
+date: 2017-10-27 16:16:45</description>
+<TimeStamp id="f1ce5e3e-90a7-43b1-8365-433d3e229a50">
+<when>2017-10-27 16:16:45</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="8fe3bfa2-c373-4dd5-8a58-d39e4160b9b2">
+<coordinates>34.80988155918773,32.16766121892341</coordinates>
+</Point>
+</Placemark>
+<Placemark id="40ba116e-f74d-43e1-be2e-4588f7f47d8e">
+<name>888Corp</name>
+<description>![CDATA[BSSID:0a:8d:cb:6e:71:bf
+Id: model=SHIELD Tablet
+Frequency:44
+Timestamp: 2017-10-27 16:16:45
+date: 2017-10-27 16:16:45</description>
+<TimeStamp id="39ccc6dc-69e6-46f4-a4c2-8d415527b456">
+<when>2017-10-27 16:16:45</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="d9b5182e-a1a7-4396-a503-2959fff34c9b">
+<coordinates>34.80988155918773,32.16766121892341</coordinates>
+</Point>
+</Placemark>
+<Placemark id="90cce006-2e19-407f-ba8f-9c446b45632c">
+<name>DIRECT-A5-HP DeskJet 4670 series</name>
+<description>![CDATA[BSSID:fc:3f:db:7e:60:a6
+Id: model=SHIELD Tablet
+Frequency:10
+Timestamp: 2017-10-27 16:16:45
+date: 2017-10-27 16:16:45</description>
+<TimeStamp id="e9275d16-fb50-4652-93d3-89deed310834">
+<when>2017-10-27 16:16:45</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="bb2ac9d2-6aef-46a3-846b-1ddb4cc26af7">
+<coordinates>34.80988155918773,32.16766121892341</coordinates>
+</Point>
+</Placemark>
+<Placemark id="94ff7f1c-6f98-429b-a318-b278c74076e1">
+<name>Ab</name>
+<description>![CDATA[BSSID:90:8d:78:54:d9:69
+Id: model=SHIELD Tablet
+Frequency:10
+Timestamp: 2017-10-27 16:16:45
+date: 2017-10-27 16:16:45</description>
+<TimeStamp id="c07e2218-e3ef-45ce-819a-67508410fc6b">
+<when>2017-10-27 16:16:45</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="c254d04b-12f9-4b9d-a3a8-40c3273437a1">
+<coordinates>34.80988155918773,32.16766121892341</coordinates>
+</Point>
+</Placemark>
+<Placemark id="9724eb2a-e87e-44e6-9576-3f5dfe50dc79">
+<name>888Corp</name>
+<description>![CDATA[BSSID:0a:8d:cb:6e:71:be
+Id: model=SHIELD Tablet
+Frequency:44
+Timestamp: 2017-10-27 16:16:45
+date: 2017-10-27 16:16:45</description>
+<TimeStamp id="8ac277eb-1fd4-43eb-b9e8-995904567eee">
+<when>2017-10-27 16:16:45</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="393da112-baf6-430a-a706-39405430543d">
+<coordinates>34.80988155918773,32.16766121892341</coordinates>
+</Point>
+</Placemark>
+<Placemark id="5abcd588-6959-4344-a2d5-533d3ebc8249">
+<name>tslila</name>
+<description>![CDATA[BSSID:c4:3d:c7:5a:79:1c
+Id: model=SHIELD Tablet
+Frequency:11
+Timestamp: 2017-10-27 16:16:45
+date: 2017-10-27 16:16:45</description>
+<TimeStamp id="a2b8c11c-62f2-4264-9d34-a511677a7830">
+<when>2017-10-27 16:16:45</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="dc2362fd-0ea7-42dc-bae1-241b72e98200">
+<coordinates>34.80988155918773,32.16766121892341</coordinates>
+</Point>
+</Placemark>
+<Placemark id="c32494f4-9713-44b7-ac85-fcd72a1479d7">
+<name>LANDAU HOME</name>
+<description>![CDATA[BSSID:74:44:01:33:c7:56
+Id: model=SHIELD Tablet
+Frequency:1
+Timestamp: 2017-10-27 16:16:45
+date: 2017-10-27 16:16:45</description>
+<TimeStamp id="eefffc94-7f41-4909-ab70-5474b2c38469">
+<when>2017-10-27 16:16:45</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="938184d1-9d2a-497c-a144-599b3639836b">
+<coordinates>34.80988155918773,32.16766121892341</coordinates>
+</Point>
+</Placemark>
+<Placemark id="682380eb-352d-4d16-a5dc-6a7167ef8752">
+<name>888Corp</name>
+<description>![CDATA[BSSID:0a:8d:cb:6e:71:6d
+Id: model=SHIELD Tablet
+Frequency:44
+Timestamp: 2017-10-27 16:16:45
+date: 2017-10-27 16:16:45</description>
+<TimeStamp id="4092340b-4b13-4564-b7db-ae32803e4484">
+<when>2017-10-27 16:16:45</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="ebec62f0-d91f-4ada-9522-b868fa1ad298">
+<coordinates>34.80988155918773,32.16766121892341</coordinates>
+</Point>
+</Placemark>
+<Placemark id="1714777c-41cf-4cc7-bf64-01758546f9c2">
+<name>HOTBOX-72B6</name>
+<description>![CDATA[BSSID:7c:03:4c:ba:bf:55
+Id: model=SHIELD Tablet
+Frequency:6
+Timestamp: 2017-10-27 16:16:45
+date: 2017-10-27 16:16:45</description>
+<TimeStamp id="d50d9793-d904-4beb-bb27-383cbf7ccb19">
+<when>2017-10-27 16:16:45</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="180e56ca-ceb7-4c26-9f35-cabaa5b3a3ce">
+<coordinates>34.80988155918773,32.16766121892341</coordinates>
+</Point>
+</Placemark>
+<Placemark id="525720f1-a078-448b-982e-6f90db205caf">
+<name>BezeqFree</name>
+<description>![CDATA[BSSID:6a:12:f5:f9:5e:71
+Id: model=SHIELD Tablet
+Frequency:8
+Timestamp: 2017-10-27 16:16:45
+date: 2017-10-27 16:16:45</description>
+<TimeStamp id="be07119a-bb77-45bf-b077-19dd1175e28a">
+<when>2017-10-27 16:16:45</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="932e1c83-a863-4eac-b506-004367a243e1">
+<coordinates>34.80988155918773,32.16766121892341</coordinates>
+</Point>
+</Placemark>
+<Placemark id="93408337-187d-4c5f-84e2-62ef4bebf3b7">
+<name>888Corp</name>
+<description>![CDATA[BSSID:0a:8d:db:6e:71:bf
+Id: model=SHIELD Tablet
+Frequency:1
+Timestamp: 2017-10-27 16:17:01
+date: 2017-10-27 16:17:01</description>
+<TimeStamp id="b634fa50-7950-4fd2-875c-02af86fcb342">
+<when>2017-10-27 16:17:01</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="93097a58-e505-4301-bde6-87c207f6af13">
+<coordinates>34.80992484668563,32.167671222901205</coordinates>
+</Point>
+</Placemark>
+<Placemark id="80056222-11fa-4351-a037-6cb4e38025c4">
+<name></name>
+<description>![CDATA[BSSID:06:8d:db:6e:71:be
+Id: model=SHIELD Tablet
+Frequency:11
+Timestamp: 2017-10-27 16:17:01
+date: 2017-10-27 16:17:01</description>
+<TimeStamp id="67b8db2e-6c68-4840-9b42-eaa7fb9d2ad8">
+<when>2017-10-27 16:17:01</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="8310bbd6-ebc1-47f9-8979-731a601d51d8">
+<coordinates>34.80992484668563,32.167671222901205</coordinates>
+</Point>
+</Placemark>
+<Placemark id="e6f6e3b8-71bc-4a4a-a966-1d66dc92a2ed">
+<name>888Corp</name>
+<description>![CDATA[BSSID:0a:8d:db:6e:71:be
+Id: model=SHIELD Tablet
+Frequency:11
+Timestamp: 2017-10-27 16:17:01
+date: 2017-10-27 16:17:01</description>
+<TimeStamp id="396ae8fb-15e3-4460-9d92-503b51fb990c">
+<when>2017-10-27 16:17:01</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="4e708c75-2cce-4d03-a3a8-9798b000db61">
+<coordinates>34.80992484668563,32.167671222901205</coordinates>
+</Point>
+</Placemark>
+<Placemark id="d6822ffc-f0cc-4f09-bf8e-ff00b2a17e6d">
+<name>888Free</name>
+<description>![CDATA[BSSID:06:8d:db:6e:71:bf
+Id: model=SHIELD Tablet
+Frequency:1
+Timestamp: 2017-10-27 16:17:01
+date: 2017-10-27 16:17:01</description>
+<TimeStamp id="69dbd25d-7734-4c24-84ff-4e4c9de4ad14">
+<when>2017-10-27 16:17:01</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="0d39d3cd-2b21-4f7e-bf1f-aa172c406300">
+<coordinates>34.80992484668563,32.167671222901205</coordinates>
+</Point>
+</Placemark>
+<Placemark id="a0f26dec-a3b8-42ca-a740-274550ab751b">
+<name></name>
+<description>![CDATA[BSSID:02:8d:db:6e:71:be
+Id: model=SHIELD Tablet
+Frequency:11
+Timestamp: 2017-10-27 16:17:01
+date: 2017-10-27 16:17:01</description>
+<TimeStamp id="75de50f3-6b38-411e-8a9a-ec9d15017b93">
+<when>2017-10-27 16:17:01</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="29d26eca-65eb-4cc0-83ae-f417388d77fe">
+<coordinates>34.80992484668563,32.167671222901205</coordinates>
+</Point>
+</Placemark>
+<Placemark id="aeb59fb0-150e-4096-bda1-5a509f3d626b">
+<name>Shaked-Guest WiFi</name>
+<description>![CDATA[BSSID:b0:aa:77:f1:3a:68
+Id: model=SHIELD Tablet
+Frequency:11
+Timestamp: 2017-10-27 16:17:01
+date: 2017-10-27 16:17:01</description>
+<TimeStamp id="c612eebb-ae84-4159-a1e8-564c55cb475d">
+<when>2017-10-27 16:17:01</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="8b3e694c-9cec-4733-9594-25d705f23ab5">
+<coordinates>34.80992484668563,32.167671222901205</coordinates>
+</Point>
+</Placemark>
+<Placemark id="d15cb4a1-1bd8-41f8-9b4c-02353449e68b">
+<name>DIRECT-a8-HP M477 LaserJet</name>
+<description>![CDATA[BSSID:aa:6b:ad:04:c6:a8
+Id: model=SHIELD Tablet
+Frequency:6
+Timestamp: 2017-10-27 16:17:01
+date: 2017-10-27 16:17:01</description>
+<TimeStamp id="98c704bc-f0cb-4e73-8148-e6890b1a17af">
+<when>2017-10-27 16:17:01</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="74abee12-eb5c-4bc6-89b3-ee880d79927d">
+<coordinates>34.80992484668563,32.167671222901205</coordinates>
+</Point>
+</Placemark>
+<Placemark id="09e3c1f0-9e06-4caf-b536-91ee3d603461">
+<name>888Guest</name>
+<description>![CDATA[BSSID:02:8d:cb:6e:71:bf
+Id: model=SHIELD Tablet
+Frequency:44
+Timestamp: 2017-10-27 16:17:01
+date: 2017-10-27 16:17:01</description>
+<TimeStamp id="5305a1f8-4f7d-4616-b352-f1a000b03e14">
+<when>2017-10-27 16:17:01</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="572a261d-bd29-4953-9fc6-31f44754f508">
+<coordinates>34.80992484668563,32.167671222901205</coordinates>
+</Point>
+</Placemark>
+<Placemark id="be5612d4-d0ca-47da-8b8f-edb572801075">
+<name>888Free</name>
+<description>![CDATA[BSSID:06:8d:cb:6e:71:bf
+Id: model=SHIELD Tablet
+Frequency:44
+Timestamp: 2017-10-27 16:17:01
+date: 2017-10-27 16:17:01</description>
+<TimeStamp id="723cbfa8-652a-4880-8d7d-b2f85087bac7">
+<when>2017-10-27 16:17:01</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="44bbd25f-d77e-47d5-bc0b-e7ea98c976d2">
+<coordinates>34.80992484668563,32.167671222901205</coordinates>
+</Point>
+</Placemark>
+<Placemark id="98fb67d4-fe35-4d76-9dd0-73608c13e4a4">
+<name>KaymeraDev</name>
+<description>![CDATA[BSSID:cc:16:7e:97:1d:91
+Id: model=SHIELD Tablet
+Frequency:1
+Timestamp: 2017-10-27 16:17:01
+date: 2017-10-27 16:17:01</description>
+<TimeStamp id="3376becf-86db-46a3-8eb3-89387f228fa3">
+<when>2017-10-27 16:17:01</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="66537013-9221-4d0c-bcde-22cd0cf77779">
+<coordinates>34.80992484668563,32.167671222901205</coordinates>
+</Point>
+</Placemark>
+<Placemark id="5e6c3635-6d76-4605-97e1-e8e30bbe4dd6">
+<name>Efrat Networks MM</name>
+<description>![CDATA[BSSID:94:f6:65:5b:b2:28
+Id: model=SHIELD Tablet
+Frequency:5
+Timestamp: 2017-10-27 16:17:01
+date: 2017-10-27 16:17:01</description>
+<TimeStamp id="6dfd6aaa-88d2-43e3-a90d-4025a19d2eea">
+<when>2017-10-27 16:17:01</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="69924000-9b16-4c5e-b7b0-3682bafa6894">
+<coordinates>34.80992484668563,32.167671222901205</coordinates>
+</Point>
+</Placemark>
+<Placemark id="85d0334f-8dab-429e-96da-264a25b22731">
+<name>888Corp</name>
+<description>![CDATA[BSSID:0a:8d:db:6e:71:26
+Id: model=SHIELD Tablet
+Frequency:6
+Timestamp: 2017-10-27 16:17:01
+date: 2017-10-27 16:17:01</description>
+<TimeStamp id="f9b309cf-e3c3-4a0b-8d52-0f889897c739">
+<when>2017-10-27 16:17:01</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="2c0cc29b-3b13-45c9-9ea4-a0b7d5803e5d">
+<coordinates>34.80992484668563,32.167671222901205</coordinates>
+</Point>
+</Placemark>
+<Placemark id="b4714739-9f74-4cd6-accb-1a7667e324db">
+<name></name>
+<description>![CDATA[BSSID:02:8d:db:6e:71:26
+Id: model=SHIELD Tablet
+Frequency:6
+Timestamp: 2017-10-27 16:17:01
+date: 2017-10-27 16:17:01</description>
+<TimeStamp id="7ab454a5-700d-40ba-bbd4-25d7419d1475">
+<when>2017-10-27 16:17:01</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="89a3bd88-d8c7-49f7-8580-3709ce4b56cf">
+<coordinates>34.80992484668563,32.167671222901205</coordinates>
+</Point>
+</Placemark>
+<Placemark id="38338a1d-8da3-4485-b476-cdb55949d755">
+<name>888Free</name>
+<description>![CDATA[BSSID:06:8d:db:6e:71:26
+Id: model=SHIELD Tablet
+Frequency:6
+Timestamp: 2017-10-27 16:17:01
+date: 2017-10-27 16:17:01</description>
+<TimeStamp id="c009f2c6-9c7f-4980-8011-d9d5dd33634f">
+<when>2017-10-27 16:17:01</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="8d00a021-b077-4191-b9c5-16b4644f020b">
+<coordinates>34.80992484668563,32.167671222901205</coordinates>
+</Point>
+</Placemark>
+<Placemark id="28e6cde2-1214-4a0e-b1e9-5781fa29a8f3">
+<name></name>
+<description>![CDATA[BSSID:02:8d:db:6e:71:c1
+Id: model=SHIELD Tablet
+Frequency:11
+Timestamp: 2017-10-27 16:18:38
+date: 2017-10-27 16:18:38</description>
+<TimeStamp id="11520f04-daf4-4046-839f-0d8aedb57b33">
+<when>2017-10-27 16:18:38</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="6b02270e-b9a0-482a-ba71-7bfd38abe1b3">
+<coordinates>34.80970275770306,32.16752947325414</coordinates>
+</Point>
+</Placemark>
+<Placemark id="b0df354b-f3a4-4020-bbd6-ac8f8df25453">
+<name>888Corp</name>
+<description>![CDATA[BSSID:0a:8d:db:6e:71:c1
+Id: model=SHIELD Tablet
+Frequency:11
+Timestamp: 2017-10-27 16:18:38
+date: 2017-10-27 16:18:38</description>
+<TimeStamp id="7ea83165-cd28-40ca-ac12-428883051524">
+<when>2017-10-27 16:18:38</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="dd9760be-a550-4ac2-9b75-555d49f3e1b4">
+<coordinates>34.80970275770306,32.16752947325414</coordinates>
+</Point>
+</Placemark>
+<Placemark id="5c26798d-969b-4b0b-b0cb-9cce38e86bf2">
+<name>888Free</name>
+<description>![CDATA[BSSID:06:8d:db:6e:71:c1
+Id: model=SHIELD Tablet
+Frequency:11
+Timestamp: 2017-10-27 16:18:38
+date: 2017-10-27 16:18:38</description>
+<TimeStamp id="390524c8-39b7-4493-bbd5-6c2c79a21c6b">
+<when>2017-10-27 16:18:38</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="d22e053d-f187-4fd3-98e7-5fc6ee6eb83b">
+<coordinates>34.80970275770306,32.16752947325414</coordinates>
+</Point>
+</Placemark>
+<Placemark id="96911f51-941a-4a92-922e-9aaf7f572913">
+<name>lavel-2</name>
+<description>![CDATA[BSSID:74:da:39:b9:a7:bd
+Id: model=SHIELD Tablet
+Frequency:2
+Timestamp: 2017-10-27 16:18:38
+date: 2017-10-27 16:18:38</description>
+<TimeStamp id="bd90b94a-6636-433e-b1b6-39d040df63ad">
+<when>2017-10-27 16:18:38</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="73286eda-445d-494a-be9e-87fc24a70d22">
+<coordinates>34.80970275770306,32.16752947325414</coordinates>
+</Point>
+</Placemark>
+<Placemark id="e7796c94-fd25-4e4a-b30c-c5e7ba73782b">
+<name>Efrat Networks MM</name>
+<description>![CDATA[BSSID:94:f6:65:5b:b2:28
+Id: model=SHIELD Tablet
+Frequency:5
+Timestamp: 2017-10-27 16:18:38
+date: 2017-10-27 16:18:38</description>
+<TimeStamp id="17bc2e7c-8595-4970-953d-2b43a814e163">
+<when>2017-10-27 16:18:38</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="8b13b9be-2b70-4f84-8088-b3026f1600f4">
+<coordinates>34.80970275770306,32.16752947325414</coordinates>
+</Point>
+</Placemark>
+<Placemark id="1bfa3d0f-4bde-4cbd-8e17-99341a1068a1">
+<name>888Free</name>
+<description>![CDATA[BSSID:06:8d:cb:6e:71:6d
+Id: model=SHIELD Tablet
+Frequency:44
+Timestamp: 2017-10-27 16:18:38
+date: 2017-10-27 16:18:38</description>
+<TimeStamp id="57c3530d-78c5-44ca-968e-c020c23e84fe">
+<when>2017-10-27 16:18:38</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="91eb07c7-e177-40a3-9ecf-8457abfcf8b5">
+<coordinates>34.80970275770306,32.16752947325414</coordinates>
+</Point>
+</Placemark>
+<Placemark id="b100759a-0a4c-4715-bddc-59a0170cee90">
+<name>888Guest</name>
+<description>![CDATA[BSSID:02:8d:cb:6e:71:6d
+Id: model=SHIELD Tablet
+Frequency:44
+Timestamp: 2017-10-27 16:18:38
+date: 2017-10-27 16:18:38</description>
+<TimeStamp id="29be1cf5-f5d5-41a0-8755-aebddb790ba1">
+<when>2017-10-27 16:18:38</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="ba9c6c14-b11b-4fc5-a1d1-9ad382b78204">
+<coordinates>34.80970275770306,32.16752947325414</coordinates>
+</Point>
+</Placemark>
+<Placemark id="313bb459-9855-4068-9cdd-113a78f1cbba">
+<name>Guest Neetwork MM</name>
+<description>![CDATA[BSSID:94:f6:65:1b:b2:28
+Id: model=SHIELD Tablet
+Frequency:5
+Timestamp: 2017-10-27 16:18:38
+date: 2017-10-27 16:18:38</description>
+<TimeStamp id="ff3559e2-922c-4e05-9d38-35e4e3cf4c41">
+<when>2017-10-27 16:18:38</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="6382ccc2-cba5-4a89-9a57-432570ab2362">
+<coordinates>34.80970275770306,32.16752947325414</coordinates>
+</Point>
+</Placemark>
+<Placemark id="990486c3-c722-4d6b-9abf-d65ad8032d38">
+<name>iFOREX</name>
+<description>![CDATA[BSSID:f8:d1:11:b1:92:93
+Id: model=SHIELD Tablet
+Frequency:13
+Timestamp: 2017-10-27 16:18:38
+date: 2017-10-27 16:18:38</description>
+<TimeStamp id="53e978df-5bc4-4f25-b782-17cb3e24032b">
+<when>2017-10-27 16:18:38</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="1b727194-0b6c-4bc1-b884-0557a485bc28">
+<coordinates>34.80970275770306,32.16752947325414</coordinates>
+</Point>
+</Placemark>
+<Placemark id="7f9ca448-ab71-4289-be03-b6d266115189">
+<name>lavel-2</name>
+<description>![CDATA[BSSID:74:da:38:ae:91:7b
+Id: model=SHIELD Tablet
+Frequency:2
+Timestamp: 2017-10-27 16:18:38
+date: 2017-10-27 16:18:38</description>
+<TimeStamp id="7c694fa6-a8dc-4a24-9fef-7700b0234e25">
+<when>2017-10-27 16:18:38</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="afa57777-4bc9-464b-bbcc-8b9efede1c9b">
+<coordinates>34.80970275770306,32.16752947325414</coordinates>
+</Point>
+</Placemark>
+<Placemark id="08733cc6-dc3c-4e61-93c4-9925fa527432">
+<name>HP-Print-f3-LaserJet 300</name>
+<description>![CDATA[BSSID:64:27:37:77:d1:f3
+Id: model=SHIELD Tablet
+Frequency:6
+Timestamp: 2017-10-27 16:18:38
+date: 2017-10-27 16:18:38</description>
+<TimeStamp id="f5fd1aae-ab7d-48cf-9b8b-bc9bf87e5a19">
+<when>2017-10-27 16:18:38</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="f97517ac-f16b-487d-b57b-be85d1934435">
+<coordinates>34.80970275770306,32.16752947325414</coordinates>
+</Point>
+</Placemark>
+<Placemark id="1d713d8b-fdad-47e8-b599-3e2f30ce9f05">
+<name>INGENEO</name>
+<description>![CDATA[BSSID:cc:b2:55:e8:4c:e6
+Id: model=SHIELD Tablet
+Frequency:6
+Timestamp: 2017-10-27 16:18:38
+date: 2017-10-27 16:18:38</description>
+<TimeStamp id="1308089a-4e54-4065-a812-a4fa52895c44">
+<when>2017-10-27 16:18:38</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="f986aa3d-f29b-4e6a-b558-01642735e362">
+<coordinates>34.80970275770306,32.16752947325414</coordinates>
+</Point>
+</Placemark>
+<Placemark id="3be35261-b398-4f8b-b3be-5dd6b07caafd">
+<name>888Free</name>
+<description>![CDATA[BSSID:06:8d:db:6e:71:bf
+Id: model=SHIELD Tablet
+Frequency:1
+Timestamp: 2017-10-27 16:18:50
+date: 2017-10-27 16:18:50</description>
+<TimeStamp id="a8b24d7c-27c1-48fe-9497-e80455e68ceb">
+<when>2017-10-27 16:18:50</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="3a804b35-bbc9-4a73-8778-525c697ab3b6">
+<coordinates>34.80888987334706,32.16689631014436</coordinates>
+</Point>
+</Placemark>
+<Placemark id="2c8881e3-e387-4552-8e9c-96fb1512eb34">
+<name>DIRECT-a8-HP M477 LaserJet</name>
+<description>![CDATA[BSSID:aa:6b:ad:04:c6:a8
+Id: model=SHIELD Tablet
+Frequency:6
+Timestamp: 2017-10-27 16:18:50
+date: 2017-10-27 16:18:50</description>
+<TimeStamp id="c67707d0-ca05-4cdc-b8e7-ce718f14d58b">
+<when>2017-10-27 16:18:50</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="cf3fec97-d156-41f0-ab4a-be950ba28802">
+<coordinates>34.80888987334706,32.16689631014436</coordinates>
+</Point>
+</Placemark>
+<Placemark id="5ade416a-6a49-4301-ab38-fd6d4861119e">
+<name></name>
+<description>![CDATA[BSSID:02:8d:db:6e:71:be
+Id: model=SHIELD Tablet
+Frequency:11
+Timestamp: 2017-10-27 16:18:50
+date: 2017-10-27 16:18:50</description>
+<TimeStamp id="1b3179ef-e8f2-46a0-9d74-17e250cce680">
+<when>2017-10-27 16:18:50</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="b67a2f9e-63ba-4100-ab20-4902962955df">
+<coordinates>34.80888987334706,32.16689631014436</coordinates>
+</Point>
+</Placemark>
+<Placemark id="d1e838e2-c9f0-455a-8a8e-9bbf753b5b38">
+<name>888Guest</name>
+<description>![CDATA[BSSID:02:8d:cb:6e:71:bf
+Id: model=SHIELD Tablet
+Frequency:44
+Timestamp: 2017-10-27 16:18:50
+date: 2017-10-27 16:18:50</description>
+<TimeStamp id="686ffa0f-1276-4448-a990-60ae70b96349">
+<when>2017-10-27 16:18:50</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="35bb2e56-6b6d-4297-a8d5-11ecb16efa52">
+<coordinates>34.80888987334706,32.16689631014436</coordinates>
+</Point>
+</Placemark>
+<Placemark id="a3679643-6e8e-49c2-8e71-9207648fbc17">
+<name>888Free</name>
+<description>![CDATA[BSSID:06:8d:cb:6e:71:bf
+Id: model=SHIELD Tablet
+Frequency:44
+Timestamp: 2017-10-27 16:18:50
+date: 2017-10-27 16:18:50</description>
+<TimeStamp id="8f7e7408-ff4b-4e32-b976-f29df37a2a40">
+<when>2017-10-27 16:18:50</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="b12f9ece-f434-45a4-9481-909bb564a89d">
+<coordinates>34.80888987334706,32.16689631014436</coordinates>
+</Point>
+</Placemark>
+<Placemark id="4ade3ad6-9270-4f3f-a44e-224d4ac5c349">
+<name>888Corp</name>
+<description>![CDATA[BSSID:0a:8d:db:6e:71:be
+Id: model=SHIELD Tablet
+Frequency:11
+Timestamp: 2017-10-27 16:18:50
+date: 2017-10-27 16:18:50</description>
+<TimeStamp id="ee6f8c22-7205-4d53-9bbc-0668bcc0b114">
+<when>2017-10-27 16:18:50</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="40d61f5f-2fff-4c8f-84af-d5fb5870f4c4">
+<coordinates>34.80888987334706,32.16689631014436</coordinates>
+</Point>
+</Placemark>
+<Placemark id="59fbe949-eb82-4e36-bced-babadf35a25b">
+<name></name>
+<description>![CDATA[BSSID:06:8d:db:6e:71:be
+Id: model=SHIELD Tablet
+Frequency:11
+Timestamp: 2017-10-27 16:18:50
+date: 2017-10-27 16:18:50</description>
+<TimeStamp id="bf9f7a6d-c83c-4155-a295-70b73a3fa532">
+<when>2017-10-27 16:18:50</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="63f2879c-bd09-4850-99d3-d23ba9574ccd">
+<coordinates>34.80888987334706,32.16689631014436</coordinates>
+</Point>
+</Placemark>
+<Placemark id="1254493a-9c4e-455c-9345-d9e5ef514cb5">
+<name>888Corp</name>
+<description>![CDATA[BSSID:0a:8d:db:6e:71:26
+Id: model=SHIELD Tablet
+Frequency:6
+Timestamp: 2017-10-27 16:18:50
+date: 2017-10-27 16:18:50</description>
+<TimeStamp id="53719c99-93c8-4766-ae0d-99faa3c756dd">
+<when>2017-10-27 16:18:50</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="02d7aee4-a0eb-4fe1-b603-e0c6f336c982">
+<coordinates>34.80888987334706,32.16689631014436</coordinates>
+</Point>
+</Placemark>
+<Placemark id="0c4eced0-5c05-48d5-93e3-6b773a321a1b">
+<name>HP-Print-A0-LaserJet Pro MFP</name>
+<description>![CDATA[BSSID:30:f7:72:6e:8e:a0
+Id: model=SHIELD Tablet
+Frequency:6
+Timestamp: 2017-10-27 16:18:53
+date: 2017-10-27 16:18:53</description>
+<TimeStamp id="7607f1b3-a923-4635-8359-32d5e24609b0">
+<when>2017-10-27 16:18:53</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="9ca57e64-ac32-40ee-aa92-de4a9e81284c">
+<coordinates>34.808879325364,32.166882698884585</coordinates>
+</Point>
+</Placemark>
+<Placemark id="94f59d7f-08ca-4a2f-a033-5a7955a90f68">
+<name>888Guest</name>
+<description>![CDATA[BSSID:02:8d:db:6e:71:6d
+Id: model=SHIELD Tablet
+Frequency:1
+Timestamp: 2017-10-27 16:18:53
+date: 2017-10-27 16:18:53</description>
+<TimeStamp id="19955c12-3a5c-468c-9d89-56db0d711574">
+<when>2017-10-27 16:18:53</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="212409c6-9b66-48c6-9031-e1b768f2ee4b">
+<coordinates>34.808879325364,32.166882698884585</coordinates>
+</Point>
+</Placemark>
+<Placemark id="52a6f22c-558f-4051-8c58-11eaf715bd6f">
+<name>Mouly</name>
+<description>![CDATA[BSSID:7c:b7:33:2e:76:73
+Id: model=SHIELD Tablet
+Frequency:11
+Timestamp: 2017-10-27 16:18:53
+date: 2017-10-27 16:18:53</description>
+<TimeStamp id="29f50ea4-5d3b-4ac6-baaf-e62f14e05897">
+<when>2017-10-27 16:18:53</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="c9307326-ac9f-4ee5-983a-2db083f62faa">
+<coordinates>34.808879325364,32.166882698884585</coordinates>
+</Point>
+</Placemark>
+<Placemark id="2e3bd5c4-4a50-41d7-935f-2a8a4a082144">
+<name>MOULY MAISON</name>
+<description>![CDATA[BSSID:00:78:9e:fa:15:91
+Id: model=SHIELD Tablet
+Frequency:1
+Timestamp: 2017-10-27 16:18:53
+date: 2017-10-27 16:18:53</description>
+<TimeStamp id="90671eb6-a4a6-4f0e-be55-e921a6260475">
+<when>2017-10-27 16:18:53</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="ed0eaab1-7067-4bd8-bd5f-8b2b95c30b7a">
+<coordinates>34.808879325364,32.166882698884585</coordinates>
+</Point>
+</Placemark>
+<Placemark id="ada786ea-4e2f-4f0f-8f11-5e009091b7cb">
+<name>RS_GUEST</name>
+<description>![CDATA[BSSID:ec:08:6b:38:0d:dd
+Id: model=SHIELD Tablet
+Frequency:13
+Timestamp: 2017-10-27 16:18:53
+date: 2017-10-27 16:18:53</description>
+<TimeStamp id="11265d08-427b-4715-9f92-6516c0c109c8">
+<when>2017-10-27 16:18:53</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="8d538cc7-76f3-4a9e-a2f7-c373f095fad0">
+<coordinates>34.808879325364,32.166882698884585</coordinates>
+</Point>
+</Placemark>
+<Placemark id="7dcbe8dc-6e9e-44e6-8a1c-977e6af798f2">
+<name>RS_GUEST</name>
+<description>![CDATA[BSSID:ec:08:6b:38:0d:0e
+Id: model=SHIELD Tablet
+Frequency:12
+Timestamp: 2017-10-27 16:18:53
+date: 2017-10-27 16:18:53</description>
+<TimeStamp id="818371ff-a8de-4d85-92d9-e0744d0a262d">
+<when>2017-10-27 16:18:53</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="045decd7-e5b4-4084-9bd7-ad0ab80b9c65">
+<coordinates>34.808879325364,32.166882698884585</coordinates>
+</Point>
+</Placemark>
+<Placemark id="974d7bd0-1295-4ed8-8c12-5fc6fd3c7811">
+<name>888Free</name>
+<description>![CDATA[BSSID:06:8d:db:6e:71:6d
+Id: model=SHIELD Tablet
+Frequency:1
+Timestamp: 2017-10-27 16:18:53
+date: 2017-10-27 16:18:53</description>
+<TimeStamp id="28ceb113-b524-4553-9604-3bd7a4de3619">
+<when>2017-10-27 16:18:53</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="45633c77-becf-4096-b035-626ab925d480">
+<coordinates>34.808879325364,32.166882698884585</coordinates>
+</Point>
+</Placemark>
+<Placemark id="9b325443-3905-41e3-9edd-8ab8329d58de">
+<name>Training Room</name>
+<description>![CDATA[BSSID:8e:15:44:ac:d4:e4
+Id: model=SHIELD Tablet
+Frequency:6
+Timestamp: 2017-10-27 16:18:53
+date: 2017-10-27 16:18:53</description>
+<TimeStamp id="2facdc92-b31c-4dca-aa54-08a69e5e958a">
+<when>2017-10-27 16:18:53</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="b2930d85-3a59-41b5-b856-f03d3c6183fa">
+<coordinates>34.808879325364,32.166882698884585</coordinates>
+</Point>
+</Placemark>
+<Placemark id="f3ec39ea-6804-4de6-9aa3-ff54deef3520">
+<name>HP-Print-b7-LaserJet 300</name>
+<description>![CDATA[BSSID:34:23:87:36:c9:b7
+Id: model=SHIELD Tablet
+Frequency:1
+Timestamp: 2017-10-27 16:18:53
+date: 2017-10-27 16:18:53</description>
+<TimeStamp id="2649af78-ea2b-4302-bd0a-85ceb847899e">
+<when>2017-10-27 16:18:53</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="d26d9b9d-dd33-4021-8840-e7fb3a1199dd">
+<coordinates>34.808879325364,32.166882698884585</coordinates>
+</Point>
+</Placemark>
+<Placemark id="59e69746-b2bf-469b-ac12-3ed97fdc143c">
+<name>Rainbow Guest</name>
+<description>![CDATA[BSSID:a2:6c:ac:f3:6a:69
+Id: model=SHIELD Tablet
+Frequency:5
+Timestamp: 2017-10-27 16:18:53
+date: 2017-10-27 16:18:53</description>
+<TimeStamp id="3681f743-b12d-4dc3-ba2d-0d6719979fb4">
+<when>2017-10-27 16:18:53</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="6699cb22-e175-4fd9-8203-9039343d7885">
+<coordinates>34.808879325364,32.166882698884585</coordinates>
+</Point>
+</Placemark>
+<Placemark id="460bb192-23ea-4b81-8c00-5e89fbf91751">
+<name>Maxillent</name>
+<description>![CDATA[BSSID:90:6c:ac:60:6c:8b
+Id: model=SHIELD Tablet
+Frequency:3
+Timestamp: 2017-10-27 16:18:53
+date: 2017-10-27 16:18:53</description>
+<TimeStamp id="eb9271de-e115-4ac8-b3ac-d7b560bb48ff">
+<when>2017-10-27 16:18:53</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="4c0d47c7-aca1-4c11-b092-8a91808ccb91">
+<coordinates>34.808879325364,32.166882698884585</coordinates>
+</Point>
+</Placemark>
+<Placemark id="b690b23e-ad90-42c7-ae4b-16c7f25cd38a">
+<name>FlixU</name>
+<description>![CDATA[BSSID:cc:b2:55:e5:ce:f3
+Id: model=SHIELD Tablet
+Frequency:6
+Timestamp: 2017-10-27 16:18:53
+date: 2017-10-27 16:18:53</description>
+<TimeStamp id="6bf69e9b-6b8c-48e0-ae67-1cd471e6c8dc">
+<when>2017-10-27 16:18:53</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="32c79c02-3ee4-4c16-8442-effa30b5d6c1">
+<coordinates>34.808879325364,32.166882698884585</coordinates>
+</Point>
+</Placemark>
+<Placemark id="a01fbb54-56a6-4a4d-b6e4-cf7491b37f02">
+<name>BlueSnap-Guest-2.4GHz</name>
+<description>![CDATA[BSSID:c0:56:27:a0:6c:9a
+Id: model=SHIELD Tablet
+Frequency:3
+Timestamp: 2017-10-27 16:18:53
+date: 2017-10-27 16:18:53</description>
+<TimeStamp id="ec0c03d9-6588-4904-96f8-d2974a4f5e4f">
+<when>2017-10-27 16:18:53</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="1e41bc73-c8ea-4762-9ca7-a5fb0ff050c1">
+<coordinates>34.808879325364,32.166882698884585</coordinates>
+</Point>
+</Placemark>
+<Placemark id="27abd5af-3332-4440-990f-2af90b73428b">
+<name>EL5</name>
+<description>![CDATA[BSSID:14:ae:db:3d:b1:55
+Id: model=SHIELD Tablet
+Frequency:48
+Timestamp: 2017-10-27 16:18:53
+date: 2017-10-27 16:18:53</description>
+<TimeStamp id="027f606c-9ac7-4f93-b7f4-f05ff348da36">
+<when>2017-10-27 16:18:53</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="6d22c6e9-9947-432e-905d-44bc3effbe87">
+<coordinates>34.808879325364,32.166882698884585</coordinates>
+</Point>
+</Placemark>
+<Placemark id="95fd6708-1b8a-432d-910e-355b16727360">
+<name>Maxillent_Guest</name>
+<description>![CDATA[BSSID:a2:6c:ac:60:6c:8b
+Id: model=SHIELD Tablet
+Frequency:3
+Timestamp: 2017-10-27 16:18:53
+date: 2017-10-27 16:18:53</description>
+<TimeStamp id="cc40c90f-1ead-49b4-a084-527e567ee6fb">
+<when>2017-10-27 16:18:53</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="903cc267-0861-4df0-9961-717a424c93de">
+<coordinates>34.808879325364,32.166882698884585</coordinates>
+</Point>
+</Placemark>
+<Placemark id="4ed6d6b7-4465-4d38-ac56-646db8fb8fd9">
+<name>888Corp</name>
+<description>![CDATA[BSSID:0a:8d:cb:6e:71:6d
+Id: model=SHIELD Tablet
+Frequency:44
+Timestamp: 2017-10-27 16:18:53
+date: 2017-10-27 16:18:53</description>
+<TimeStamp id="515008a5-463d-4666-b863-de57bebebf88">
+<when>2017-10-27 16:18:53</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="d8d46362-c383-4183-8169-8a822b8b0f2f">
+<coordinates>34.808879325364,32.166882698884585</coordinates>
+</Point>
+</Placemark>
+<Placemark id="412a426b-b92c-4dff-8d3f-0f847eb4a6c6">
+<name></name>
+<description>![CDATA[BSSID:02:8d:db:6e:71:c1
+Id: model=SHIELD Tablet
+Frequency:11
+Timestamp: 2017-10-27 16:18:59
+date: 2017-10-27 16:18:59</description>
+<TimeStamp id="91c18db2-b640-4d59-a0ae-910940162ae9">
+<when>2017-10-27 16:18:59</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="baf9c1d2-ce6f-40eb-b5a2-79b229d694c5">
+<coordinates>34.808596256222685,32.16690260644389</coordinates>
+</Point>
+</Placemark>
+<Placemark id="566a1c81-4269-42de-b298-0d1e2fa7c37b">
+<name>888Corp</name>
+<description>![CDATA[BSSID:0a:8d:db:6e:71:c1
+Id: model=SHIELD Tablet
+Frequency:11
+Timestamp: 2017-10-27 16:18:59
+date: 2017-10-27 16:18:59</description>
+<TimeStamp id="12e0c0cf-3322-4bc2-b91c-e0948f0b887e">
+<when>2017-10-27 16:18:59</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="6e4a808c-3f2c-431f-b644-02c886d3ce49">
+<coordinates>34.808596256222685,32.16690260644389</coordinates>
+</Point>
+</Placemark>
+<Placemark id="13369a7b-6c37-47c2-896c-caa8b98dfa25">
+<name>888Free</name>
+<description>![CDATA[BSSID:06:8d:db:6e:71:c1
+Id: model=SHIELD Tablet
+Frequency:11
+Timestamp: 2017-10-27 16:18:59
+date: 2017-10-27 16:18:59</description>
+<TimeStamp id="be20ad0e-30bb-45fb-a394-92057b05fe4a">
+<when>2017-10-27 16:18:59</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="a597ee6b-eed6-4ae3-874c-11444887f8db">
+<coordinates>34.808596256222685,32.16690260644389</coordinates>
+</Point>
+</Placemark>
+<Placemark id="8776cc63-4303-44f3-81bf-48ba1d80ea9c">
+<name>lavel-2</name>
+<description>![CDATA[BSSID:74:da:39:b9:a7:bd
+Id: model=SHIELD Tablet
+Frequency:2
+Timestamp: 2017-10-27 16:18:59
+date: 2017-10-27 16:18:59</description>
+<TimeStamp id="94a50e15-8a8f-476a-9fa6-c409c70f2e27">
+<when>2017-10-27 16:18:59</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="0a533f23-6afa-435b-b867-7657bd5f745b">
+<coordinates>34.808596256222685,32.16690260644389</coordinates>
+</Point>
+</Placemark>
+<Placemark id="c140129e-31ce-4679-b1de-de8192165100">
+<name>Efrat Networks MM</name>
+<description>![CDATA[BSSID:94:f6:65:5b:b2:28
+Id: model=SHIELD Tablet
+Frequency:5
+Timestamp: 2017-10-27 16:18:59
+date: 2017-10-27 16:18:59</description>
+<TimeStamp id="cd798b8a-0a84-475b-ab14-f2de5ae4f263">
+<when>2017-10-27 16:18:59</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="41d98993-9fe9-4647-b29b-7e0dc15aad22">
+<coordinates>34.808596256222685,32.16690260644389</coordinates>
+</Point>
+</Placemark>
+<Placemark id="3b04adbe-6637-4aa7-a1e6-c4e332e08d13">
+<name>Guest Neetwork MM</name>
+<description>![CDATA[BSSID:94:f6:65:1b:b2:28
+Id: model=SHIELD Tablet
+Frequency:5
+Timestamp: 2017-10-27 16:18:59
+date: 2017-10-27 16:18:59</description>
+<TimeStamp id="eb553967-2225-40b0-843b-ae6d0fd13900">
+<when>2017-10-27 16:18:59</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="9daadba8-fdfc-443e-8df9-b0e5b15a772b">
+<coordinates>34.808596256222685,32.16690260644389</coordinates>
+</Point>
+</Placemark>
+<Placemark id="afe381d4-314a-4870-b4c8-87a4188b7d32">
+<name>HP-Print-f3-LaserJet 300</name>
+<description>![CDATA[BSSID:64:27:37:77:d1:f3
+Id: model=SHIELD Tablet
+Frequency:6
+Timestamp: 2017-10-27 16:18:59
+date: 2017-10-27 16:18:59</description>
+<TimeStamp id="eef5aedb-4c26-4332-a03b-660beeacf41e">
+<when>2017-10-27 16:18:59</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="9d49dbbe-47cc-4c72-9995-75c84c3edd38">
+<coordinates>34.808596256222685,32.16690260644389</coordinates>
+</Point>
+</Placemark>
+<Placemark id="e349228a-0da6-4955-97b6-25df2215dd67">
+<name>INGENEO</name>
+<description>![CDATA[BSSID:cc:b2:55:e8:4c:e6
+Id: model=SHIELD Tablet
+Frequency:6
+Timestamp: 2017-10-27 16:18:59
+date: 2017-10-27 16:18:59</description>
+<TimeStamp id="b939caf1-6356-44d1-9142-092e923a7020">
+<when>2017-10-27 16:18:59</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="3662d18b-837d-4bed-88f2-179532ec21ed">
+<coordinates>34.808596256222685,32.16690260644389</coordinates>
+</Point>
+</Placemark>
+<Placemark id="7ae0b951-01fe-4720-bc94-4fea9ec395cb">
+<name>HP-Print-A0-LaserJet Pro MFP</name>
+<description>![CDATA[BSSID:30:f7:72:6e:8e:a0
+Id: model=SHIELD Tablet
+Frequency:6
+Timestamp: 2017-10-27 16:19:06
+date: 2017-10-27 16:19:06</description>
+<TimeStamp id="949e394e-07b4-4091-8592-abd33ed3b919">
+<when>2017-10-27 16:19:06</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="8ed65885-fe27-4f87-951f-fc107b78baa4">
+<coordinates>34.807691961442366,32.16723639563425</coordinates>
+</Point>
+</Placemark>
+<Placemark id="87fc21f6-9789-4b19-b5c5-0a9ea21fb089">
+<name>888Guest</name>
+<description>![CDATA[BSSID:02:8d:db:6e:71:6d
+Id: model=SHIELD Tablet
+Frequency:1
+Timestamp: 2017-10-27 16:19:06
+date: 2017-10-27 16:19:06</description>
+<TimeStamp id="6a162fca-04e4-46b7-970d-b48606660d05">
+<when>2017-10-27 16:19:06</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="4af980e6-3596-47eb-aa43-7f1b44596562">
+<coordinates>34.807691961442366,32.16723639563425</coordinates>
+</Point>
+</Placemark>
+<Placemark id="ddd1d1c8-6ff9-4f4e-91f5-a89c90ff50ad">
+<name>Mouly</name>
+<description>![CDATA[BSSID:7c:b7:33:2e:76:73
+Id: model=SHIELD Tablet
+Frequency:11
+Timestamp: 2017-10-27 16:19:06
+date: 2017-10-27 16:19:06</description>
+<TimeStamp id="d9615001-d3a8-4956-9304-f230709c7f75">
+<when>2017-10-27 16:19:06</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="637848ba-2473-4394-9a67-cd8984e5c432">
+<coordinates>34.807691961442366,32.16723639563425</coordinates>
+</Point>
+</Placemark>
+<Placemark id="a2eac3cf-b47d-44c6-a5e3-cf9eefe75f2d">
+<name>MOULY MAISON</name>
+<description>![CDATA[BSSID:00:78:9e:fa:15:91
+Id: model=SHIELD Tablet
+Frequency:1
+Timestamp: 2017-10-27 16:19:06
+date: 2017-10-27 16:19:06</description>
+<TimeStamp id="28f823bc-c426-481c-9229-b60a63844a70">
+<when>2017-10-27 16:19:06</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="6e180f8d-f85c-425b-aabd-b18861199e73">
+<coordinates>34.807691961442366,32.16723639563425</coordinates>
+</Point>
+</Placemark>
+<Placemark id="b8bff290-40bf-4278-ab33-565ac4b8d410">
+<name>RS_GUEST</name>
+<description>![CDATA[BSSID:ec:08:6b:38:0d:dd
+Id: model=SHIELD Tablet
+Frequency:13
+Timestamp: 2017-10-27 16:19:06
+date: 2017-10-27 16:19:06</description>
+<TimeStamp id="dbf01e1a-7a61-4a26-ba27-3f5accc5cfc3">
+<when>2017-10-27 16:19:06</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="57ea8f62-9e59-48a5-9492-bc1d7cc7c209">
+<coordinates>34.807691961442366,32.16723639563425</coordinates>
+</Point>
+</Placemark>
+<Placemark id="d1f5d544-ca75-4a55-9896-2ff5d719d037">
+<name>RS_GUEST</name>
+<description>![CDATA[BSSID:ec:08:6b:38:0d:0e
+Id: model=SHIELD Tablet
+Frequency:12
+Timestamp: 2017-10-27 16:19:06
+date: 2017-10-27 16:19:06</description>
+<TimeStamp id="34f6c414-909d-403c-8b42-e60fa2b5a58f">
+<when>2017-10-27 16:19:06</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="86eba393-6e02-413a-a973-791bd031487e">
+<coordinates>34.807691961442366,32.16723639563425</coordinates>
+</Point>
+</Placemark>
+<Placemark id="7a15bc8b-f72f-4dca-89c9-d82874217a0c">
+<name>888Free</name>
+<description>![CDATA[BSSID:06:8d:db:6e:71:6d
+Id: model=SHIELD Tablet
+Frequency:1
+Timestamp: 2017-10-27 16:19:06
+date: 2017-10-27 16:19:06</description>
+<TimeStamp id="748f0be0-0b9a-43b8-a1a9-cc8de846371c">
+<when>2017-10-27 16:19:06</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="27616373-e574-44d8-9152-8df9afa7377c">
+<coordinates>34.807691961442366,32.16723639563425</coordinates>
+</Point>
+</Placemark>
+<Placemark id="1e1c00ad-6fc2-488b-8866-a962151f69b0">
+<name>DIRECT-a8-HP M477 LaserJet</name>
+<description>![CDATA[BSSID:aa:6b:ad:04:c6:a8
+Id: model=SHIELD Tablet
+Frequency:6
+Timestamp: 2017-10-27 16:19:06
+date: 2017-10-27 16:19:06</description>
+<TimeStamp id="c0137bb4-01cd-4325-a21f-184e5705a1c1">
+<when>2017-10-27 16:19:06</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="efe8078c-138f-4598-87c4-63ee5a63b677">
+<coordinates>34.807691961442366,32.16723639563425</coordinates>
+</Point>
+</Placemark>
+<Placemark id="66e78c27-fbcc-4d7d-9d44-1320cdd3ef5c">
+<name>Training Room</name>
+<description>![CDATA[BSSID:8e:15:44:ac:d4:e4
+Id: model=SHIELD Tablet
+Frequency:6
+Timestamp: 2017-10-27 16:19:06
+date: 2017-10-27 16:19:06</description>
+<TimeStamp id="c072ff82-58aa-4846-8bb4-462be6ced59c">
+<when>2017-10-27 16:19:06</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="31d02125-371c-45dd-9dff-670876eb00d4">
+<coordinates>34.807691961442366,32.16723639563425</coordinates>
+</Point>
+</Placemark>
+<Placemark id="023f3f0a-67f8-4680-8943-80088c9a6f8b">
+<name></name>
+<description>![CDATA[BSSID:02:8d:db:6e:71:be
+Id: model=SHIELD Tablet
+Frequency:11
+Timestamp: 2017-10-27 16:19:06
+date: 2017-10-27 16:19:06</description>
+<TimeStamp id="c1ba4643-8366-46f5-878b-fbf92166ba9a">
+<when>2017-10-27 16:19:06</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="7a8f9474-6c05-4386-bc63-d112ff10912a">
+<coordinates>34.807691961442366,32.16723639563425</coordinates>
+</Point>
+</Placemark>
+<Placemark id="2216762d-fd0d-4d93-a116-12d139d88973">
+<name>888Corp</name>
+<description>![CDATA[BSSID:0a:8d:db:6e:71:be
+Id: model=SHIELD Tablet
+Frequency:11
+Timestamp: 2017-10-27 16:19:06
+date: 2017-10-27 16:19:06</description>
+<TimeStamp id="0610c83b-895f-4f38-92d8-f070f1d121db">
+<when>2017-10-27 16:19:06</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="b14847e9-e403-474d-bb7e-1ed84b48ede9">
+<coordinates>34.807691961442366,32.16723639563425</coordinates>
+</Point>
+</Placemark>
+<Placemark id="00ff1206-17b5-451f-89f5-6d5dc4c0ffe6">
+<name>HP-Print-b7-LaserJet 300</name>
+<description>![CDATA[BSSID:34:23:87:36:c9:b7
+Id: model=SHIELD Tablet
+Frequency:1
+Timestamp: 2017-10-27 16:19:06
+date: 2017-10-27 16:19:06</description>
+<TimeStamp id="5dabfcc2-2856-43d2-bfd4-6e473f15aa9f">
+<when>2017-10-27 16:19:06</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="d620aaba-503c-464d-b1da-601b93114ac4">
+<coordinates>34.807691961442366,32.16723639563425</coordinates>
+</Point>
+</Placemark>
+<Placemark id="f63b9379-87c9-4a9f-8a89-33070de1ec66">
+<name>Rainbow Guest</name>
+<description>![CDATA[BSSID:a2:6c:ac:f3:6a:69
+Id: model=SHIELD Tablet
+Frequency:5
+Timestamp: 2017-10-27 16:19:06
+date: 2017-10-27 16:19:06</description>
+<TimeStamp id="1bde1ec1-e653-448b-a763-04698402a12f">
+<when>2017-10-27 16:19:06</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="40818bde-954a-4d82-8b56-233466d25784">
+<coordinates>34.807691961442366,32.16723639563425</coordinates>
+</Point>
+</Placemark>
+<Placemark id="f0d3216b-3724-4804-88e8-0d9c78db0953">
+<name>Maxillent</name>
+<description>![CDATA[BSSID:90:6c:ac:60:6c:8b
+Id: model=SHIELD Tablet
+Frequency:3
+Timestamp: 2017-10-27 16:19:06
+date: 2017-10-27 16:19:06</description>
+<TimeStamp id="253f33ef-637e-41d7-91cd-db4f752c93c3">
+<when>2017-10-27 16:19:06</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="6325908b-6b91-4d00-abe1-28b0265984ef">
+<coordinates>34.807691961442366,32.16723639563425</coordinates>
+</Point>
+</Placemark>
+<Placemark id="d36e2cc9-e1fa-404a-b152-875b9575c173">
+<name>FlixU</name>
+<description>![CDATA[BSSID:cc:b2:55:e5:ce:f3
+Id: model=SHIELD Tablet
+Frequency:6
+Timestamp: 2017-10-27 16:19:06
+date: 2017-10-27 16:19:06</description>
+<TimeStamp id="e47ed7c4-3720-469b-a380-d45a4bca43c9">
+<when>2017-10-27 16:19:06</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="9dc22267-8dbd-498b-b8cd-a2840cf4b60d">
+<coordinates>34.807691961442366,32.16723639563425</coordinates>
+</Point>
+</Placemark>
+<Placemark id="5ed98bbe-1dce-4c95-a4f5-d7efaf674e2d">
+<name>BlueSnap-Guest-2.4GHz</name>
+<description>![CDATA[BSSID:c0:56:27:a0:6c:9a
+Id: model=SHIELD Tablet
+Frequency:3
+Timestamp: 2017-10-27 16:19:06
+date: 2017-10-27 16:19:06</description>
+<TimeStamp id="b336b479-f48d-457e-84e3-4cf6c4c073b5">
+<when>2017-10-27 16:19:06</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="f1807388-8f3e-4c7f-aeee-e9feb1626c68">
+<coordinates>34.807691961442366,32.16723639563425</coordinates>
+</Point>
+</Placemark>
+<Placemark id="66ff9607-ba55-4a9a-8c94-059f83e99bd7">
+<name></name>
+<description>![CDATA[BSSID:06:8d:db:6e:71:be
+Id: model=SHIELD Tablet
+Frequency:11
+Timestamp: 2017-10-27 16:19:06
+date: 2017-10-27 16:19:06</description>
+<TimeStamp id="2c7caa6b-4b69-4ec8-9964-9adad24a9570">
+<when>2017-10-27 16:19:06</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="490593ef-89af-4ac8-8a20-799d139523ad">
+<coordinates>34.807691961442366,32.16723639563425</coordinates>
+</Point>
+</Placemark>
+<Placemark id="2174e9e7-336c-4d86-b780-37eea15e2c5c">
+<name>EL5</name>
+<description>![CDATA[BSSID:14:ae:db:3d:b1:55
+Id: model=SHIELD Tablet
+Frequency:48
+Timestamp: 2017-10-27 16:19:06
+date: 2017-10-27 16:19:06</description>
+<TimeStamp id="0c331582-9ae2-4ea4-b799-867584b7d953">
+<when>2017-10-27 16:19:06</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="efad4aba-14fc-4788-8c95-3be9bb24ed6f">
+<coordinates>34.807691961442366,32.16723639563425</coordinates>
+</Point>
+</Placemark>
+<Placemark id="f51c80a9-fefa-41d8-b15c-342d34fee842">
+<name>Maxillent_Guest</name>
+<description>![CDATA[BSSID:a2:6c:ac:60:6c:8b
+Id: model=SHIELD Tablet
+Frequency:3
+Timestamp: 2017-10-27 16:19:06
+date: 2017-10-27 16:19:06</description>
+<TimeStamp id="7e54a28f-608b-49fa-9cbc-e8574b6bc2cd">
+<when>2017-10-27 16:19:06</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="76982726-6602-433c-a7c6-6b5644aa063d">
+<coordinates>34.807691961442366,32.16723639563425</coordinates>
+</Point>
+</Placemark>
+<Placemark id="0adcfa36-371b-47ab-97a2-a3ce7031f5ce">
+<name>888Corp</name>
+<description>![CDATA[BSSID:0a:8d:cb:6e:71:6d
+Id: model=SHIELD Tablet
+Frequency:44
+Timestamp: 2017-10-27 16:19:06
+date: 2017-10-27 16:19:06</description>
+<TimeStamp id="1e83bf0e-501d-4fb2-b2e8-8dcf978e90ff">
+<when>2017-10-27 16:19:06</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="8509e7b4-67f2-42a9-8b49-9ddc519f8464">
+<coordinates>34.807691961442366,32.16723639563425</coordinates>
+</Point>
+</Placemark>
+<Placemark id="10f638e6-55e7-4461-822d-d69ce6f21805">
+<name>Guest Neetwork MM</name>
+<description>![CDATA[BSSID:94:f6:65:1b:b2:28
+Id: model=SHIELD Tablet
+Frequency:5
+Timestamp: 2017-10-27 16:19:09
+date: 2017-10-27 16:19:09</description>
+<TimeStamp id="b5bc9e9b-a94c-4c66-8884-49f7b0ae544f">
+<when>2017-10-27 16:19:09</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="bb7c4076-d320-41b7-9c67-774876fabfb2">
+<coordinates>34.80724915968755,32.16738290292402</coordinates>
+</Point>
+</Placemark>
+<Placemark id="9084e7af-7b54-40be-a365-bcffd70e4c2c">
+<name>Efrat Networks MM</name>
+<description>![CDATA[BSSID:94:f6:65:5b:b2:28
+Id: model=SHIELD Tablet
+Frequency:5
+Timestamp: 2017-10-27 16:19:09
+date: 2017-10-27 16:19:09</description>
+<TimeStamp id="fea5dccb-50ad-4db6-978f-f1be9a40ef29">
+<when>2017-10-27 16:19:09</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="b896e4bf-946b-4f5a-919a-9ee51b201366">
+<coordinates>34.80724915968755,32.16738290292402</coordinates>
+</Point>
+</Placemark>
+<Placemark id="79f6a175-92bc-461a-8746-1cb0adb39d2c">
+<name>BERTOC-HOT</name>
+<description>![CDATA[BSSID:e0:ce:c3:8a:ad:63
+Id: model=SHIELD Tablet
+Frequency:13
+Timestamp: 2017-10-27 16:19:09
+date: 2017-10-27 16:19:09</description>
+<TimeStamp id="b18ad6d7-da20-4573-840c-8bb3b02f436b">
+<when>2017-10-27 16:19:09</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="6ef74939-b2fa-4d19-9518-164c688cd138">
+<coordinates>34.80724915968755,32.16738290292402</coordinates>
+</Point>
+</Placemark>
+<Placemark id="5dc259c4-4f8a-43c9-ad0a-d9f2d443192f">
+<name>Barda_2</name>
+<description>![CDATA[BSSID:74:da:38:56:ed:e0
+Id: model=SHIELD Tablet
+Frequency:1
+Timestamp: 2017-10-27 16:19:09
+date: 2017-10-27 16:19:09</description>
+<TimeStamp id="52024d64-480a-4e31-804d-1738661cfa38">
+<when>2017-10-27 16:19:09</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="8be01cca-d080-468f-8b68-98310ad361b2">
+<coordinates>34.80724915968755,32.16738290292402</coordinates>
+</Point>
+</Placemark>
+<Placemark id="5abb94e2-79cd-475a-a9eb-491ba95bad9e">
+<name>EL</name>
+<description>![CDATA[BSSID:14:ae:db:3d:b1:52
+Id: model=SHIELD Tablet
+Frequency:9
+Timestamp: 2017-10-27 16:19:09
+date: 2017-10-27 16:19:09</description>
+<TimeStamp id="b244fda6-00aa-45f4-8628-dfa656045c08">
+<when>2017-10-27 16:19:09</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="8bfb76d8-803f-4906-9bfb-25e0c30f5e48">
+<coordinates>34.80724915968755,32.16738290292402</coordinates>
+</Point>
+</Placemark>
+<Placemark id="5463d305-ed77-4ebc-b77d-ac72296f4e6d">
+<name>Home.</name>
+<description>![CDATA[BSSID:a0:ab:1b:62:a7:bc
+Id: model=SHIELD Tablet
+Frequency:1
+Timestamp: 2017-10-27 16:19:09
+date: 2017-10-27 16:19:09</description>
+<TimeStamp id="b17cb1aa-0a08-4b4b-a42c-2e443cb2703e">
+<when>2017-10-27 16:19:09</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="9f7dfa66-0c0c-4713-8846-82dbf2815bfc">
+<coordinates>34.80724915968755,32.16738290292402</coordinates>
+</Point>
+</Placemark>
+<Placemark id="c01499e4-34b7-4ae1-b98a-3cc19ece0218">
+<name>Vexlerar</name>
+<description>![CDATA[BSSID:e4:6f:13:70:97:c4
+Id: model=SHIELD Tablet
+Frequency:9
+Timestamp: 2017-10-27 16:19:09
+date: 2017-10-27 16:19:09</description>
+<TimeStamp id="b238b83c-8418-4a4a-b6a7-3910910c67ce">
+<when>2017-10-27 16:19:09</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="76baff30-0db3-485e-9bf3-891d2c8890e8">
+<coordinates>34.80724915968755,32.16738290292402</coordinates>
+</Point>
+</Placemark>
+<Placemark id="9d65c896-2729-4848-9769-47e1cf5f9470">
+<name>Ester_wifi</name>
+<description>![CDATA[BSSID:84:26:15:eb:2d:b3
+Id: model=SHIELD Tablet
+Frequency:11
+Timestamp: 2017-10-27 16:19:09
+date: 2017-10-27 16:19:09</description>
+<TimeStamp id="26d87465-85f8-4572-8f51-60722671d80c">
+<when>2017-10-27 16:19:09</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="a488031e-ed9e-4bee-890b-f381eac4a40e">
+<coordinates>34.80724915968755,32.16738290292402</coordinates>
+</Point>
+</Placemark>
+<Placemark id="a532a8b2-b416-4735-8ca1-5d412856af05">
+<name>INGENEO</name>
+<description>![CDATA[BSSID:cc:b2:55:e8:4c:e6
+Id: model=SHIELD Tablet
+Frequency:6
+Timestamp: 2017-10-27 16:19:09
+date: 2017-10-27 16:19:09</description>
+<TimeStamp id="12c66b70-2be3-40f6-bfc4-bd753750cdf1">
+<when>2017-10-27 16:19:09</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="2d0fe600-c50e-4ca4-b724-b9a08b692fe0">
+<coordinates>34.80724915968755,32.16738290292402</coordinates>
+</Point>
+</Placemark>
+<Placemark id="7ea1509c-de4a-4099-a341-302e64ff7024">
+<name>KaymeraDev</name>
+<description>![CDATA[BSSID:00:f6:63:3a:f4:81
+Id: model=SHIELD Tablet
+Frequency:1
+Timestamp: 2017-10-27 16:19:09
+date: 2017-10-27 16:19:09</description>
+<TimeStamp id="7413656b-0893-4469-8b59-ccc573d0c124">
+<when>2017-10-27 16:19:09</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="8756fb95-5dee-499a-9311-5e4d6476d1e6">
+<coordinates>34.80724915968755,32.16738290292402</coordinates>
+</Point>
+</Placemark>
+<Placemark id="bd80fcd6-9bef-46a4-8a0a-e775e81d67da">
+<name>Rabia</name>
+<description>![CDATA[BSSID:30:b5:c2:bd:52:40
+Id: model=SHIELD Tablet
+Frequency:6
+Timestamp: 2017-10-27 16:19:09
+date: 2017-10-27 16:19:09</description>
+<TimeStamp id="850c797b-f24e-4ed6-8619-2a721ac11fd7">
+<when>2017-10-27 16:19:09</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="0cd5f3cd-7935-49b3-b221-f42fb3a3651a">
+<coordinates>34.80724915968755,32.16738290292402</coordinates>
+</Point>
+</Placemark>
+<Placemark id="e9845e32-498a-4da4-9ff1-9d44a2802553">
+<name>Barda</name>
+<description>![CDATA[BSSID:00:78:9e:fa:dc:f4
+Id: model=SHIELD Tablet
+Frequency:1
+Timestamp: 2017-10-27 16:19:09
+date: 2017-10-27 16:19:09</description>
+<TimeStamp id="608be2df-1928-43a7-96dd-3486b735671f">
+<when>2017-10-27 16:19:09</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="f282cf52-02d7-454f-840e-6d2e96645ca9">
+<coordinates>34.80724915968755,32.16738290292402</coordinates>
+</Point>
+</Placemark>
+<Placemark id="04c25d68-0fd3-4bc9-a863-68fd795e4a57">
+<name>HP-Print-A0-LaserJet Pro MFP</name>
+<description>![CDATA[BSSID:30:f7:72:6e:8e:a0
+Id: model=SHIELD Tablet
+Frequency:6
+Timestamp: 2017-10-27 16:19:14
+date: 2017-10-27 16:19:14</description>
+<TimeStamp id="df51070c-19fd-4700-98fb-7ee2ec3bcb62">
+<when>2017-10-27 16:19:14</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="2bec2220-3dbc-4ecd-b7e6-0ac78456a695">
+<coordinates>34.80662290618607,32.167616982375094</coordinates>
+</Point>
+</Placemark>
+<Placemark id="df56b20b-eb16-40f5-9182-455996612ff4">
+<name>RS_GUEST</name>
+<description>![CDATA[BSSID:ec:08:6b:38:0d:0e
+Id: model=SHIELD Tablet
+Frequency:12
+Timestamp: 2017-10-27 16:19:14
+date: 2017-10-27 16:19:14</description>
+<TimeStamp id="f0a81c80-2715-4dbf-abb5-4a54b747399b">
+<when>2017-10-27 16:19:14</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="e0f9a2e9-50db-4f03-8869-e6435fa18243">
+<coordinates>34.80662290618607,32.167616982375094</coordinates>
+</Point>
+</Placemark>
+<Placemark id="2b37e418-0fdf-4132-8573-c20bb4e92e19">
+<name>Training Room</name>
+<description>![CDATA[BSSID:8e:15:44:ac:d4:e4
+Id: model=SHIELD Tablet
+Frequency:6
+Timestamp: 2017-10-27 16:19:14
+date: 2017-10-27 16:19:14</description>
+<TimeStamp id="7c5e96f8-2f75-49c3-8f05-9e11bd6c33db">
+<when>2017-10-27 16:19:14</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="cf969eb4-eb55-48f7-9722-b679559637d3">
+<coordinates>34.80662290618607,32.167616982375094</coordinates>
+</Point>
+</Placemark>
+<Placemark id="59168dbd-a539-43a6-af47-7091664060c1">
+<name>HP-Print-b7-LaserJet 300</name>
+<description>![CDATA[BSSID:34:23:87:36:c9:b7
+Id: model=SHIELD Tablet
+Frequency:1
+Timestamp: 2017-10-27 16:19:14
+date: 2017-10-27 16:19:14</description>
+<TimeStamp id="6aabae5d-d28d-4a49-906a-965fe07f136d">
+<when>2017-10-27 16:19:14</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="d629a815-c8ce-44ff-914e-921a54cc5233">
+<coordinates>34.80662290618607,32.167616982375094</coordinates>
+</Point>
+</Placemark>
+<Placemark id="13320cfd-c798-4eb8-af0c-09cd91dc6160">
+<name>Rainbow Guest</name>
+<description>![CDATA[BSSID:a2:6c:ac:f3:6a:69
+Id: model=SHIELD Tablet
+Frequency:5
+Timestamp: 2017-10-27 16:19:14
+date: 2017-10-27 16:19:14</description>
+<TimeStamp id="9064ef91-fc18-488c-8210-f83f4e342840">
+<when>2017-10-27 16:19:14</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="26d49430-3154-474b-9101-9058080b9614">
+<coordinates>34.80662290618607,32.167616982375094</coordinates>
+</Point>
+</Placemark>
+<Placemark id="89e6298a-cc65-4fc2-858a-75677155860f">
+<name>Maxillent</name>
+<description>![CDATA[BSSID:90:6c:ac:60:6c:8b
+Id: model=SHIELD Tablet
+Frequency:3
+Timestamp: 2017-10-27 16:19:14
+date: 2017-10-27 16:19:14</description>
+<TimeStamp id="0b3c982c-e49b-43ba-8dca-0fcfa412f2d1">
+<when>2017-10-27 16:19:14</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="f7c16d1e-c364-472d-b758-b705be9ff302">
+<coordinates>34.80662290618607,32.167616982375094</coordinates>
+</Point>
+</Placemark>
+<Placemark id="7d3b6b52-7343-42d3-9b1c-fd30183f3a48">
+<name>FlixU</name>
+<description>![CDATA[BSSID:cc:b2:55:e5:ce:f3
+Id: model=SHIELD Tablet
+Frequency:6
+Timestamp: 2017-10-27 16:19:14
+date: 2017-10-27 16:19:14</description>
+<TimeStamp id="77c18e91-c8b5-4902-916f-23925eb368cd">
+<when>2017-10-27 16:19:14</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="9048f2cf-0c1b-4b42-9b8d-2a06022f8b42">
+<coordinates>34.80662290618607,32.167616982375094</coordinates>
+</Point>
+</Placemark>
+<Placemark id="063483ab-42d2-4cf5-b4b2-b6846fc0eb49">
+<name>BlueSnap-Guest-2.4GHz</name>
+<description>![CDATA[BSSID:c0:56:27:a0:6c:9a
+Id: model=SHIELD Tablet
+Frequency:3
+Timestamp: 2017-10-27 16:19:14
+date: 2017-10-27 16:19:14</description>
+<TimeStamp id="bf31285e-2b66-4e8d-bf3d-6bf2e02f3de0">
+<when>2017-10-27 16:19:14</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="982a350b-d9ed-46a8-9f75-c7cdf754ba83">
+<coordinates>34.80662290618607,32.167616982375094</coordinates>
+</Point>
+</Placemark>
+<Placemark id="1589b4a7-c570-4fb2-b3a8-208a655fc2a6">
+<name>EL5</name>
+<description>![CDATA[BSSID:14:ae:db:3d:b1:55
+Id: model=SHIELD Tablet
+Frequency:48
+Timestamp: 2017-10-27 16:19:14
+date: 2017-10-27 16:19:14</description>
+<TimeStamp id="6bd6ea3e-08e6-4bc2-8a7f-ddafb5c8c01f">
+<when>2017-10-27 16:19:14</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="ed010eb1-b625-4de9-af93-90e6da32dd99">
+<coordinates>34.80662290618607,32.167616982375094</coordinates>
+</Point>
+</Placemark>
+<Placemark id="acfd6816-dbe5-4fac-85be-dfa7befcc61b">
+<name>Maxillent_Guest</name>
+<description>![CDATA[BSSID:a2:6c:ac:60:6c:8b
+Id: model=SHIELD Tablet
+Frequency:3
+Timestamp: 2017-10-27 16:19:14
+date: 2017-10-27 16:19:14</description>
+<TimeStamp id="205519ca-e628-4c74-9b12-112bfe160049">
+<when>2017-10-27 16:19:14</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="9f76a9f7-8c64-4817-aca2-fc2ece1b9252">
+<coordinates>34.80662290618607,32.167616982375094</coordinates>
+</Point>
+</Placemark>
+<Placemark id="7d5181b5-70a5-4781-92df-4964859a940d">
+<name>Guest Neetwork MM</name>
+<description>![CDATA[BSSID:94:f6:65:1b:b2:28
+Id: model=SHIELD Tablet
+Frequency:5
+Timestamp: 2017-10-27 16:19:20
+date: 2017-10-27 16:19:20</description>
+<TimeStamp id="beb206a3-bad2-427e-8c01-0f7e89c240ae">
+<when>2017-10-27 16:19:20</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="b1abe185-4783-4d4e-b4a7-526df8c629f1">
+<coordinates>34.80620000504734,32.1677801004292</coordinates>
+</Point>
+</Placemark>
+<Placemark id="9bb1dfd1-b658-41d4-860b-5d25b73557f7">
+<name>Efrat Networks MM</name>
+<description>![CDATA[BSSID:94:f6:65:5b:b2:28
+Id: model=SHIELD Tablet
+Frequency:5
+Timestamp: 2017-10-27 16:19:20
+date: 2017-10-27 16:19:20</description>
+<TimeStamp id="41dc62ed-95b5-4c57-b79c-ff9676cfc7f7">
+<when>2017-10-27 16:19:20</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="47212603-e06d-4035-a12e-682c738119c7">
+<coordinates>34.80620000504734,32.1677801004292</coordinates>
+</Point>
+</Placemark>
+<Placemark id="c5c9f23a-2e23-4d1f-816d-25b33e432451">
+<name>BERTOC-HOT</name>
+<description>![CDATA[BSSID:e0:ce:c3:8a:ad:63
+Id: model=SHIELD Tablet
+Frequency:13
+Timestamp: 2017-10-27 16:19:20
+date: 2017-10-27 16:19:20</description>
+<TimeStamp id="daa382f9-5d6e-43bf-8be0-adf7469ecea5">
+<when>2017-10-27 16:19:20</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="1e7c8ef1-b08d-4ec8-ad57-fb34ae7b6759">
+<coordinates>34.80620000504734,32.1677801004292</coordinates>
+</Point>
+</Placemark>
+<Placemark id="91e97462-0de0-41da-94b4-151363dd3080">
+<name>Barda_2</name>
+<description>![CDATA[BSSID:74:da:38:56:ed:e0
+Id: model=SHIELD Tablet
+Frequency:1
+Timestamp: 2017-10-27 16:19:20
+date: 2017-10-27 16:19:20</description>
+<TimeStamp id="b36463c1-9a9d-4fa3-a330-fb3cfec5cce6">
+<when>2017-10-27 16:19:20</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="9095299e-e8c1-4061-80e0-129b347950e5">
+<coordinates>34.80620000504734,32.1677801004292</coordinates>
+</Point>
+</Placemark>
+<Placemark id="2d57fa4d-5a01-4846-828e-0bd3d36fe29e">
+<name>EL</name>
+<description>![CDATA[BSSID:14:ae:db:3d:b1:52
+Id: model=SHIELD Tablet
+Frequency:9
+Timestamp: 2017-10-27 16:19:20
+date: 2017-10-27 16:19:20</description>
+<TimeStamp id="1a7d9725-7e70-47ee-86e0-1b209a340c12">
+<when>2017-10-27 16:19:20</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="cc35fe2c-a7bb-4683-abe8-49d8aad9c96b">
+<coordinates>34.80620000504734,32.1677801004292</coordinates>
+</Point>
+</Placemark>
+<Placemark id="8e56b052-8ccc-4f22-be55-bcbd4a9128a6">
+<name>Home.</name>
+<description>![CDATA[BSSID:a0:ab:1b:62:a7:bc
+Id: model=SHIELD Tablet
+Frequency:1
+Timestamp: 2017-10-27 16:19:20
+date: 2017-10-27 16:19:20</description>
+<TimeStamp id="d10b5ec9-2e9f-45d3-851d-d328f2dcca8e">
+<when>2017-10-27 16:19:20</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="a85bb4b4-abae-4490-8a7d-96181299b884">
+<coordinates>34.80620000504734,32.1677801004292</coordinates>
+</Point>
+</Placemark>
+<Placemark id="751fd84b-357b-4cef-9710-44fbbc4a7d8d">
+<name>Vexlerar</name>
+<description>![CDATA[BSSID:e4:6f:13:70:97:c4
+Id: model=SHIELD Tablet
+Frequency:9
+Timestamp: 2017-10-27 16:19:20
+date: 2017-10-27 16:19:20</description>
+<TimeStamp id="e25aeade-238e-4712-a4b8-803212695ef5">
+<when>2017-10-27 16:19:20</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="201bec04-d20c-4dd1-8028-230e5e721082">
+<coordinates>34.80620000504734,32.1677801004292</coordinates>
+</Point>
+</Placemark>
+<Placemark id="e849db76-37fc-4d4c-b475-7d23e03f1eea">
+<name>Ester_wifi</name>
+<description>![CDATA[BSSID:84:26:15:eb:2d:b3
+Id: model=SHIELD Tablet
+Frequency:11
+Timestamp: 2017-10-27 16:19:20
+date: 2017-10-27 16:19:20</description>
+<TimeStamp id="f34f289b-6c60-4627-b811-13ec857fdafc">
+<when>2017-10-27 16:19:20</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="8f6f3c3f-466e-4e99-b3fb-aeb2d84d34d4">
+<coordinates>34.80620000504734,32.1677801004292</coordinates>
+</Point>
+</Placemark>
+<Placemark id="6a34e067-85a6-4c5c-b248-db562f75a6a1">
+<name>INGENEO</name>
+<description>![CDATA[BSSID:cc:b2:55:e8:4c:e6
+Id: model=SHIELD Tablet
+Frequency:6
+Timestamp: 2017-10-27 16:19:20
+date: 2017-10-27 16:19:20</description>
+<TimeStamp id="80c48844-7297-4bac-a4bd-cd7f39bef709">
+<when>2017-10-27 16:19:20</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="cd2932fb-d0c5-4483-8c25-cacf039eaac3">
+<coordinates>34.80620000504734,32.1677801004292</coordinates>
+</Point>
+</Placemark>
+<Placemark id="0d15c890-d8e0-4b31-ba7f-ab90ffef80fa">
+<name>KaymeraDev</name>
+<description>![CDATA[BSSID:00:f6:63:3a:f4:81
+Id: model=SHIELD Tablet
+Frequency:1
+Timestamp: 2017-10-27 16:19:20
+date: 2017-10-27 16:19:20</description>
+<TimeStamp id="b1499e29-40d2-48f4-8867-d507fd0b834c">
+<when>2017-10-27 16:19:20</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="fb60a32f-f2d9-4aac-bf64-f71adc4d32f9">
+<coordinates>34.80620000504734,32.1677801004292</coordinates>
+</Point>
+</Placemark>
+<Placemark id="1f79c789-2e3e-4c12-b32a-db13d39e1039">
+<name>Rabia</name>
+<description>![CDATA[BSSID:30:b5:c2:bd:52:40
+Id: model=SHIELD Tablet
+Frequency:6
+Timestamp: 2017-10-27 16:19:20
+date: 2017-10-27 16:19:20</description>
+<TimeStamp id="ac07d838-2cea-47dd-9dff-039b2c57cbb6">
+<when>2017-10-27 16:19:20</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="271db053-2413-44e6-9d65-26d63ac2430e">
+<coordinates>34.80620000504734,32.1677801004292</coordinates>
+</Point>
+</Placemark>
+<Placemark id="0b6b987f-831c-4e6b-b63a-c3ffcc47b708">
+<name>Barda</name>
+<description>![CDATA[BSSID:00:78:9e:fa:dc:f4
+Id: model=SHIELD Tablet
+Frequency:1
+Timestamp: 2017-10-27 16:19:20
+date: 2017-10-27 16:19:20</description>
+<TimeStamp id="da6e324d-5394-4ead-8a1c-4a4a7e39be3e">
+<when>2017-10-27 16:19:20</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="4277550b-32cc-4a04-b7ef-7318e981729b">
+<coordinates>34.80620000504734,32.1677801004292</coordinates>
+</Point>
+</Placemark>
+<Placemark id="3e7d62db-dfed-4b7e-8653-f917925886c0">
+<name>Heifes</name>
+<description>![CDATA[BSSID:20:0c:c8:10:c8:11
+Id: model=SHIELD Tablet
+Frequency:1
+Timestamp: 2017-10-27 16:19:25
+date: 2017-10-27 16:19:25</description>
+<TimeStamp id="f419294f-7016-4fd7-8075-f22dc71f733c">
+<when>2017-10-27 16:19:25</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="c342746a-a8e3-44af-b74b-680ae9b6752f">
+<coordinates>34.80613816490372,32.16781903373735</coordinates>
+</Point>
+</Placemark>
+<Placemark id="8a4fcea7-e5d0-45ab-8872-125fadc5fb9e">
+<name>Bezeq Free D02536</name>
+<description>![CDATA[BSSID:72:0c:c8:10:c8:12
+Id: model=SHIELD Tablet
+Frequency:1
+Timestamp: 2017-10-27 16:19:25
+date: 2017-10-27 16:19:25</description>
+<TimeStamp id="adfc0e1e-12c2-4641-838a-7a61396338dc">
+<when>2017-10-27 16:19:25</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="8b13e7fe-991c-4963-a318-294c1605ee6c">
+<coordinates>34.80613816490372,32.16781903373735</coordinates>
+</Point>
+</Placemark>
+<Placemark id="19b40879-2df4-44d2-a84c-857ff8b22c6e">
+<name>Annatel_3372.5</name>
+<description>![CDATA[BSSID:74:da:38:a9:0c:43
+Id: model=SHIELD Tablet
+Frequency:44
+Timestamp: 2017-10-27 16:19:25
+date: 2017-10-27 16:19:25</description>
+<TimeStamp id="8d791295-6641-4ee5-be84-f1ccf5659f43">
+<when>2017-10-27 16:19:25</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="4f00aa66-b2bc-41c0-90da-b73e721c699e">
+<coordinates>34.80613816490372,32.16781903373735</coordinates>
+</Point>
+</Placemark>
+<Placemark id="c100154b-ef95-41fc-9219-67ad859ad6e4">
+<name>P-HOME</name>
+<description>![CDATA[BSSID:2c:5d:93:11:60:b8
+Id: model=SHIELD Tablet
+Frequency:12
+Timestamp: 2017-10-27 16:19:25
+date: 2017-10-27 16:19:25</description>
+<TimeStamp id="49c05d63-f5cd-4263-adbb-a9be07e894e7">
+<when>2017-10-27 16:19:25</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="7244bf37-23a6-411a-b643-2fc822b557f4">
+<coordinates>34.80613816490372,32.16781903373735</coordinates>
+</Point>
+</Placemark>
+<Placemark id="28c931a6-5881-4d4e-8414-fe67afabf02d">
+<name>shor_Ext</name>
+<description>![CDATA[BSSID:e2:91:f5:b6:ec:a8
+Id: model=SHIELD Tablet
+Frequency:11
+Timestamp: 2017-10-27 16:19:25
+date: 2017-10-27 16:19:25</description>
+<TimeStamp id="f62349a8-cb65-44a3-b21e-6c31dfbb653d">
+<when>2017-10-27 16:19:25</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="a3d7f16e-9342-4bcf-99f7-7afa9cbade42">
+<coordinates>34.80613816490372,32.16781903373735</coordinates>
+</Point>
+</Placemark>
+<Placemark id="016f212b-34fc-419c-9189-087a497aac57">
+<name>DIRECT-17-HP DeskJet 3830 series</name>
+<description>![CDATA[BSSID:94:57:a5:4a:f4:89
+Id: model=SHIELD Tablet
+Frequency:11
+Timestamp: 2017-10-27 16:19:25
+date: 2017-10-27 16:19:25</description>
+<TimeStamp id="0613e6f1-2e86-42ca-b612-4c22ffda137f">
+<when>2017-10-27 16:19:25</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="be97d5fd-5055-4a0d-93f8-6156a6bc86f3">
+<coordinates>34.80613816490372,32.16781903373735</coordinates>
+</Point>
+</Placemark>
+<Placemark id="c8135594-9e3a-4f28-928d-e1b002323970">
+<name>gabriel</name>
+<description>![CDATA[BSSID:90:8d:78:50:6a:12
+Id: model=SHIELD Tablet
+Frequency:11
+Timestamp: 2017-10-27 16:19:40
+date: 2017-10-27 16:19:40</description>
+<TimeStamp id="dbae2b5b-ab4e-4d0a-bb9c-1ea94e089603">
+<when>2017-10-27 16:19:40</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="7a343819-c425-4571-8176-f53f5bff8b48">
+<coordinates>34.805424308152844,32.16802035700693</coordinates>
+</Point>
+</Placemark>
+<Placemark id="00db3c40-afc1-44b6-b189-1d80fe9a2047">
+<name>Home</name>
+<description>![CDATA[BSSID:14:ae:db:53:0c:2d
+Id: model=SHIELD Tablet
+Frequency:6
+Timestamp: 2017-10-27 16:19:40
+date: 2017-10-27 16:19:40</description>
+<TimeStamp id="9415e17e-5c35-4666-b168-2d2988f8094b">
+<when>2017-10-27 16:19:40</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="56ccd825-afa3-4b71-8fdc-bc5947dd02e3">
+<coordinates>34.805424308152844,32.16802035700693</coordinates>
+</Point>
+</Placemark>
+<Placemark id="59ce92fc-452b-40e8-b219-491a3870b276">
+<name>Heifes</name>
+<description>![CDATA[BSSID:20:0c:c8:10:c8:11
+Id: model=SHIELD Tablet
+Frequency:1
+Timestamp: 2017-10-27 16:19:43
+date: 2017-10-27 16:19:43</description>
+<TimeStamp id="eff3300f-599f-420d-afea-dc733584a4e6">
+<when>2017-10-27 16:19:43</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="8d3aa270-1cb1-4d72-8cce-d30aae01e6f8">
+<coordinates>34.80502513397455,32.16808221454276</coordinates>
+</Point>
+</Placemark>
+<Placemark id="5f019c55-ec54-48e4-bc78-2423c3d827e1">
+<name>Bezeq Free D02536</name>
+<description>![CDATA[BSSID:72:0c:c8:10:c8:12
+Id: model=SHIELD Tablet
+Frequency:1
+Timestamp: 2017-10-27 16:19:43
+date: 2017-10-27 16:19:43</description>
+<TimeStamp id="415d8b70-fdc3-45ed-98ef-9126e8dfbe04">
+<when>2017-10-27 16:19:43</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="f37f4c89-6f2a-4d8d-bf39-aa8847ed0066">
+<coordinates>34.80502513397455,32.16808221454276</coordinates>
+</Point>
+</Placemark>
+<Placemark id="7ce4bd5f-f2c3-498a-bad5-c3dda6ee1cce">
+<name>Annatel_3372.5</name>
+<description>![CDATA[BSSID:74:da:38:a9:0c:43
+Id: model=SHIELD Tablet
+Frequency:44
+Timestamp: 2017-10-27 16:19:43
+date: 2017-10-27 16:19:43</description>
+<TimeStamp id="1af1ddcb-2b3d-40e0-abc1-a23780e3ec5a">
+<when>2017-10-27 16:19:43</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="7e4db553-c3d6-4fc5-b5d1-733e108084b6">
+<coordinates>34.80502513397455,32.16808221454276</coordinates>
+</Point>
+</Placemark>
+<Placemark id="ce88d737-6e2f-45ab-b9e0-b3905fa27b7f">
+<name>P-HOME</name>
+<description>![CDATA[BSSID:2c:5d:93:11:60:b8
+Id: model=SHIELD Tablet
+Frequency:12
+Timestamp: 2017-10-27 16:19:43
+date: 2017-10-27 16:19:43</description>
+<TimeStamp id="ae890adf-c158-496e-a5a6-54ec6c49915a">
+<when>2017-10-27 16:19:43</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="81f5174c-e294-4090-b624-e9a16366b3f8">
+<coordinates>34.80502513397455,32.16808221454276</coordinates>
+</Point>
+</Placemark>
+<Placemark id="f7ed2afd-3902-419c-bc9d-a693b60c11b4">
+<name>shor_Ext</name>
+<description>![CDATA[BSSID:e2:91:f5:b6:ec:a8
+Id: model=SHIELD Tablet
+Frequency:11
+Timestamp: 2017-10-27 16:19:43
+date: 2017-10-27 16:19:43</description>
+<TimeStamp id="982df021-5170-498a-b066-ee798c2bf67d">
+<when>2017-10-27 16:19:43</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="d2fb59f5-a6fe-4c2f-89c4-31d6ee5911da">
+<coordinates>34.80502513397455,32.16808221454276</coordinates>
+</Point>
+</Placemark>
+<Placemark id="544f11ee-13ea-4488-807d-d6fe4f2e9e9d">
+<name>DIRECT-17-HP DeskJet 3830 series</name>
+<description>![CDATA[BSSID:94:57:a5:4a:f4:89
+Id: model=SHIELD Tablet
+Frequency:11
+Timestamp: 2017-10-27 16:19:43
+date: 2017-10-27 16:19:43</description>
+<TimeStamp id="5263a5fc-522a-4338-bb27-868810b49a0a">
+<when>2017-10-27 16:19:43</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="f0a58a19-a1b1-4635-9f28-a3a9b7ee97d8">
+<coordinates>34.80502513397455,32.16808221454276</coordinates>
+</Point>
+</Placemark>
+<Placemark id="361681c6-bfe3-4b5c-aab9-7e08b8d2c31b">
+<name>gabriel</name>
+<description>![CDATA[BSSID:90:8d:78:50:6a:12
+Id: model=SHIELD Tablet
+Frequency:11
+Timestamp: 2017-10-27 16:19:49
+date: 2017-10-27 16:19:49</description>
+<TimeStamp id="5666fe44-0a6d-4edb-9097-8b90ce66610e">
+<when>2017-10-27 16:19:49</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="41f8765c-c8db-4f73-8233-5c5f6d5fde56">
+<coordinates>34.804202296540176,32.16817330438178</coordinates>
+</Point>
+</Placemark>
+<Placemark id="7879a496-d2ce-437b-95e7-1b868a536638">
+<name>Home</name>
+<description>![CDATA[BSSID:14:ae:db:53:0c:2d
+Id: model=SHIELD Tablet
+Frequency:6
+Timestamp: 2017-10-27 16:19:49
+date: 2017-10-27 16:19:49</description>
+<TimeStamp id="0159b2ee-0ca9-454d-9989-37e7e4982781">
+<when>2017-10-27 16:19:49</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="0240a895-a411-427d-b619-77ee42b868ec">
+<coordinates>34.804202296540176,32.16817330438178</coordinates>
+</Point>
+</Placemark>
+<Placemark id="d27e6265-ec99-46e3-abda-4e910ae5f6f4">
+<name>Heifes</name>
+<description>![CDATA[BSSID:20:0c:c8:10:c8:11
+Id: model=SHIELD Tablet
+Frequency:1
+Timestamp: 2017-10-27 16:19:51
+date: 2017-10-27 16:19:51</description>
+<TimeStamp id="b1560227-6ede-4c26-9d61-9b19af70cb4f">
+<when>2017-10-27 16:19:51</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="48f8a882-1a02-4bdb-bb4c-a51b6e78e1dd">
+<coordinates>34.8039689303318,32.16820290277182</coordinates>
+</Point>
+</Placemark>
+<Placemark id="c11c1762-a90b-478d-9221-fcfa4256b93b">
+<name>Bezeq Free D02536</name>
+<description>![CDATA[BSSID:72:0c:c8:10:c8:12
+Id: model=SHIELD Tablet
+Frequency:1
+Timestamp: 2017-10-27 16:19:51
+date: 2017-10-27 16:19:51</description>
+<TimeStamp id="37a850b1-1e44-4992-9890-8df058d96c62">
+<when>2017-10-27 16:19:51</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="3b5684fe-a49a-4a18-9cee-f57573e60271">
+<coordinates>34.8039689303318,32.16820290277182</coordinates>
+</Point>
+</Placemark>
+<Placemark id="41401307-19c5-4b40-b5f2-e7abd1059653">
+<name>Annatel_3372.5</name>
+<description>![CDATA[BSSID:74:da:38:a9:0c:43
+Id: model=SHIELD Tablet
+Frequency:44
+Timestamp: 2017-10-27 16:19:51
+date: 2017-10-27 16:19:51</description>
+<TimeStamp id="22d09274-718a-4118-b695-dcc7aa322052">
+<when>2017-10-27 16:19:51</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="ad2fc1ec-ff57-47b4-8d5a-cf444cdd3a4b">
+<coordinates>34.8039689303318,32.16820290277182</coordinates>
+</Point>
+</Placemark>
+<Placemark id="88103a9f-0e79-4b4e-9893-8d60a82dfb77">
+<name>P-HOME</name>
+<description>![CDATA[BSSID:2c:5d:93:11:60:b8
+Id: model=SHIELD Tablet
+Frequency:12
+Timestamp: 2017-10-27 16:19:51
+date: 2017-10-27 16:19:51</description>
+<TimeStamp id="e78ff955-71f5-4638-af25-6dbe7532940f">
+<when>2017-10-27 16:19:51</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="5cf1f4f9-750a-4fa7-8fb6-2daafa775819">
+<coordinates>34.8039689303318,32.16820290277182</coordinates>
+</Point>
+</Placemark>
+<Placemark id="6ddfcc6b-84a6-4d7a-a615-c03ecd98c42e">
+<name>shor_Ext</name>
+<description>![CDATA[BSSID:e2:91:f5:b6:ec:a8
+Id: model=SHIELD Tablet
+Frequency:11
+Timestamp: 2017-10-27 16:19:51
+date: 2017-10-27 16:19:51</description>
+<TimeStamp id="47f1c444-73be-46a7-b97f-bf015418fb7b">
+<when>2017-10-27 16:19:51</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="81fa532d-dd5e-4a5e-b8af-35a61602df8f">
+<coordinates>34.8039689303318,32.16820290277182</coordinates>
+</Point>
+</Placemark>
+<Placemark id="ccc9e091-a576-4bbc-ba3a-b01c2b335977">
+<name>DIRECT-17-HP DeskJet 3830 series</name>
+<description>![CDATA[BSSID:94:57:a5:4a:f4:89
+Id: model=SHIELD Tablet
+Frequency:11
+Timestamp: 2017-10-27 16:19:51
+date: 2017-10-27 16:19:51</description>
+<TimeStamp id="5c39e0b1-3dcf-41c6-aa52-5a0fdd7e77c7">
+<when>2017-10-27 16:19:51</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="0255a3d0-aca1-4803-835b-6ded04ab7006">
+<coordinates>34.8039689303318,32.16820290277182</coordinates>
+</Point>
+</Placemark>
+<Placemark id="07ed378f-2931-4f39-a7b2-6878c42c8421">
+<name>Biana_n</name>
+<description>![CDATA[BSSID:14:ae:db:b2:8e:75
+Id: model=SHIELD Tablet
+Frequency:11
+Timestamp: 2017-10-27 16:19:56
+date: 2017-10-27 16:19:56</description>
+<TimeStamp id="ef25a6b8-bd72-4334-8cd2-9e05ef4806c5">
+<when>2017-10-27 16:19:56</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="9f1e672a-5f72-4e73-8398-8765a322bcee">
+<coordinates>34.803616397282674,32.16824863345016</coordinates>
+</Point>
+</Placemark>
+<Placemark id="63e4ede0-f0be-4928-86e1-75a460ba7e29">
+<name>HOT123</name>
+<description>![CDATA[BSSID:c0:ac:54:f6:c5:4b
+Id: model=SHIELD Tablet
+Frequency:1
+Timestamp: 2017-10-27 16:19:56
+date: 2017-10-27 16:19:56</description>
+<TimeStamp id="0852b7d1-0c32-4b5c-bdf2-3e0c9ad83809">
+<when>2017-10-27 16:19:56</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="d2a3a09d-66b1-41c5-83be-f4e2c55c93e2">
+<coordinates>34.803616397282674,32.16824863345016</coordinates>
+</Point>
+</Placemark>
+<Placemark id="14d09c08-edc1-4172-b4d6-cc7ab98ad3a8">
+<name>klara-012</name>
+<description>![CDATA[BSSID:c4:12:f5:fd:d1:94
+Id: model=SHIELD Tablet
+Frequency:2
+Timestamp: 2017-10-27 16:19:56
+date: 2017-10-27 16:19:56</description>
+<TimeStamp id="bfc23b15-7a16-473c-9929-e754d0790614">
+<when>2017-10-27 16:19:56</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="7d1983ae-496b-4d9f-a49e-70262cc7ad9e">
+<coordinates>34.803616397282674,32.16824863345016</coordinates>
+</Point>
+</Placemark>
+<Placemark id="dfed44c2-7cba-4981-8f49-4a7fd8963ea1">
+<name>gella555</name>
+<description>![CDATA[BSSID:00:22:b0:75:7d:eb
+Id: model=SHIELD Tablet
+Frequency:6
+Timestamp: 2017-10-27 16:19:56
+date: 2017-10-27 16:19:56</description>
+<TimeStamp id="f85c223a-fb65-4df5-93f8-d33fe1c01f0b">
+<when>2017-10-27 16:19:56</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="65f73106-216b-42a3-8c76-afb48fc91f9d">
+<coordinates>34.803616397282674,32.16824863345016</coordinates>
+</Point>
+</Placemark>
+<Placemark id="c9dcb9ed-08a7-4abb-99a3-64ab481c4557">
+<name>Bezeq Free</name>
+<description>![CDATA[BSSID:5a:b0:ce:33:a4:d6
+Id: model=SHIELD Tablet
+Frequency:1
+Timestamp: 2017-10-27 16:19:56
+date: 2017-10-27 16:19:56</description>
+<TimeStamp id="18c6eac4-d208-46e3-b736-40701fc98c99">
+<when>2017-10-27 16:19:56</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="cb67b8c0-42fe-4e11-9c55-6895c78b7468">
+<coordinates>34.803616397282674,32.16824863345016</coordinates>
+</Point>
+</Placemark>
+<Placemark id="996a8508-9c8c-4a9f-899c-dab2b92f37df">
+<name>hagit_2.4</name>
+<description>![CDATA[BSSID:6c:b0:ce:33:a4:d5
+Id: model=SHIELD Tablet
+Frequency:1
+Timestamp: 2017-10-27 16:19:56
+date: 2017-10-27 16:19:56</description>
+<TimeStamp id="7a6b44fa-e46c-448a-92c3-604abc57dc0f">
+<when>2017-10-27 16:19:56</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="bf56c87f-e4eb-4e44-b133-f6e2e07684e6">
+<coordinates>34.803616397282674,32.16824863345016</coordinates>
+</Point>
+</Placemark>
+<Placemark id="cc7d1d42-fdc1-4768-8f94-7f35a6de3a4c">
+<name>island-3927A0</name>
+<description>![CDATA[BSSID:d4:68:4d:79:27:a3
+Id: model=SHIELD Tablet
+Frequency:9
+Timestamp: 2017-10-27 16:24:39
+date: 2017-10-27 16:24:39</description>
+<TimeStamp id="a95934ed-377d-41f5-a016-51f3bdba764c">
+<when>2017-10-27 16:24:39</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="8fc7cf45-0226-4e4f-bc89-bc7dd77ca8a2">
+<coordinates>34.8027710954512,32.16777936548807</coordinates>
+</Point>
+</Placemark>
+<Placemark id="2e3bc544-38ab-4553-b87c-e5aa99ca7dba">
+<name>Rozalin.co.il</name>
+<description>![CDATA[BSSID:08:5b:0e:8e:06:97
+Id: model=SHIELD Tablet
+Frequency:1
+Timestamp: 2017-10-27 16:24:39
+date: 2017-10-27 16:24:39</description>
+<TimeStamp id="47c66d1b-1209-4de2-9ef8-494e3f8ba363">
+<when>2017-10-27 16:24:39</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="7d748d13-febb-4d71-94af-022b770818b5">
+<coordinates>34.8027710954512,32.16777936548807</coordinates>
+</Point>
+</Placemark>
+<Placemark id="51a49c48-6486-4488-8b19-9095b4142c65">
+<name>DIRECT-51-HP DeskJet 4670 series</name>
+<description>![CDATA[BSSID:30:e1:71:f0:7b:52
+Id: model=SHIELD Tablet
+Frequency:10
+Timestamp: 2017-10-27 16:24:39
+date: 2017-10-27 16:24:39</description>
+<TimeStamp id="14453f1f-2638-4435-8e9f-5cedf8a3a39a">
+<when>2017-10-27 16:24:39</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="1a90a1ff-2d31-424c-bf78-f79c9cf4e4c6">
+<coordinates>34.8027710954512,32.16777936548807</coordinates>
+</Point>
+</Placemark>
+<Placemark id="04fbf714-4778-4747-a316-19f013b8ea51">
+<name>SavantS</name>
+<description>![CDATA[BSSID:e4:f4:c6:d8:e8:60
+Id: model=SHIELD Tablet
+Frequency:6
+Timestamp: 2017-10-27 16:24:39
+date: 2017-10-27 16:24:39</description>
+<TimeStamp id="c179195c-feca-4cd6-8998-772e0775f5de">
+<when>2017-10-27 16:24:39</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="19523c18-3de2-490a-9121-0e31e0b01920">
+<coordinates>34.8027710954512,32.16777936548807</coordinates>
+</Point>
+</Placemark>
+<Placemark id="2ddf5d50-45c3-4b32-8746-cd1e4de89ac0">
+<name>Bezeq Free</name>
+<description>![CDATA[BSSID:5a:b0:ce:33:a4:d6
+Id: model=SHIELD Tablet
+Frequency:1
+Timestamp: 2017-10-27 16:24:39
+date: 2017-10-27 16:24:39</description>
+<TimeStamp id="5b0e4b54-a48e-4b92-a4ce-39341fbe498a">
+<when>2017-10-27 16:24:39</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="c51b3155-ce06-4ffb-ab98-f218f695eeec">
+<coordinates>34.8027710954512,32.16777936548807</coordinates>
+</Point>
+</Placemark>
+<Placemark id="c81847bd-2c9c-4bc0-87c6-998f4dca804f">
+<name>Video Connection</name>
+<description>![CDATA[BSSID:6c:b0:ce:e8:2a:b0
+Id: model=SHIELD Tablet
+Frequency:1
+Timestamp: 2017-10-27 16:24:39
+date: 2017-10-27 16:24:39</description>
+<TimeStamp id="265b8a93-a60e-4f88-9560-5e9c33439498">
+<when>2017-10-27 16:24:39</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="1971e3cc-a4e6-4270-83ff-15a82ff036d7">
+<coordinates>34.8027710954512,32.16777936548807</coordinates>
+</Point>
+</Placemark>
+<Placemark id="2c31427e-cdcb-4c1c-8ddd-e3410dbb2cbd">
+<name>Benhamou</name>
+<description>![CDATA[BSSID:c4:12:f5:f5:45:f6
+Id: model=SHIELD Tablet
+Frequency:3
+Timestamp: 2017-10-27 16:24:39
+date: 2017-10-27 16:24:39</description>
+<TimeStamp id="3d5a7bfe-7b40-461b-a2fa-5a3af82d7d4b">
+<when>2017-10-27 16:24:39</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="80eae4e5-8287-4ab3-bd68-3da3c5ccf39f">
+<coordinates>34.8027710954512,32.16777936548807</coordinates>
+</Point>
+</Placemark>
+<Placemark id="e5b72422-70c2-4a44-b8a8-56b8d109d621">
+<name>BezeqNGN_98087</name>
+<description>![CDATA[BSSID:4c:60:de:42:20:28
+Id: model=SHIELD Tablet
+Frequency:11
+Timestamp: 2017-10-27 16:24:39
+date: 2017-10-27 16:24:39</description>
+<TimeStamp id="b36c193a-b3ff-43ff-89ad-80ac08c66e0c">
+<when>2017-10-27 16:24:39</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="ab515617-4418-474f-987e-b7674ec460a6">
+<coordinates>34.8027710954512,32.16777936548807</coordinates>
+</Point>
+</Placemark>
+<Placemark id="0eeb8e79-1ca4-421f-be69-211359ea8902">
+<name>hagit_2.4</name>
+<description>![CDATA[BSSID:6c:b0:ce:33:a4:d5
+Id: model=SHIELD Tablet
+Frequency:1
+Timestamp: 2017-10-27 16:24:39
+date: 2017-10-27 16:24:39</description>
+<TimeStamp id="ccfe504f-77b5-41cb-897c-6f0d752e1a54">
+<when>2017-10-27 16:24:39</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="82509b40-29ea-46b9-9537-bd02b7a77147">
+<coordinates>34.8027710954512,32.16777936548807</coordinates>
+</Point>
+</Placemark>
+<Placemark id="d03b1a04-6fa1-4623-b7eb-d017725bc3c6">
+<name>Daniela</name>
+<description>![CDATA[BSSID:14:ae:db:32:cf:42
+Id: model=SHIELD Tablet
+Frequency:7
+Timestamp: 2017-10-27 16:24:39
+date: 2017-10-27 16:24:39</description>
+<TimeStamp id="feec53eb-2af6-4ba6-950f-eafb4cde1dff">
+<when>2017-10-27 16:24:39</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="44da6147-7049-41c8-a8fc-42e2ee967ea0">
+<coordinates>34.8027710954512,32.16777936548807</coordinates>
+</Point>
+</Placemark>
+<Placemark id="634401c6-23ea-4daa-8064-81f12796600c">
+<name></name>
+<description>![CDATA[BSSID:d8:38:fc:66:dc:38
+Id: model=SHIELD Tablet
+Frequency:4
+Timestamp: 2017-10-27 16:24:39
+date: 2017-10-27 16:24:39</description>
+<TimeStamp id="ade24358-b960-4846-99d2-ca23143a614d">
+<when>2017-10-27 16:24:39</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="2c7a2e18-7915-4296-9069-1d0e4331441a">
+<coordinates>34.8027710954512,32.16777936548807</coordinates>
+</Point>
+</Placemark>
+<Placemark id="65d43779-c8d0-4763-9e08-a8cb5133138c">
+<name></name>
+<description>![CDATA[BSSID:d8:38:fc:65:d2:08
+Id: model=SHIELD Tablet
+Frequency:13
+Timestamp: 2017-10-27 16:24:39
+date: 2017-10-27 16:24:39</description>
+<TimeStamp id="4c95e46b-7f2a-45f9-a1ef-146f487f03e3">
+<when>2017-10-27 16:24:39</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="18bf85e7-0076-4626-a533-894deb1f1f14">
+<coordinates>34.8027710954512,32.16777936548807</coordinates>
+</Point>
+</Placemark>
+<Placemark id="c4689178-a463-4e5c-bbaa-1bcba870bc80">
+<name>DIRECT-roku-399-9052A3</name>
+<description>![CDATA[BSSID:88:de:a9:bf:04:2b
+Id: model=SHIELD Tablet
+Frequency:11
+Timestamp: 2017-10-27 16:24:39
+date: 2017-10-27 16:24:39</description>
+<TimeStamp id="50e84013-5347-4855-b272-3cb8379b3b81">
+<when>2017-10-27 16:24:39</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="57b236b4-afe4-4055-af01-9647a6916973">
+<coordinates>34.8027710954512,32.16777936548807</coordinates>
+</Point>
+</Placemark>
+<Placemark id="0e87e756-d4db-4cbf-a222-413cf05616b6">
+<name>finquel</name>
+<description>![CDATA[BSSID:f8:e9:03:11:e0:d8
+Id: model=SHIELD Tablet
+Frequency:1
+Timestamp: 2017-10-27 16:24:39
+date: 2017-10-27 16:24:39</description>
+<TimeStamp id="c3532dc7-5dec-488c-af4f-9f0a9b21aaec">
+<when>2017-10-27 16:24:39</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="6ed53652-bba8-4c80-b686-f046dbee8283">
+<coordinates>34.8027710954512,32.16777936548807</coordinates>
+</Point>
+</Placemark>
+<Placemark id="4ffb2d9a-a6d9-4a89-837e-f4f39b91035a">
+<name>Treepodia_WIFI2</name>
+<description>![CDATA[BSSID:90:6c:ac:a9:dd:ba
+Id: model=SHIELD Tablet
+Frequency:11
+Timestamp: 2017-10-27 16:24:39
+date: 2017-10-27 16:24:39</description>
+<TimeStamp id="4b4a0436-c38b-4d8e-99ee-3f8b98b4286c">
+<when>2017-10-27 16:24:39</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="7bafc4db-f8c5-405d-b9d4-597fee546d8d">
+<coordinates>34.8027710954512,32.16777936548807</coordinates>
+</Point>
+</Placemark>
+<Placemark id="166051b5-0d3c-4c77-a89c-2ede64bdf153">
+<name>DanAccadia</name>
+<description>![CDATA[BSSID:d8:38:fc:26:dc:38
+Id: model=SHIELD Tablet
+Frequency:4
+Timestamp: 2017-10-27 16:24:39
+date: 2017-10-27 16:24:39</description>
+<TimeStamp id="d87131ec-6227-47be-85b2-98381677a28e">
+<when>2017-10-27 16:24:39</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="65722f5a-40e1-480a-96e1-26a4be55b953">
+<coordinates>34.8027710954512,32.16777936548807</coordinates>
+</Point>
+</Placemark>
+<Placemark id="51d8b1c8-2c7d-4d1e-8131-4681e6a30d42">
+<name>DanAccadia</name>
+<description>![CDATA[BSSID:0c:f4:d5:1b:08:58
+Id: model=SHIELD Tablet
+Frequency:12
+Timestamp: 2017-10-27 16:24:39
+date: 2017-10-27 16:24:39</description>
+<TimeStamp id="51daf43a-a10b-49ef-8b2d-c901587eabae">
+<when>2017-10-27 16:24:39</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="164bd204-bca1-43c3-8b79-c9fc105f611d">
+<coordinates>34.8027710954512,32.16777936548807</coordinates>
+</Point>
+</Placemark>
+<Placemark id="0d0b1cc2-0763-4c1c-82cb-80c08b04dbdd">
+<name>099556880</name>
+<description>![CDATA[BSSID:10:0d:7f:99:bd:b2
+Id: model=SHIELD Tablet
+Frequency:11
+Timestamp: 2017-10-27 16:24:39
+date: 2017-10-27 16:24:39</description>
+<TimeStamp id="e1b43534-712f-4a39-87e8-c0429b7c3e5c">
+<when>2017-10-27 16:24:39</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="e78a96bb-e948-4b35-ba60-e3d088bb9284">
+<coordinates>34.8027710954512,32.16777936548807</coordinates>
+</Point>
+</Placemark>
+<Placemark id="eeaf37e2-37eb-4c63-8b66-a7956e82a5a5">
+<name>DanAccadia</name>
+<description>![CDATA[BSSID:d8:38:fc:26:d2:68
+Id: model=SHIELD Tablet
+Frequency:10
+Timestamp: 2017-10-27 16:24:39
+date: 2017-10-27 16:24:39</description>
+<TimeStamp id="bfe91107-7be9-4210-a04d-a5149da15628">
+<when>2017-10-27 16:24:39</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="84690113-b8a9-42e1-a71a-d77e1fe26357">
+<coordinates>34.8027710954512,32.16777936548807</coordinates>
+</Point>
+</Placemark>
+<Placemark id="3ace82f4-bf88-4616-ae09-b73a6df43b34">
+<name></name>
+<description>![CDATA[BSSID:0c:f4:d5:5b:e1:68
+Id: model=SHIELD Tablet
+Frequency:1
+Timestamp: 2017-10-27 16:24:39
+date: 2017-10-27 16:24:39</description>
+<TimeStamp id="e35716ee-7219-4304-a2eb-a8950c2fbd3e">
+<when>2017-10-27 16:24:39</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="0541c7ae-eb6e-41b7-8ed5-7391b7a2732e">
+<coordinates>34.8027710954512,32.16777936548807</coordinates>
+</Point>
+</Placemark>
+<Placemark id="90ab2ae4-0e12-48cf-ba07-732c68967934">
+<name>Happy Home Network</name>
+<description>![CDATA[BSSID:c0:a0:bb:cc:e2:3a
+Id: model=SHIELD Tablet
+Frequency:1
+Timestamp: 2017-10-27 16:24:39
+date: 2017-10-27 16:24:39</description>
+<TimeStamp id="44097c04-3d23-4588-968b-567789d71b96">
+<when>2017-10-27 16:24:39</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="83955606-ba2e-470a-aeea-f7c989d122b6">
+<coordinates>34.8027710954512,32.16777936548807</coordinates>
+</Point>
+</Placemark>
+<Placemark id="d1eaebef-52b0-4a56-854b-fe1b548ed92f">
+<name>TP-LINK_2.4GHz_BLITZISR</name>
+<description>![CDATA[BSSID:ec:08:6b:a0:d5:95
+Id: model=SHIELD Tablet
+Frequency:10
+Timestamp: 2017-10-27 16:24:39
+date: 2017-10-27 16:24:39</description>
+<TimeStamp id="6b350200-d9ae-4fca-b8a3-7f86e7d0b0a7">
+<when>2017-10-27 16:24:39</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="ba8669b1-30a0-44b9-aa9e-1ba8ddfb2df1">
+<coordinates>34.8027710954512,32.16777936548807</coordinates>
+</Point>
+</Placemark>
+<Placemark id="301825e0-9eea-4b90-ba6a-2eaa05439ad2">
+<name>DanAccadia</name>
+<description>![CDATA[BSSID:d8:38:fc:25:d2:08
+Id: model=SHIELD Tablet
+Frequency:13
+Timestamp: 2017-10-27 16:24:39
+date: 2017-10-27 16:24:39</description>
+<TimeStamp id="8b1bf928-010e-4a54-92d4-25e16e1bf0cc">
+<when>2017-10-27 16:24:39</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="b156383c-72de-48a0-a681-2669420950c6">
+<coordinates>34.8027710954512,32.16777936548807</coordinates>
+</Point>
+</Placemark>
+<Placemark id="9f41902a-1a90-4d30-9bfa-8f78f029b767">
+<name>bz46564990</name>
+<description>![CDATA[BSSID:48:ee:0c:3a:19:c7
+Id: model=SHIELD Tablet
+Frequency:10
+Timestamp: 2017-10-27 16:24:39
+date: 2017-10-27 16:24:39</description>
+<TimeStamp id="505255e8-72c5-4a87-a6dc-6a7a29b180de">
+<when>2017-10-27 16:24:39</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="568b347a-1e6d-47cb-a2ed-2eb8abd559bb">
+<coordinates>34.8027710954512,32.16777936548807</coordinates>
+</Point>
+</Placemark>
+<Placemark id="695f40d6-1e71-42e5-a99f-e786e34f72f6">
+<name></name>
+<description>![CDATA[BSSID:0c:f4:d5:5b:09:98
+Id: model=SHIELD Tablet
+Frequency:13
+Timestamp: 2017-10-27 16:24:39
+date: 2017-10-27 16:24:39</description>
+<TimeStamp id="1922a153-4bc4-4e54-bf6c-991ee00621d0">
+<when>2017-10-27 16:24:39</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="a49235a5-9e24-49a6-8942-b2af90069491">
+<coordinates>34.8027710954512,32.16777936548807</coordinates>
+</Point>
+</Placemark>
+<Placemark id="ba99ed4c-e4b2-46d2-ba19-271f5f333b46">
+<name></name>
+<description>![CDATA[BSSID:d8:38:fc:66:dd:d8
+Id: model=SHIELD Tablet
+Frequency:8
+Timestamp: 2017-10-27 16:24:39
+date: 2017-10-27 16:24:39</description>
+<TimeStamp id="75e162a1-956c-4210-8258-9f773cc05122">
+<when>2017-10-27 16:24:39</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="f2418997-b8cb-4d49-af93-2c6208e73920">
+<coordinates>34.8027710954512,32.16777936548807</coordinates>
+</Point>
+</Placemark>
+<Placemark id="3bff5163-2b74-4878-9d80-85e57948d038">
+<name></name>
+<description>![CDATA[BSSID:0c:f4:d5:5b:d3:38
+Id: model=SHIELD Tablet
+Frequency:4
+Timestamp: 2017-10-27 16:24:39
+date: 2017-10-27 16:24:39</description>
+<TimeStamp id="850bb37b-ea9b-4021-90b8-2cbf9c9bbee1">
+<when>2017-10-27 16:24:39</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="dee010d8-8235-447d-9852-75712e63d10d">
+<coordinates>34.8027710954512,32.16777936548807</coordinates>
+</Point>
+</Placemark>
+<Placemark id="cb08700f-0863-49a8-b31c-cc456fc69041">
+<name>DanAccadia</name>
+<description>![CDATA[BSSID:0c:f4:d5:1b:49:38
+Id: model=SHIELD Tablet
+Frequency:7
+Timestamp: 2017-10-27 16:24:39
+date: 2017-10-27 16:24:39</description>
+<TimeStamp id="039a5601-54cd-4fc7-b8a3-db973a0a694d">
+<when>2017-10-27 16:24:39</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="919210d4-fdb3-4c36-95ee-83652bb40b40">
+<coordinates>34.8027710954512,32.16777936548807</coordinates>
+</Point>
+</Placemark>
+<Placemark id="f23666cf-b01d-4405-a05b-46e47ae33c1a">
+<name>Yafim</name>
+<description>![CDATA[BSSID:14:ae:db:32:13:d2
+Id: model=SHIELD Tablet
+Frequency:5
+Timestamp: 2017-10-27 16:24:39
+date: 2017-10-27 16:24:39</description>
+<TimeStamp id="5e1cd93c-cb7f-4a11-a57c-ce72f7c463f8">
+<when>2017-10-27 16:24:39</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="92d76911-0cb4-4c2b-8785-da334895da61">
+<coordinates>34.8027710954512,32.16777936548807</coordinates>
+</Point>
+</Placemark>
+<Placemark id="74918ee3-ec5d-466e-bd5b-afc93f919af9">
+<name></name>
+<description>![CDATA[BSSID:d8:38:fc:67:19:f8
+Id: model=SHIELD Tablet
+Frequency:7
+Timestamp: 2017-10-27 16:24:39
+date: 2017-10-27 16:24:39</description>
+<TimeStamp id="164c1b48-ac4c-499b-b9a2-ead7e7d8b56f">
+<when>2017-10-27 16:24:39</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="8adce77c-c62a-4f3a-9d12-f512949e253b">
+<coordinates>34.8027710954512,32.16777936548807</coordinates>
+</Point>
+</Placemark>
+<Placemark id="ad1921e7-f311-4cfe-bae3-6e1329fffe7f">
+<name>PELEG</name>
+<description>![CDATA[BSSID:14:d6:4d:f4:42:d7
+Id: model=SHIELD Tablet
+Frequency:6
+Timestamp: 2017-10-27 16:24:39
+date: 2017-10-27 16:24:39</description>
+<TimeStamp id="56ab9059-ca5f-47be-81d1-68a606e51382">
+<when>2017-10-27 16:24:39</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="0af68212-9aa0-49db-99f2-35bca635b3ac">
+<coordinates>34.8027710954512,32.16777936548807</coordinates>
+</Point>
+</Placemark>
+<Placemark id="997f5d70-73ea-4e2f-81d3-ec749ed77d69">
+<name>Bezeq-N_c5c5a1</name>
+<description>![CDATA[BSSID:5c:d9:98:c5:c5:a2
+Id: model=SHIELD Tablet
+Frequency:6
+Timestamp: 2017-10-27 16:24:39
+date: 2017-10-27 16:24:39</description>
+<TimeStamp id="7bfadc5e-f421-4b05-ae0d-2b737cf4352a">
+<when>2017-10-27 16:24:39</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="6178ee9c-1687-443b-b36e-046bfd568458">
+<coordinates>34.8027710954512,32.16777936548807</coordinates>
+</Point>
+</Placemark>
+<Placemark id="9d5250f0-9136-4d79-8b57-0ead33d87685">
+<name>Chen</name>
+<description>![CDATA[BSSID:14:ae:db:30:c9:d2
+Id: model=SHIELD Tablet
+Frequency:2
+Timestamp: 2017-10-27 16:24:39
+date: 2017-10-27 16:24:39</description>
+<TimeStamp id="011e64f8-ab6a-4be1-883c-08a28289c6e1">
+<when>2017-10-27 16:24:39</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="b7112e87-e437-468a-b701-93e7bef3cabe">
+<coordinates>34.8027710954512,32.16777936548807</coordinates>
+</Point>
+</Placemark>
+<Placemark id="fafe2e26-87cf-4a88-a215-32dd608d6379">
+<name>DanAccadia</name>
+<description>![CDATA[BSSID:d8:38:fc:25:9d:28
+Id: model=SHIELD Tablet
+Frequency:4
+Timestamp: 2017-10-27 16:24:39
+date: 2017-10-27 16:24:39</description>
+<TimeStamp id="b3b05109-0eec-4909-8802-955f7579d6f4">
+<when>2017-10-27 16:24:39</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="ff66b13f-3d32-4dda-9a26-72a4c5a04519">
+<coordinates>34.8027710954512,32.16777936548807</coordinates>
+</Point>
+</Placemark>
+<Placemark id="b80a4586-948d-44f3-9260-60e40c2266a9">
+<name>dserota</name>
+<description>![CDATA[BSSID:00:1b:9e:7a:43:13
+Id: model=SHIELD Tablet
+Frequency:6
+Timestamp: 2017-10-27 16:24:39
+date: 2017-10-27 16:24:39</description>
+<TimeStamp id="cf33469b-b188-4013-8369-050e5679fab6">
+<when>2017-10-27 16:24:39</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="e3bc5035-9bb2-4fd5-85a6-ccd528615969">
+<coordinates>34.8027710954512,32.16777936548807</coordinates>
+</Point>
+</Placemark>
+<Placemark id="fbfb2b2d-3fb3-4650-ad1a-4726e0416daa">
+<name>TP-LINK_5GHz_BLITZISR</name>
+<description>![CDATA[BSSID:ec:08:6b:a0:d5:97
+Id: model=SHIELD Tablet
+Frequency:40
+Timestamp: 2017-10-27 16:24:39
+date: 2017-10-27 16:24:39</description>
+<TimeStamp id="16904c12-6da9-41e0-88b0-42f592905eda">
+<when>2017-10-27 16:24:39</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="d5fbaf19-a2b0-4d94-84c3-5d5f60361d17">
+<coordinates>34.8027710954512,32.16777936548807</coordinates>
+</Point>
+</Placemark>
+<Placemark id="2dc33489-cd91-49e0-a6b7-bfc44dc89b2e">
+<name>BezeqFree</name>
+<description>![CDATA[BSSID:6a:12:f5:84:50:41
+Id: model=SHIELD Tablet
+Frequency:8
+Timestamp: 2017-10-27 16:24:39
+date: 2017-10-27 16:24:39</description>
+<TimeStamp id="f23eafca-434d-4cc8-bc8b-43ff19dbf3b1">
+<when>2017-10-27 16:24:39</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="cbd50ffc-adfe-4ab4-a49d-be3858d2c57a">
+<coordinates>34.8027710954512,32.16777936548807</coordinates>
+</Point>
+</Placemark>
+<Placemark id="0c3341cf-ab00-46f1-8732-1f5ec941eb64">
+<name>feelhome</name>
+<description>![CDATA[BSSID:c0:ac:54:f7:3f:be
+Id: model=SHIELD Tablet
+Frequency:1
+Timestamp: 2017-10-27 16:24:39
+date: 2017-10-27 16:24:39</description>
+<TimeStamp id="e4177fe2-54fe-41dc-a944-10ed315ef8ed">
+<when>2017-10-27 16:24:39</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="fda34111-802f-4a50-8ed1-55e4a08eb074">
+<coordinates>34.8027710954512,32.16777936548807</coordinates>
+</Point>
+</Placemark>
+<Placemark id="3eec3c2f-5987-4305-bb4a-ebc32d849500">
+<name>Yoels</name>
+<description>![CDATA[BSSID:00:8c:54:8b:ec:e1
+Id: model=SHIELD Tablet
+Frequency:6
+Timestamp: 2017-10-27 16:24:39
+date: 2017-10-27 16:24:39</description>
+<TimeStamp id="a7373c5a-08cd-4918-822e-e8b027ccc745">
+<when>2017-10-27 16:24:39</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="50cd8a5e-08b3-4fc4-af94-29309c6e97de">
+<coordinates>34.8027710954512,32.16777936548807</coordinates>
+</Point>
+</Placemark>
+<Placemark id="78ebdd20-9ac5-48c9-8d4c-a42053241d54">
+<name>klara-012</name>
+<description>![CDATA[BSSID:c4:12:f5:fd:d1:94
+Id: model=SHIELD Tablet
+Frequency:2
+Timestamp: 2017-10-27 16:24:53
+date: 2017-10-27 16:24:53</description>
+<TimeStamp id="f98a1f1b-6cff-4dfa-84a4-e4b41f1008f9">
+<when>2017-10-27 16:24:53</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="2121035a-9dbc-4313-b5c9-39421f943a9a">
+<coordinates>34.80311068748561,32.167748736875794</coordinates>
+</Point>
+</Placemark>
+<Placemark id="35fe8b65-a47e-48de-ad8e-c28c6adef880">
+<name>HOTBOX-3A94</name>
+<description>![CDATA[BSSID:c0:ac:54:f8:0c:1f
+Id: model=SHIELD Tablet
+Frequency:11
+Timestamp: 2017-10-27 16:24:53
+date: 2017-10-27 16:24:53</description>
+<TimeStamp id="8299ad6c-c15c-4a72-839b-31800815cdc6">
+<when>2017-10-27 16:24:53</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="d134346a-b1ab-4104-9914-af82a18a730b">
+<coordinates>34.80311068748561,32.167748736875794</coordinates>
+</Point>
+</Placemark>
+<Placemark id="f77df028-0393-401f-9ac1-67815f12264a">
+<name>BezeqFree</name>
+<description>![CDATA[BSSID:6a:12:f5:84:50:41
+Id: model=SHIELD Tablet
+Frequency:8
+Timestamp: 2017-10-27 16:24:53
+date: 2017-10-27 16:24:53</description>
+<TimeStamp id="455903a7-da60-4966-b161-d41d7bd4d168">
+<when>2017-10-27 16:24:53</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="152c35f7-0dbc-4d85-9656-141e4fc16952">
+<coordinates>34.80311068748561,32.167748736875794</coordinates>
+</Point>
+</Placemark>
+<Placemark id="e34acc4e-bdc1-49c8-88fa-cf3cbc84084f">
+<name>opus7</name>
+<description>![CDATA[BSSID:c4:12:f5:84:50:40
+Id: model=SHIELD Tablet
+Frequency:8
+Timestamp: 2017-10-27 16:24:53
+date: 2017-10-27 16:24:53</description>
+<TimeStamp id="17fe58ca-8b2b-48a7-be84-c09ae742178e">
+<when>2017-10-27 16:24:53</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="5d61989c-d4f9-4ba3-99c0-cd9c4ac55bf8">
+<coordinates>34.80311068748561,32.167748736875794</coordinates>
+</Point>
+</Placemark>
+<Placemark id="e3c2f230-7b27-44b1-a2ab-07e0f7624092">
+<name>Roikhel</name>
+<description>![CDATA[BSSID:9c:d6:43:23:99:91
+Id: model=SHIELD Tablet
+Frequency:6
+Timestamp: 2017-10-27 16:24:53
+date: 2017-10-27 16:24:53</description>
+<TimeStamp id="b98fa1dc-13f2-4821-8079-b1105acbc63d">
+<when>2017-10-27 16:24:53</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="8903e369-5c0d-4057-9c98-c4eb24f577dc">
+<coordinates>34.80311068748561,32.167748736875794</coordinates>
+</Point>
+</Placemark>
+<Placemark id="2649ce70-9abb-461e-a0fe-d90997b469ee">
+<name>anna2.4</name>
+<description>![CDATA[BSSID:a0:ab:1b:62:76:ac
+Id: model=SHIELD Tablet
+Frequency:2
+Timestamp: 2017-10-27 16:24:53
+date: 2017-10-27 16:24:53</description>
+<TimeStamp id="b208e463-8a4e-411f-9781-f55d9d84a64a">
+<when>2017-10-27 16:24:53</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="0c781c6c-fc35-4c6f-8cb2-351410d97631">
+<coordinates>34.80311068748561,32.167748736875794</coordinates>
+</Point>
+</Placemark>
+<Placemark id="57bc4f5c-0748-4478-a02f-7b97631e6fed">
+<name>wingate</name>
+<description>![CDATA[BSSID:70:3a:cb:5f:4f:25
+Id: model=SHIELD Tablet
+Frequency:6
+Timestamp: 2017-10-27 16:24:53
+date: 2017-10-27 16:24:53</description>
+<TimeStamp id="054a4739-c51e-4ee8-8936-d77b7d3e9fe4">
+<when>2017-10-27 16:24:53</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="12d55f7c-eecf-4b85-bda9-a56d7861dde4">
+<coordinates>34.80311068748561,32.167748736875794</coordinates>
+</Point>
+</Placemark>
+<Placemark id="216718e7-4c2d-41ef-89bd-5e33ed5b6973">
+<name>SHURSH</name>
+<description>![CDATA[BSSID:00:22:3f:80:0d:4e
+Id: model=SHIELD Tablet
+Frequency:9
+Timestamp: 2017-10-27 16:24:53
+date: 2017-10-27 16:24:53</description>
+<TimeStamp id="80e22d1c-5ce9-491f-a83b-1ca052eb6a05">
+<when>2017-10-27 16:24:53</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="88e6b2f9-9680-4938-9e4e-82b816c030ed">
+<coordinates>34.80311068748561,32.167748736875794</coordinates>
+</Point>
+</Placemark>
+<Placemark id="c29d235a-a513-47de-8bab-b9de4ff587a8">
+<name>Bezeq Free</name>
+<description>![CDATA[BSSID:5a:b0:ce:33:a4:d6
+Id: model=SHIELD Tablet
+Frequency:1
+Timestamp: 2017-10-27 16:25:06
+date: 2017-10-27 16:25:06</description>
+<TimeStamp id="0d854099-096b-4a56-a98a-53c3e0bb9282">
+<when>2017-10-27 16:25:06</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="b2ad72f6-6149-41db-aac0-e67fbcd7a6f0">
+<coordinates>34.80404300164531,32.168124383652334</coordinates>
+</Point>
+</Placemark>
+<Placemark id="0121cdfd-9157-4f4e-9bb5-c0a94b16a897">
+<name>hagit_2.4</name>
+<description>![CDATA[BSSID:6c:b0:ce:33:a4:d5
+Id: model=SHIELD Tablet
+Frequency:1
+Timestamp: 2017-10-27 16:25:06
+date: 2017-10-27 16:25:06</description>
+<TimeStamp id="a5cdaae8-5172-4395-8020-b6125267a564">
+<when>2017-10-27 16:25:06</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="5dd46d8b-3449-42b6-bfc1-3bf97c400425">
+<coordinates>34.80404300164531,32.168124383652334</coordinates>
+</Point>
+</Placemark>
+<Placemark id="59e9bd0c-316f-4b2f-b500-f7ab639dc66f">
+<name>099556880</name>
+<description>![CDATA[BSSID:10:0d:7f:99:bd:b2
+Id: model=SHIELD Tablet
+Frequency:11
+Timestamp: 2017-10-27 16:25:06
+date: 2017-10-27 16:25:06</description>
+<TimeStamp id="3e6de9ea-6186-43ac-9104-11ee2d204ecc">
+<when>2017-10-27 16:25:06</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="868b2641-584b-4671-8b58-e228cd1ff880">
+<coordinates>34.80404300164531,32.168124383652334</coordinates>
+</Point>
+</Placemark>
+<Placemark id="a43575ff-7bed-4b88-8eae-ef781937232a">
+<name>bz46564990</name>
+<description>![CDATA[BSSID:48:ee:0c:3a:19:c7
+Id: model=SHIELD Tablet
+Frequency:10
+Timestamp: 2017-10-27 16:25:06
+date: 2017-10-27 16:25:06</description>
+<TimeStamp id="7e33ef58-c9d5-4253-939e-59939c74040d">
+<when>2017-10-27 16:25:06</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="58f61df8-3993-498f-8ea3-42a66d54b324">
+<coordinates>34.80404300164531,32.168124383652334</coordinates>
+</Point>
+</Placemark>
+<Placemark id="23de198c-c323-46a1-bba1-ea6620d53b97">
+<name>dserota</name>
+<description>![CDATA[BSSID:00:1b:9e:7a:43:13
+Id: model=SHIELD Tablet
+Frequency:6
+Timestamp: 2017-10-27 16:25:06
+date: 2017-10-27 16:25:06</description>
+<TimeStamp id="9aacc7da-5b2a-41c9-bdb1-512ea758cc29">
+<when>2017-10-27 16:25:06</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="41746219-ed74-4ec8-b1db-f8ab6b217232">
+<coordinates>34.80404300164531,32.168124383652334</coordinates>
+</Point>
+</Placemark>
+<Placemark id="40dfc0cb-2a72-419d-94c0-0cb6a3071e82">
+<name>Bezeq-N_c5c5a1</name>
+<description>![CDATA[BSSID:5c:d9:98:c5:c5:a2
+Id: model=SHIELD Tablet
+Frequency:6
+Timestamp: 2017-10-27 16:25:06
+date: 2017-10-27 16:25:06</description>
+<TimeStamp id="af05d3fa-0612-4a90-aac3-791a169c74dd">
+<when>2017-10-27 16:25:06</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="cdef551c-3db5-48c7-9d72-a36ea06b6358">
+<coordinates>34.80404300164531,32.168124383652334</coordinates>
+</Point>
+</Placemark>
+<Placemark id="161a784f-9c67-4b70-a59e-f1c7cfdfae23">
+<name>Yafim</name>
+<description>![CDATA[BSSID:14:ae:db:32:13:d2
+Id: model=SHIELD Tablet
+Frequency:5
+Timestamp: 2017-10-27 16:25:06
+date: 2017-10-27 16:25:06</description>
+<TimeStamp id="0099c1fe-41bb-42de-9a15-a2e905fa6fd1">
+<when>2017-10-27 16:25:06</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="8eeb3cb9-e9f5-4371-9ed9-f56f160a2b86">
+<coordinates>34.80404300164531,32.168124383652334</coordinates>
+</Point>
+</Placemark>
+<Placemark id="8521bd2d-4482-468a-8eda-bed31956190b">
+<name>Yoels</name>
+<description>![CDATA[BSSID:00:8c:54:8b:ec:e1
+Id: model=SHIELD Tablet
+Frequency:6
+Timestamp: 2017-10-27 16:25:06
+date: 2017-10-27 16:25:06</description>
+<TimeStamp id="d70b24ff-d3d3-4214-9dfe-0345a9979a98">
+<when>2017-10-27 16:25:06</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="7daf6796-464e-4760-81f8-1063d162d178">
+<coordinates>34.80404300164531,32.168124383652334</coordinates>
+</Point>
+</Placemark>
+<Placemark id="7e152731-96e7-48a6-b9eb-47bf9b39c557">
+<name>klara-012</name>
+<description>![CDATA[BSSID:c4:12:f5:fd:d1:94
+Id: model=SHIELD Tablet
+Frequency:2
+Timestamp: 2017-10-27 16:25:09
+date: 2017-10-27 16:25:09</description>
+<TimeStamp id="138ce434-63d3-4662-af7a-3a77c735acbc">
+<when>2017-10-27 16:25:09</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="ffe9bf4a-de9c-42d0-8c28-8fcbb77e1d9a">
+<coordinates>34.80451829564009,32.16807012717975</coordinates>
+</Point>
+</Placemark>
+<Placemark id="3a2695f0-b159-48a3-af03-f9dd1c9d3d08">
+<name>HOTBOX-3A94</name>
+<description>![CDATA[BSSID:c0:ac:54:f8:0c:1f
+Id: model=SHIELD Tablet
+Frequency:11
+Timestamp: 2017-10-27 16:25:09
+date: 2017-10-27 16:25:09</description>
+<TimeStamp id="fe8262fc-927e-461b-a99b-694748a8dfe9">
+<when>2017-10-27 16:25:09</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="87c67417-2e85-4cb9-b128-3532b01137e0">
+<coordinates>34.80451829564009,32.16807012717975</coordinates>
+</Point>
+</Placemark>
+<Placemark id="0638e8d6-418c-4271-84d0-cd1be900348a">
+<name>BezeqFree</name>
+<description>![CDATA[BSSID:6a:12:f5:84:50:41
+Id: model=SHIELD Tablet
+Frequency:8
+Timestamp: 2017-10-27 16:25:09
+date: 2017-10-27 16:25:09</description>
+<TimeStamp id="a13365e6-91ec-4bc4-9f48-c88707ef72db">
+<when>2017-10-27 16:25:09</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="4bdff236-1cb4-49b5-b453-41d097932f83">
+<coordinates>34.80451829564009,32.16807012717975</coordinates>
+</Point>
+</Placemark>
+<Placemark id="67b6fe58-fa1e-4787-9fe0-cf16f98484bc">
+<name>opus7</name>
+<description>![CDATA[BSSID:c4:12:f5:84:50:40
+Id: model=SHIELD Tablet
+Frequency:8
+Timestamp: 2017-10-27 16:25:09
+date: 2017-10-27 16:25:09</description>
+<TimeStamp id="d570ead9-5668-42b8-bbd6-c03176e738da">
+<when>2017-10-27 16:25:09</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="b2e7b4e3-bd6e-47f7-8994-b98870ca2523">
+<coordinates>34.80451829564009,32.16807012717975</coordinates>
+</Point>
+</Placemark>
+<Placemark id="f4b3b76e-f569-429b-b8fc-0639f6476c47">
+<name>Roikhel</name>
+<description>![CDATA[BSSID:9c:d6:43:23:99:91
+Id: model=SHIELD Tablet
+Frequency:6
+Timestamp: 2017-10-27 16:25:09
+date: 2017-10-27 16:25:09</description>
+<TimeStamp id="543ab8a0-d4a4-4724-ab4a-d5c75f515cd5">
+<when>2017-10-27 16:25:09</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="a13869fd-2f98-44cb-a1f3-b963868c39fc">
+<coordinates>34.80451829564009,32.16807012717975</coordinates>
+</Point>
+</Placemark>
+<Placemark id="7a71d2c5-5c0e-464b-b559-676c59de2d34">
+<name>anna2.4</name>
+<description>![CDATA[BSSID:a0:ab:1b:62:76:ac
+Id: model=SHIELD Tablet
+Frequency:2
+Timestamp: 2017-10-27 16:25:09
+date: 2017-10-27 16:25:09</description>
+<TimeStamp id="fe175b00-3a92-4c65-a9ee-992f65d46212">
+<when>2017-10-27 16:25:09</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="34b8fd78-f6a8-4aab-a68f-cdb6cac524fd">
+<coordinates>34.80451829564009,32.16807012717975</coordinates>
+</Point>
+</Placemark>
+<Placemark id="6b5639ef-fc91-4eb1-896b-e1d5d8b696ec">
+<name>wingate</name>
+<description>![CDATA[BSSID:70:3a:cb:5f:4f:25
+Id: model=SHIELD Tablet
+Frequency:6
+Timestamp: 2017-10-27 16:25:09
+date: 2017-10-27 16:25:09</description>
+<TimeStamp id="fa05c0d6-87ae-4e93-9fb1-b53735143770">
+<when>2017-10-27 16:25:09</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="113d369a-4908-407e-a94a-555baaef71e8">
+<coordinates>34.80451829564009,32.16807012717975</coordinates>
+</Point>
+</Placemark>
+<Placemark id="060a6ddb-6a42-407a-8ef4-243e90993773">
+<name>Home2</name>
+<description>![CDATA[BSSID:ac:f1:df:9d:f7:91
+Id: model=SHIELD Tablet
+Frequency:11
+Timestamp: 2017-10-27 16:25:09
+date: 2017-10-27 16:25:09</description>
+<TimeStamp id="32618f51-3df2-495a-b808-49fbeed4cee1">
+<when>2017-10-27 16:25:09</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="e35ebdbd-37c1-4ce5-8a83-03e00a849931">
+<coordinates>34.80451829564009,32.16807012717975</coordinates>
+</Point>
+</Placemark>
+<Placemark id="eb5753db-d6a6-4245-8994-ec9a17e2a012">
+<name>SHURSH</name>
+<description>![CDATA[BSSID:00:22:3f:80:0d:4e
+Id: model=SHIELD Tablet
+Frequency:9
+Timestamp: 2017-10-27 16:25:09
+date: 2017-10-27 16:25:09</description>
+<TimeStamp id="04200486-ed49-4ff4-8a71-2237db4528bc">
+<when>2017-10-27 16:25:09</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="e59d1053-1922-473d-a490-b652bb02d9b1">
+<coordinates>34.80451829564009,32.16807012717975</coordinates>
+</Point>
+</Placemark>
+<Placemark id="9891aecd-37d7-4d80-ba26-d9dcfe764446">
+<name>yves</name>
+<description>![CDATA[BSSID:00:90:8f:39:38:60
+Id: model=SHIELD Tablet
+Frequency:8
+Timestamp: 2017-10-27 16:25:09
+date: 2017-10-27 16:25:09</description>
+<TimeStamp id="b658f63f-95ba-49b5-b874-2716d3a8cd2e">
+<when>2017-10-27 16:25:09</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="4723295c-f1a3-43ef-a6bb-e623dca3014f">
+<coordinates>34.80451829564009,32.16807012717975</coordinates>
+</Point>
+</Placemark>
+<Placemark id="09f90b77-ba3e-4207-be81-cc9b7f860948">
+<name>ida</name>
+<description>![CDATA[BSSID:c0:c1:c0:ce:4d:06
+Id: model=SHIELD Tablet
+Frequency:11
+Timestamp: 2017-10-27 16:25:09
+date: 2017-10-27 16:25:09</description>
+<TimeStamp id="ea30dde7-e02e-474d-b0a0-44d86fbf75e7">
+<when>2017-10-27 16:25:09</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="b6b05ede-ec74-47a7-8d7c-a994afa8b177">
+<coordinates>34.80451829564009,32.16807012717975</coordinates>
+</Point>
+</Placemark>
+<Placemark id="59174289-8363-4d3a-8c4b-df80e19b60a0">
+<name>Murad1</name>
+<description>![CDATA[BSSID:f8:d1:11:75:25:64
+Id: model=SHIELD Tablet
+Frequency:1
+Timestamp: 2017-10-27 16:25:09
+date: 2017-10-27 16:25:09</description>
+<TimeStamp id="bd04cec4-c8e4-4879-88e5-477e83fe907d">
+<when>2017-10-27 16:25:09</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="864ce2a7-0609-42f1-bfae-2c25adc20933">
+<coordinates>34.80451829564009,32.16807012717975</coordinates>
+</Point>
+</Placemark>
+<Placemark id="0dab703e-8f23-4ed5-86d0-603ae7f6de6b">
+<name>TP-LINK_UKTVWATCH_EXT</name>
+<description>![CDATA[BSSID:8a:1b:5e:83:d7:c2
+Id: model=SHIELD Tablet
+Frequency:8
+Timestamp: 2017-10-27 16:25:09
+date: 2017-10-27 16:25:09</description>
+<TimeStamp id="b6c141c2-0984-451b-9fae-17539f5266ad">
+<when>2017-10-27 16:25:09</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="09eec64a-7de3-4fb0-942a-1381d695d3f9">
+<coordinates>34.80451829564009,32.16807012717975</coordinates>
+</Point>
+</Placemark>
+<Placemark id="78d0b636-1d0e-4c94-acad-676ef5b392cf">
+<name>shlomo1</name>
+<description>![CDATA[BSSID:00:8c:54:8f:59:51
+Id: model=SHIELD Tablet
+Frequency:6
+Timestamp: 2017-10-27 16:25:09
+date: 2017-10-27 16:25:09</description>
+<TimeStamp id="22a805fc-c53a-486a-92e8-a879e65fca66">
+<when>2017-10-27 16:25:09</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="b72b96b1-fe3a-41f7-94a2-66d45b870424">
+<coordinates>34.80451829564009,32.16807012717975</coordinates>
+</Point>
+</Placemark>
+<Placemark id="06e5815a-336d-4c7f-b183-a067cc97cd6e">
+<name>gella555</name>
+<description>![CDATA[BSSID:00:22:b0:75:7d:eb
+Id: model=SHIELD Tablet
+Frequency:6
+Timestamp: 2017-10-27 16:25:10
+date: 2017-10-27 16:25:10</description>
+<TimeStamp id="e727fbfa-5683-44a8-9037-d3dd00c9b677">
+<when>2017-10-27 16:25:10</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="80508674-b83b-4a62-8e2b-4f1be2433329">
+<coordinates>34.80467787412063,32.16804885869337</coordinates>
+</Point>
+</Placemark>
+<Placemark id="ac382e1b-31d2-46b4-9b8d-2dda1781cbe9">
+<name>Bezeq-N_c5c5a1</name>
+<description>![CDATA[BSSID:5c:d9:98:c5:c5:a2
+Id: model=SHIELD Tablet
+Frequency:6
+Timestamp: 2017-10-27 16:25:13
+date: 2017-10-27 16:25:13</description>
+<TimeStamp id="7792cbe3-ca7d-4987-90b3-d2a9c3d36577">
+<when>2017-10-27 16:25:13</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="d09b78a1-7d99-4da8-9929-8eb45ff761da">
+<coordinates>34.80512462763632,32.1679965837446</coordinates>
+</Point>
+</Placemark>
+<Placemark id="dc28c476-8eb5-46e8-a735-bebda9bc4e4b">
+<name>Yafim</name>
+<description>![CDATA[BSSID:14:ae:db:32:13:d2
+Id: model=SHIELD Tablet
+Frequency:5
+Timestamp: 2017-10-27 16:25:13
+date: 2017-10-27 16:25:13</description>
+<TimeStamp id="00fdfb91-8c22-4fec-9bd2-bb5d8e161686">
+<when>2017-10-27 16:25:13</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="ddda0dde-d232-4029-966a-d0a71fcd7114">
+<coordinates>34.80512462763632,32.1679965837446</coordinates>
+</Point>
+</Placemark>
+<Placemark id="74cce8f3-e383-4ed6-8ead-3bd6e6804369">
+<name>klara-012</name>
+<description>![CDATA[BSSID:c4:12:f5:fd:d1:94
+Id: model=SHIELD Tablet
+Frequency:2
+Timestamp: 2017-10-27 16:25:17
+date: 2017-10-27 16:25:17</description>
+<TimeStamp id="e2700fe5-9b44-4474-9375-444ea277ba2f">
+<when>2017-10-27 16:25:17</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="e26ba7ec-399a-4d26-99e4-f70e1553399a">
+<coordinates>34.8055402036524,32.16791299864552</coordinates>
+</Point>
+</Placemark>
+<Placemark id="3a6b8653-de92-471a-9dde-6abab542171e">
+<name>HOTBOX-3A94</name>
+<description>![CDATA[BSSID:c0:ac:54:f8:0c:1f
+Id: model=SHIELD Tablet
+Frequency:11
+Timestamp: 2017-10-27 16:25:17
+date: 2017-10-27 16:25:17</description>
+<TimeStamp id="7ce4b20e-b4df-4c03-8fce-06a70d44d246">
+<when>2017-10-27 16:25:17</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="810492fe-d834-4939-b7b8-c9aae1510c5a">
+<coordinates>34.8055402036524,32.16791299864552</coordinates>
+</Point>
+</Placemark>
+<Placemark id="9fb97070-4771-4445-9bac-62729f3dcc73">
+<name>BezeqFree</name>
+<description>![CDATA[BSSID:6a:12:f5:84:50:41
+Id: model=SHIELD Tablet
+Frequency:8
+Timestamp: 2017-10-27 16:25:17
+date: 2017-10-27 16:25:17</description>
+<TimeStamp id="c199e373-6a44-4f0d-abf1-8d5f03f2835e">
+<when>2017-10-27 16:25:17</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="a7b47b2a-1b3d-4bb0-b57e-6bbfe3dad88a">
+<coordinates>34.8055402036524,32.16791299864552</coordinates>
+</Point>
+</Placemark>
+<Placemark id="ff601dcd-5dac-41fa-b1ed-36eb6332288c">
+<name>opus7</name>
+<description>![CDATA[BSSID:c4:12:f5:84:50:40
+Id: model=SHIELD Tablet
+Frequency:8
+Timestamp: 2017-10-27 16:25:17
+date: 2017-10-27 16:25:17</description>
+<TimeStamp id="1f7de3c9-cc08-43d6-9565-0fc99b3cedf9">
+<when>2017-10-27 16:25:17</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="42eb8937-9e93-490f-8929-f7f52520e033">
+<coordinates>34.8055402036524,32.16791299864552</coordinates>
+</Point>
+</Placemark>
+<Placemark id="65152ecf-2fb4-4428-a623-14102d050f77">
+<name>Roikhel</name>
+<description>![CDATA[BSSID:9c:d6:43:23:99:91
+Id: model=SHIELD Tablet
+Frequency:6
+Timestamp: 2017-10-27 16:25:17
+date: 2017-10-27 16:25:17</description>
+<TimeStamp id="2fdf4b9f-5961-4f87-8e95-0315688f4465">
+<when>2017-10-27 16:25:17</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="97e2a810-d84e-45c8-a9ca-440be6d94507">
+<coordinates>34.8055402036524,32.16791299864552</coordinates>
+</Point>
+</Placemark>
+<Placemark id="d9220c13-bae8-4db2-817b-d24abe086fc5">
+<name>anna2.4</name>
+<description>![CDATA[BSSID:a0:ab:1b:62:76:ac
+Id: model=SHIELD Tablet
+Frequency:2
+Timestamp: 2017-10-27 16:25:17
+date: 2017-10-27 16:25:17</description>
+<TimeStamp id="eddb4d76-2683-4acb-b769-ad1cb4d0dc71">
+<when>2017-10-27 16:25:17</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="96645506-014f-4323-8af9-4377fb4db902">
+<coordinates>34.8055402036524,32.16791299864552</coordinates>
+</Point>
+</Placemark>
+<Placemark id="d6afd0ea-6865-49fa-abc0-73d0d747f1a6">
+<name>wingate</name>
+<description>![CDATA[BSSID:70:3a:cb:5f:4f:25
+Id: model=SHIELD Tablet
+Frequency:6
+Timestamp: 2017-10-27 16:25:17
+date: 2017-10-27 16:25:17</description>
+<TimeStamp id="21ca1b8e-5341-4327-8427-d6f542815643">
+<when>2017-10-27 16:25:17</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="b1f7d07f-5c20-4e0e-986b-654beffed635">
+<coordinates>34.8055402036524,32.16791299864552</coordinates>
+</Point>
+</Placemark>
+<Placemark id="be6a2251-caaf-4a00-88fc-31f7b4f2370e">
+<name>Home2</name>
+<description>![CDATA[BSSID:ac:f1:df:9d:f7:91
+Id: model=SHIELD Tablet
+Frequency:11
+Timestamp: 2017-10-27 16:25:17
+date: 2017-10-27 16:25:17</description>
+<TimeStamp id="9dbbd4c5-6286-409d-bb74-02b801c6426f">
+<when>2017-10-27 16:25:17</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="d4a47679-ee95-4446-a4f0-2510d41a6eea">
+<coordinates>34.8055402036524,32.16791299864552</coordinates>
+</Point>
+</Placemark>
+<Placemark id="a51c3be0-1836-49c4-9c42-cc6008818a23">
+<name>SHURSH</name>
+<description>![CDATA[BSSID:00:22:3f:80:0d:4e
+Id: model=SHIELD Tablet
+Frequency:9
+Timestamp: 2017-10-27 16:25:17
+date: 2017-10-27 16:25:17</description>
+<TimeStamp id="61dfac0e-badc-4bfb-b3fa-42a5867aa2e0">
+<when>2017-10-27 16:25:17</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="1fc09476-f296-4c4b-990c-0bc4b3b29014">
+<coordinates>34.8055402036524,32.16791299864552</coordinates>
+</Point>
+</Placemark>
+<Placemark id="db9b5552-4b91-4292-b181-a195d6d6d470">
+<name>yves</name>
+<description>![CDATA[BSSID:00:90:8f:39:38:60
+Id: model=SHIELD Tablet
+Frequency:8
+Timestamp: 2017-10-27 16:25:17
+date: 2017-10-27 16:25:17</description>
+<TimeStamp id="480f9064-4bf6-493f-af9c-220d1083e86d">
+<when>2017-10-27 16:25:17</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="4a0e4529-baaa-438c-ab2f-20ba1a39f889">
+<coordinates>34.8055402036524,32.16791299864552</coordinates>
+</Point>
+</Placemark>
+<Placemark id="a39691bf-3c72-45d9-91e7-59cccb7122dc">
+<name>ida</name>
+<description>![CDATA[BSSID:c0:c1:c0:ce:4d:06
+Id: model=SHIELD Tablet
+Frequency:11
+Timestamp: 2017-10-27 16:25:17
+date: 2017-10-27 16:25:17</description>
+<TimeStamp id="18ba959d-ae98-4bd9-a178-621fab95665c">
+<when>2017-10-27 16:25:17</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="11e96997-a1b7-4829-9835-a1dd9a0186b2">
+<coordinates>34.8055402036524,32.16791299864552</coordinates>
+</Point>
+</Placemark>
+<Placemark id="d7ab6641-7bd0-46ae-b835-eb80c1a30807">
+<name>Murad1</name>
+<description>![CDATA[BSSID:f8:d1:11:75:25:64
+Id: model=SHIELD Tablet
+Frequency:1
+Timestamp: 2017-10-27 16:25:17
+date: 2017-10-27 16:25:17</description>
+<TimeStamp id="b55a6bd5-d380-4621-b3ac-964a8089e6de">
+<when>2017-10-27 16:25:17</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="7382ccd6-55ab-42e4-9d6e-93fa1e41cc44">
+<coordinates>34.8055402036524,32.16791299864552</coordinates>
+</Point>
+</Placemark>
+<Placemark id="414ad504-e5d3-42d9-8e4c-5480bc69d3ad">
+<name>TP-LINK_UKTVWATCH_EXT</name>
+<description>![CDATA[BSSID:8a:1b:5e:83:d7:c2
+Id: model=SHIELD Tablet
+Frequency:8
+Timestamp: 2017-10-27 16:25:17
+date: 2017-10-27 16:25:17</description>
+<TimeStamp id="7e612f12-1edd-4b4d-9ec7-93a669381f1e">
+<when>2017-10-27 16:25:17</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="7059b4ad-e7f7-473f-b6b7-c73030e023bc">
+<coordinates>34.8055402036524,32.16791299864552</coordinates>
+</Point>
+</Placemark>
+<Placemark id="086277ee-3b3c-41cf-a1a1-0b0d4bbc5e34">
+<name>shlomo1</name>
+<description>![CDATA[BSSID:00:8c:54:8f:59:51
+Id: model=SHIELD Tablet
+Frequency:6
+Timestamp: 2017-10-27 16:25:17
+date: 2017-10-27 16:25:17</description>
+<TimeStamp id="9143cfa2-9436-4dbc-a16e-7dee41c7c994">
+<when>2017-10-27 16:25:17</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="6d1b49ac-6429-4a24-a890-15eb7912d21b">
+<coordinates>34.8055402036524,32.16791299864552</coordinates>
+</Point>
+</Placemark>
+<Placemark id="e38862a5-4d69-44dd-9e20-6e3a504980b2">
+<name>gella555</name>
+<description>![CDATA[BSSID:00:22:b0:75:7d:eb
+Id: model=SHIELD Tablet
+Frequency:6
+Timestamp: 2017-10-27 16:25:21
+date: 2017-10-27 16:25:21</description>
+<TimeStamp id="6675774f-d64c-455f-b197-fbad6b754383">
+<when>2017-10-27 16:25:21</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="9b2520af-48c9-4db1-b9d9-805d72017f1a">
+<coordinates>34.805736338708385,32.16782940660959</coordinates>
+</Point>
+</Placemark>
+<Placemark id="55f219d4-5be5-4d2e-b760-74c1d4d5538f">
+<name>Annatel_3372</name>
+<description>![CDATA[BSSID:74:da:38:a9:0c:3e
+Id: model=SHIELD Tablet
+Frequency:2
+Timestamp: 2017-10-27 16:25:25
+date: 2017-10-27 16:25:25</description>
+<TimeStamp id="593e500d-014b-4529-b0f9-3a5362848770">
+<when>2017-10-27 16:25:25</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="ede5abcd-7416-47f4-98be-9b1b63c9c44f">
+<coordinates>34.80592761936254,32.167727587280915</coordinates>
+</Point>
+</Placemark>
+<Placemark id="057841b0-9d65-4d36-bd54-991d27e82609">
+<name>Home</name>
+<description>![CDATA[BSSID:14:ae:db:53:0c:2d
+Id: model=SHIELD Tablet
+Frequency:6
+Timestamp: 2017-10-27 16:25:25
+date: 2017-10-27 16:25:25</description>
+<TimeStamp id="106fa59a-5321-44b2-9ae1-9561c66a99de">
+<when>2017-10-27 16:25:25</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="2e194659-28bc-4283-ba67-86042da9bd91">
+<coordinates>34.80592761936254,32.167727587280915</coordinates>
+</Point>
+</Placemark>
+<Placemark id="6a3b1e9f-8e43-4130-aa39-b4fb8ff6ed11">
+<name>shor_Ext</name>
+<description>![CDATA[BSSID:e2:91:f5:b6:ec:a8
+Id: model=SHIELD Tablet
+Frequency:11
+Timestamp: 2017-10-27 16:25:25
+date: 2017-10-27 16:25:25</description>
+<TimeStamp id="67bee37b-2c94-4de5-b73e-4769335df8ab">
+<when>2017-10-27 16:25:25</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="21624bbc-5dd5-41bf-af06-76a52336fee4">
+<coordinates>34.80592761936254,32.167727587280915</coordinates>
+</Point>
+</Placemark>
+<Placemark id="6bc81ee6-c3d2-4fbd-95cd-9f9123bbd8a4">
+<name>Annatel_3372</name>
+<description>![CDATA[BSSID:74:da:38:a9:0c:3e
+Id: model=SHIELD Tablet
+Frequency:2
+Timestamp: 2017-10-27 16:25:39
+date: 2017-10-27 16:25:39</description>
+<TimeStamp id="78a0602f-8427-44a7-9623-750d5084c9ee">
+<when>2017-10-27 16:25:39</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="1804cf16-8efb-4d89-ae5c-73a3e315dc21">
+<coordinates>34.80626417804201,32.168941978847066</coordinates>
+</Point>
+</Placemark>
+<Placemark id="12a5e813-d5e6-491b-80fe-5a461a210680">
+<name>Home2</name>
+<description>![CDATA[BSSID:ac:f1:df:9d:f7:91
+Id: model=SHIELD Tablet
+Frequency:11
+Timestamp: 2017-10-27 16:25:39
+date: 2017-10-27 16:25:39</description>
+<TimeStamp id="bd463f99-f59c-48fe-8cba-2cfbcec3e1f7">
+<when>2017-10-27 16:25:39</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="9ab12724-294a-4f3c-9981-538fb473f16d">
+<coordinates>34.80626417804201,32.168941978847066</coordinates>
+</Point>
+</Placemark>
+<Placemark id="8e4296fe-8c57-4b74-aeb1-fe8defb11f49">
+<name>Home</name>
+<description>![CDATA[BSSID:14:ae:db:53:0c:2d
+Id: model=SHIELD Tablet
+Frequency:6
+Timestamp: 2017-10-27 16:25:39
+date: 2017-10-27 16:25:39</description>
+<TimeStamp id="1d37e13b-0439-41d8-96b9-0132ccce74c2">
+<when>2017-10-27 16:25:39</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="d3f3d58e-3fcc-4483-9cc1-1a626231466c">
+<coordinates>34.80626417804201,32.168941978847066</coordinates>
+</Point>
+</Placemark>
+<Placemark id="81630bde-7a34-4647-8180-5d4289abc4e8">
+<name>yves</name>
+<description>![CDATA[BSSID:00:90:8f:39:38:60
+Id: model=SHIELD Tablet
+Frequency:8
+Timestamp: 2017-10-27 16:25:39
+date: 2017-10-27 16:25:39</description>
+<TimeStamp id="0fc75df0-ef4d-4aa2-b192-8f57122efa54">
+<when>2017-10-27 16:25:39</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="03677567-accf-4a8e-a086-dbe780e3aab0">
+<coordinates>34.80626417804201,32.168941978847066</coordinates>
+</Point>
+</Placemark>
+<Placemark id="c4393f74-50b6-4aff-afb3-b066d64ed8b7">
+<name>ida</name>
+<description>![CDATA[BSSID:c0:c1:c0:ce:4d:06
+Id: model=SHIELD Tablet
+Frequency:11
+Timestamp: 2017-10-27 16:25:39
+date: 2017-10-27 16:25:39</description>
+<TimeStamp id="cb83c582-31c5-4f8b-ba15-68f7aa66cf7d">
+<when>2017-10-27 16:25:39</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="e74631f5-05cc-4698-96fa-d37bb41a3674">
+<coordinates>34.80626417804201,32.168941978847066</coordinates>
+</Point>
+</Placemark>
+<Placemark id="1f3d90fa-dae9-417e-b2f7-04c4f0a5dd4b">
+<name>Murad1</name>
+<description>![CDATA[BSSID:f8:d1:11:75:25:64
+Id: model=SHIELD Tablet
+Frequency:1
+Timestamp: 2017-10-27 16:25:39
+date: 2017-10-27 16:25:39</description>
+<TimeStamp id="d366ef51-0dcd-4308-b452-135954c24190">
+<when>2017-10-27 16:25:39</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="43f76719-6b02-4c5a-a91e-6d0a54e6b390">
+<coordinates>34.80626417804201,32.168941978847066</coordinates>
+</Point>
+</Placemark>
+<Placemark id="d20ec1a8-c961-4dae-82c5-354da053134f">
+<name>TP-LINK_UKTVWATCH_EXT</name>
+<description>![CDATA[BSSID:8a:1b:5e:83:d7:c2
+Id: model=SHIELD Tablet
+Frequency:8
+Timestamp: 2017-10-27 16:25:39
+date: 2017-10-27 16:25:39</description>
+<TimeStamp id="e39f1369-b21a-4523-8d50-4300c7968812">
+<when>2017-10-27 16:25:39</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="0f128c13-209c-45c2-a4be-5d0036a6788c">
+<coordinates>34.80626417804201,32.168941978847066</coordinates>
+</Point>
+</Placemark>
+<Placemark id="8b82a536-e822-4c68-9423-d7bf0dcb7a2d">
+<name>shor_Ext</name>
+<description>![CDATA[BSSID:e2:91:f5:b6:ec:a8
+Id: model=SHIELD Tablet
+Frequency:11
+Timestamp: 2017-10-27 16:25:39
+date: 2017-10-27 16:25:39</description>
+<TimeStamp id="6b2357f2-c9c9-4b5d-a090-4dc0d4a59bfc">
+<when>2017-10-27 16:25:39</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="ab91b0af-650f-4a05-8ea7-259024b33880">
+<coordinates>34.80626417804201,32.168941978847066</coordinates>
+</Point>
+</Placemark>
+<Placemark id="d21b684a-96db-4d01-a253-90be40f245cc">
+<name>shlomo1</name>
+<description>![CDATA[BSSID:00:8c:54:8f:59:51
+Id: model=SHIELD Tablet
+Frequency:6
+Timestamp: 2017-10-27 16:25:39
+date: 2017-10-27 16:25:39</description>
+<TimeStamp id="f3d4bebd-a4eb-4ca8-8ccc-9a5c07dabdb4">
+<when>2017-10-27 16:25:39</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="49d059a5-72ed-4be0-8eb9-2a8c8493dcbd">
+<coordinates>34.80626417804201,32.168941978847066</coordinates>
+</Point>
+</Placemark>
+<Placemark id="ce0206e9-b197-4b4a-bfff-93fe391d856d">
+<name>Melinek</name>
+<description>![CDATA[BSSID:14:ae:db:45:27:5d
+Id: model=SHIELD Tablet
+Frequency:11
+Timestamp: 2017-10-27 16:25:41
+date: 2017-10-27 16:25:41</description>
+<TimeStamp id="5d3c870e-4434-4d71-bcbe-a744a175d9dc">
+<when>2017-10-27 16:25:41</when>
+</TimeStamp>
+<styleUrl>#green</styleUrl>
+<Point id="73babdeb-4dbd-46ed-ac27-e538b4e146fe">
+<coordinates>34.80631908447765,32.16915802327854</coordinates>
+</Point>
+</Placemark>
+<Placemark id="9d684480-7ab8-48c7-952f-52eb65641149">
+<name>melsara</name>
+<description>![CDATA[BSSID:10:0d:7f:86:a4:42
+Id: model=SHIELD Tablet
+Frequency:11
+Timestamp: 2017-10-27 16:25:41
+date: 2017-10-27 16:25:41</description>
+<TimeStamp id="2154b3f3-cac3-4e68-a825-96d2418da3fc">
+<when>2017-10-27 16:25:41</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="c3855563-af37-4c37-a945-5d3d545e4fc1">
+<coordinates>34.80631908447765,32.16915802327854</coordinates>
+</Point>
+</Placemark>
+<Placemark id="00af374b-cde8-4656-bd18-c9f0f03524cb">
+<name>daniellalovecat-2.4</name>
+<description>![CDATA[BSSID:3c:1e:04:05:cc:6a
+Id: model=SHIELD Tablet
+Frequency:7
+Timestamp: 2017-10-27 16:25:41
+date: 2017-10-27 16:25:41</description>
+<TimeStamp id="45400b9f-a869-45d2-b0b4-aa5b7ed09d7a">
+<when>2017-10-27 16:25:41</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="5445a007-af0c-4b4f-8b50-9c1ffef0fb8e">
+<coordinates>34.80631908447765,32.16915802327854</coordinates>
+</Point>
+</Placemark>
+<Placemark id="d1e19585-7828-4639-98f7-368eb9424457">
+<name>gattegnio</name>
+<description>![CDATA[BSSID:ec:08:6b:67:fc:c5
+Id: model=SHIELD Tablet
+Frequency:6
+Timestamp: 2017-10-27 16:25:41
+date: 2017-10-27 16:25:41</description>
+<TimeStamp id="8b0c6d84-6463-4d46-ac56-52cbf2655a3a">
+<when>2017-10-27 16:25:41</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="79efaf90-156f-4e15-b252-29c9f0676385">
+<coordinates>34.80631908447765,32.16915802327854</coordinates>
+</Point>
+</Placemark>
+<Placemark id="e9cc3122-d738-4240-969b-1150f7de466d">
+<name>Annatel_3372</name>
+<description>![CDATA[BSSID:74:da:38:a9:0c:3e
+Id: model=SHIELD Tablet
+Frequency:2
+Timestamp: 2017-10-27 16:25:49
+date: 2017-10-27 16:25:49</description>
+<TimeStamp id="40a92aec-83c8-4e5f-90f9-7507d742f483">
+<when>2017-10-27 16:25:49</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="1cf04a49-e8d4-4800-ab72-f244a1f76554">
+<coordinates>34.80660032399854,32.16997015864624</coordinates>
+</Point>
+</Placemark>
+<Placemark id="33d51532-f57c-4be3-a201-54391044ce1f">
+<name>Home</name>
+<description>![CDATA[BSSID:14:ae:db:53:0c:2d
+Id: model=SHIELD Tablet
+Frequency:6
+Timestamp: 2017-10-27 16:25:49
+date: 2017-10-27 16:25:49</description>
+<TimeStamp id="bfe9fef5-8539-4d68-ae68-211c3f1bb7b2">
+<when>2017-10-27 16:25:49</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="1c9ff636-1f12-49de-ada2-5de5b2933719">
+<coordinates>34.80660032399854,32.16997015864624</coordinates>
+</Point>
+</Placemark>
+<Placemark id="9dcad6e2-b7ce-44cd-842e-58c8933a99d4">
+<name>shor_Ext</name>
+<description>![CDATA[BSSID:e2:91:f5:b6:ec:a8
+Id: model=SHIELD Tablet
+Frequency:11
+Timestamp: 2017-10-27 16:25:49
+date: 2017-10-27 16:25:49</description>
+<TimeStamp id="24f47160-01b9-496c-8432-08dbd6de8c68">
+<when>2017-10-27 16:25:49</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="057a6974-b632-42f1-8b5f-55f776f4c1c0">
+<coordinates>34.80660032399854,32.16997015864624</coordinates>
+</Point>
+</Placemark>
+<Placemark id="89f41de4-6524-4168-9742-7de25bb7076c">
+<name>Melinek</name>
+<description>![CDATA[BSSID:14:ae:db:45:27:5d
+Id: model=SHIELD Tablet
+Frequency:11
+Timestamp: 2017-10-27 16:25:51
+date: 2017-10-27 16:25:51</description>
+<TimeStamp id="feb35d43-a278-4695-9104-5621bda080b6">
+<when>2017-10-27 16:25:51</when>
+</TimeStamp>
+<styleUrl>#green</styleUrl>
+<Point id="dccac8e0-0200-4424-ab66-0fa2a226fa64">
+<coordinates>34.80668250741814,32.17019433204196</coordinates>
+</Point>
+</Placemark>
+<Placemark id="a9f01c2b-5576-4902-9f6c-f6f3fec34cc5">
+<name>melsara</name>
+<description>![CDATA[BSSID:10:0d:7f:86:a4:42
+Id: model=SHIELD Tablet
+Frequency:11
+Timestamp: 2017-10-27 16:25:51
+date: 2017-10-27 16:25:51</description>
+<TimeStamp id="8bb0b963-006b-4994-9a66-3a1c4b183011">
+<when>2017-10-27 16:25:51</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="44f7c338-96ea-46c0-bd47-26693c9e8aa5">
+<coordinates>34.80668250741814,32.17019433204196</coordinates>
+</Point>
+</Placemark>
+<Placemark id="98dbc609-f7e8-44a8-9a76-49ea582dc9c6">
+<name>daniellalovecat-2.4</name>
+<description>![CDATA[BSSID:3c:1e:04:05:cc:6a
+Id: model=SHIELD Tablet
+Frequency:7
+Timestamp: 2017-10-27 16:25:51
+date: 2017-10-27 16:25:51</description>
+<TimeStamp id="2c2bc053-5a5d-4ad7-87ba-ef1802a908fc">
+<when>2017-10-27 16:25:51</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="7be15cb7-9d27-494e-b080-39026fa463f5">
+<coordinates>34.80668250741814,32.17019433204196</coordinates>
+</Point>
+</Placemark>
+<Placemark id="c506e3d2-3409-4703-81e2-c39209222fa4">
+<name>gattegnio</name>
+<description>![CDATA[BSSID:ec:08:6b:67:fc:c5
+Id: model=SHIELD Tablet
+Frequency:6
+Timestamp: 2017-10-27 16:25:51
+date: 2017-10-27 16:25:51</description>
+<TimeStamp id="6833c538-00af-4893-a738-9d0a1f893bee">
+<when>2017-10-27 16:25:51</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="3dc21cf2-37e2-4036-ab01-5546be6109ae">
+<coordinates>34.80668250741814,32.17019433204196</coordinates>
+</Point>
+</Placemark>
+<Placemark id="b63e2047-f24c-40eb-a2a5-eb09330a6235">
+<name>rojavi</name>
+<description>![CDATA[BSSID:00:50:7f:f1:18:64
+Id: model=SHIELD Tablet
+Frequency:11
+Timestamp: 2017-10-27 16:25:57
+date: 2017-10-27 16:25:57</description>
+<TimeStamp id="ffef3941-4946-4acd-9718-2103056aee69">
+<when>2017-10-27 16:25:57</when>
+</TimeStamp>
+<styleUrl>#green</styleUrl>
+<Point id="7a4305f9-dcee-484d-940d-46f2c42b01dd">
+<coordinates>34.8069528765298,32.17073970264416</coordinates>
+</Point>
+</Placemark>
+<Placemark id="9e93e3b1-456b-4045-959b-fce1f8c6dfe7">
+<name>rojavi2017</name>
+<description>![CDATA[BSSID:00:1d:aa:0f:59:f0
+Id: model=SHIELD Tablet
+Frequency:11
+Timestamp: 2017-10-27 16:25:57
+date: 2017-10-27 16:25:57</description>
+<TimeStamp id="6444c27d-e418-4054-bb7d-06e169a255d2">
+<when>2017-10-27 16:25:57</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="d9ca24d6-5f0f-4e4d-beea-8c50133b6deb">
+<coordinates>34.8069528765298,32.17073970264416</coordinates>
+</Point>
+</Placemark>
+<Placemark id="177f99a0-ef8c-483a-88e9-24f653928260">
+<name>rojavi_EXT</name>
+<description>![CDATA[BSSID:d4:6e:0e:3c:2f:99
+Id: model=SHIELD Tablet
+Frequency:11
+Timestamp: 2017-10-27 16:25:57
+date: 2017-10-27 16:25:57</description>
+<TimeStamp id="c484af0d-c100-4320-958b-3e4e22187a6a">
+<when>2017-10-27 16:25:57</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="06a31ca5-032a-474a-979a-33e4b704bd2b">
+<coordinates>34.8069528765298,32.17073970264416</coordinates>
+</Point>
+</Placemark>
+<Placemark id="ce732172-f283-44cb-8f21-e42426b85bfc">
+<name>Bezeq Free</name>
+<description>![CDATA[BSSID:52:f1:df:a0:70:ea
+Id: model=SHIELD Tablet
+Frequency:6
+Timestamp: 2017-10-27 16:25:57
+date: 2017-10-27 16:25:57</description>
+<TimeStamp id="1586aed9-25c7-401e-b391-c01c5d668c66">
+<when>2017-10-27 16:25:57</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="7a004769-a35f-4e68-811b-07933e6117b8">
+<coordinates>34.8069528765298,32.17073970264416</coordinates>
+</Point>
+</Placemark>
+<Placemark id="2f6116db-a3a5-46c3-8ff2-bde8d0e89df3">
+<name>upstairs</name>
+<description>![CDATA[BSSID:d4:6e:0e:cf:bc:ca
+Id: model=SHIELD Tablet
+Frequency:6
+Timestamp: 2017-10-27 16:25:57
+date: 2017-10-27 16:25:57</description>
+<TimeStamp id="b7fc7be0-dc19-451c-baf1-7e2a971e3e42">
+<when>2017-10-27 16:25:57</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="f773aa99-9dba-4c92-9e75-1882c957edc2">
+<coordinates>34.8069528765298,32.17073970264416</coordinates>
+</Point>
+</Placemark>
+<Placemark id="c0e900a5-83bc-47f5-9b25-beff63caa3be">
+<name>Melinek</name>
+<description>![CDATA[BSSID:14:ae:db:45:27:5d
+Id: model=SHIELD Tablet
+Frequency:11
+Timestamp: 2017-10-27 16:26:03
+date: 2017-10-27 16:26:03</description>
+<TimeStamp id="d101ebe1-e5b1-49f1-9559-30559ac5895c">
+<when>2017-10-27 16:26:03</when>
+</TimeStamp>
+<styleUrl>#green</styleUrl>
+<Point id="adb79494-684a-404f-b9d3-15bfe94f5f7c">
+<coordinates>34.80719154989027,32.17131765246347</coordinates>
+</Point>
+</Placemark>
+<Placemark id="7e709cf0-fc46-4534-951d-473b1f4998f0">
+<name>melsara</name>
+<description>![CDATA[BSSID:10:0d:7f:86:a4:42
+Id: model=SHIELD Tablet
+Frequency:11
+Timestamp: 2017-10-27 16:26:03
+date: 2017-10-27 16:26:03</description>
+<TimeStamp id="6ec7c1bb-c39d-4176-882b-0f33be0e6dc7">
+<when>2017-10-27 16:26:03</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="1b77e203-fb60-4c1b-b453-92dcfcecbb3c">
+<coordinates>34.80719154989027,32.17131765246347</coordinates>
+</Point>
+</Placemark>
+<Placemark id="eabedf56-d7be-4a1b-9f8e-4ef2a19f4869">
+<name>daniellalovecat-2.4</name>
+<description>![CDATA[BSSID:3c:1e:04:05:cc:6a
+Id: model=SHIELD Tablet
+Frequency:7
+Timestamp: 2017-10-27 16:26:03
+date: 2017-10-27 16:26:03</description>
+<TimeStamp id="fd3d5d8e-ec92-4608-a923-bf0632cb72ea">
+<when>2017-10-27 16:26:03</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="d08b9c30-4b76-45f9-9e9e-474763dc559a">
+<coordinates>34.80719154989027,32.17131765246347</coordinates>
+</Point>
+</Placemark>
+<Placemark id="ea616fee-86fb-4962-a5ab-5cbb70f25467">
+<name>gattegnio</name>
+<description>![CDATA[BSSID:ec:08:6b:67:fc:c5
+Id: model=SHIELD Tablet
+Frequency:6
+Timestamp: 2017-10-27 16:26:03
+date: 2017-10-27 16:26:03</description>
+<TimeStamp id="d546ca36-af97-4d66-abf5-0ddfebd4e6e1">
+<when>2017-10-27 16:26:03</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="44b9ca78-d1c5-452c-a5df-a19f459861b5">
+<coordinates>34.80719154989027,32.17131765246347</coordinates>
+</Point>
+</Placemark>
+<Placemark id="8eda0fea-d2db-425e-93f0-e402ba851ac0">
+<name>rojavi</name>
+<description>![CDATA[BSSID:00:50:7f:f1:18:64
+Id: model=SHIELD Tablet
+Frequency:11
+Timestamp: 2017-10-27 16:26:09
+date: 2017-10-27 16:26:09</description>
+<TimeStamp id="8c63931a-6406-47dc-9345-54862bce86f5">
+<when>2017-10-27 16:26:09</when>
+</TimeStamp>
+<styleUrl>#green</styleUrl>
+<Point id="61578a37-db7c-4a2b-8ade-24ab0053e16e">
+<coordinates>34.80746254753361,32.17189056898307</coordinates>
+</Point>
+</Placemark>
+<Placemark id="0f9335b3-5ed2-45cf-b106-c0b04e63bbac">
+<name>rojavi2017</name>
+<description>![CDATA[BSSID:00:1d:aa:0f:59:f0
+Id: model=SHIELD Tablet
+Frequency:11
+Timestamp: 2017-10-27 16:26:09
+date: 2017-10-27 16:26:09</description>
+<TimeStamp id="55e52836-4f5c-4e46-8e99-a21457b51f39">
+<when>2017-10-27 16:26:09</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="6422cb16-78a2-4dd6-83fd-672d4bfc0bd0">
+<coordinates>34.80746254753361,32.17189056898307</coordinates>
+</Point>
+</Placemark>
+<Placemark id="444af9a1-f47b-45a3-a3db-3df42e4be05b">
+<name>rojavi_EXT</name>
+<description>![CDATA[BSSID:d4:6e:0e:3c:2f:99
+Id: model=SHIELD Tablet
+Frequency:11
+Timestamp: 2017-10-27 16:26:09
+date: 2017-10-27 16:26:09</description>
+<TimeStamp id="1f1b66d0-e91d-4161-bb3f-f9f99b54c761">
+<when>2017-10-27 16:26:09</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="34410bb0-db84-493c-85f6-2672208bd32b">
+<coordinates>34.80746254753361,32.17189056898307</coordinates>
+</Point>
+</Placemark>
+<Placemark id="e875e52e-e9a7-4109-b8d9-14ad9d4030f0">
+<name>Bezeq Free</name>
+<description>![CDATA[BSSID:52:f1:df:a0:70:ea
+Id: model=SHIELD Tablet
+Frequency:6
+Timestamp: 2017-10-27 16:26:09
+date: 2017-10-27 16:26:09</description>
+<TimeStamp id="dce7164f-929a-4e1b-8273-7427263bac2c">
+<when>2017-10-27 16:26:09</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="a20175b6-9e56-41c7-8a1d-8ee9ec12280b">
+<coordinates>34.80746254753361,32.17189056898307</coordinates>
+</Point>
+</Placemark>
+<Placemark id="f46e5cde-7869-4d6f-be17-103433771901">
+<name>upstairs</name>
+<description>![CDATA[BSSID:d4:6e:0e:cf:bc:ca
+Id: model=SHIELD Tablet
+Frequency:6
+Timestamp: 2017-10-27 16:26:09
+date: 2017-10-27 16:26:09</description>
+<TimeStamp id="e506e5c5-23d6-40a6-ae38-949322244937">
+<when>2017-10-27 16:26:09</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="2d6b0243-0967-480a-a2b6-6e52f1c3b203">
+<coordinates>34.80746254753361,32.17189056898307</coordinates>
+</Point>
+</Placemark>
+<Placemark id="45ee06d6-b1bf-4632-a6dc-51dce7613d6b">
+<name>rojavi</name>
+<description>![CDATA[BSSID:00:50:7f:f1:18:64
+Id: model=SHIELD Tablet
+Frequency:11
+Timestamp: 2017-10-27 16:27:41
+date: 2017-10-27 16:27:41</description>
+<TimeStamp id="09627a2b-8193-47cc-b9af-5469ac5e2775">
+<when>2017-10-27 16:27:41</when>
+</TimeStamp>
+<styleUrl>#green</styleUrl>
+<Point id="cd764893-f175-4bb8-bf15-65d4bcfdde08">
+<coordinates>34.810955821361866,32.16989917679963</coordinates>
+</Point>
+</Placemark>
+<Placemark id="dc248f74-48d9-41c6-a6f9-0eba09f16d16">
+<name>menashe</name>
+<description>![CDATA[BSSID:14:ae:db:48:16:65
+Id: model=SHIELD Tablet
+Frequency:4
+Timestamp: 2017-10-27 16:27:41
+date: 2017-10-27 16:27:41</description>
+<TimeStamp id="cbf8c602-c93d-4ae9-acb5-294d7c8c472f">
+<when>2017-10-27 16:27:41</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="a01ac49c-dfe5-4fd8-868a-739ac3724f39">
+<coordinates>34.810955821361866,32.16989917679963</coordinates>
+</Point>
+</Placemark>
+<Placemark id="6f9675bc-237b-406c-9fba-590e1501c105">
+<name>Van2</name>
+<description>![CDATA[BSSID:90:f6:52:78:f4:cb
+Id: model=SHIELD Tablet
+Frequency:10
+Timestamp: 2017-10-27 16:27:41
+date: 2017-10-27 16:27:41</description>
+<TimeStamp id="42021aff-f3f2-4e1d-86c5-2f4f252a355e">
+<when>2017-10-27 16:27:41</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="86ab1f59-67ca-4d85-94b1-5a16adc8458f">
+<coordinates>34.810955821361866,32.16989917679963</coordinates>
+</Point>
+</Placemark>
+<Placemark id="d7bf8e68-e2aa-4b5b-9ef4-04334faa4455">
+<name>rojavi2017</name>
+<description>![CDATA[BSSID:00:1d:aa:0f:59:f0
+Id: model=SHIELD Tablet
+Frequency:11
+Timestamp: 2017-10-27 16:27:41
+date: 2017-10-27 16:27:41</description>
+<TimeStamp id="04fecf4f-1e96-4d0b-abe5-73ad4ea303c4">
+<when>2017-10-27 16:27:41</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="e3ce0699-bdbd-43e1-8828-071e174ab3c3">
+<coordinates>34.810955821361866,32.16989917679963</coordinates>
+</Point>
+</Placemark>
+<Placemark id="5fa82f7b-db26-4ff3-a9dd-0d4b63d8528b">
+<name>rojavi_EXT</name>
+<description>![CDATA[BSSID:d4:6e:0e:3c:2f:99
+Id: model=SHIELD Tablet
+Frequency:11
+Timestamp: 2017-10-27 16:27:41
+date: 2017-10-27 16:27:41</description>
+<TimeStamp id="dafbabfd-65a2-4342-bf60-417f158d3ccf">
+<when>2017-10-27 16:27:41</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="91dd0613-0c21-434f-a564-fc89240d9ea1">
+<coordinates>34.810955821361866,32.16989917679963</coordinates>
+</Point>
+</Placemark>
+<Placemark id="7547f067-1a1c-488b-af40-2790aa847e23">
+<name>Edimax AP</name>
+<description>![CDATA[BSSID:80:1f:02:66:5a:58
+Id: model=SHIELD Tablet
+Frequency:11
+Timestamp: 2017-10-27 16:27:41
+date: 2017-10-27 16:27:41</description>
+<TimeStamp id="0da30045-21b1-4c30-8d2a-1e7a51f00454">
+<when>2017-10-27 16:27:41</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="78ca85f8-0503-4dec-9338-8f8496f2216c">
+<coordinates>34.810955821361866,32.16989917679963</coordinates>
+</Point>
+</Placemark>
+<Placemark id="d8ada9d4-84db-4e2d-a399-2d7cad4cbe20">
+<name>Bezeq Free</name>
+<description>![CDATA[BSSID:52:f1:df:a0:70:ea
+Id: model=SHIELD Tablet
+Frequency:6
+Timestamp: 2017-10-27 16:27:41
+date: 2017-10-27 16:27:41</description>
+<TimeStamp id="35462db7-d00a-42da-868a-73541fa6c8fa">
+<when>2017-10-27 16:27:41</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="c3200a7b-22bb-40dd-a79f-82b066c3af4f">
+<coordinates>34.810955821361866,32.16989917679963</coordinates>
+</Point>
+</Placemark>
+<Placemark id="84591892-5ace-4a59-9f4a-8e3d381a5951">
+<name>ZEISS_YEHUDA</name>
+<description>![CDATA[BSSID:00:1d:aa:fb:1f:b0
+Id: model=SHIELD Tablet
+Frequency:6
+Timestamp: 2017-10-27 16:27:41
+date: 2017-10-27 16:27:41</description>
+<TimeStamp id="25b8a34a-551d-41e1-8cab-7cceb70b05fe">
+<when>2017-10-27 16:27:41</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="e4a118b8-a917-483d-bbc3-2bc337b4e9cc">
+<coordinates>34.810955821361866,32.16989917679963</coordinates>
+</Point>
+</Placemark>
+<Placemark id="98f5432d-309c-464a-b593-24b063a08ea9">
+<name>Neeman2.4</name>
+<description>![CDATA[BSSID:20:0c:c8:1d:c8:2b
+Id: model=SHIELD Tablet
+Frequency:1
+Timestamp: 2017-10-27 16:27:41
+date: 2017-10-27 16:27:41</description>
+<TimeStamp id="1adea3b4-4c3b-4e0b-89d4-440dabc82e12">
+<when>2017-10-27 16:27:41</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="b805450b-121f-46dc-b6ef-d258f1b07284">
+<coordinates>34.810955821361866,32.16989917679963</coordinates>
+</Point>
+</Placemark>
+<Placemark id="4aad8787-d3e2-477f-8261-99691e975c6b">
+<name>zarrouk1</name>
+<description>![CDATA[BSSID:c0:ff:d4:81:6e:f6
+Id: model=SHIELD Tablet
+Frequency:6
+Timestamp: 2017-10-27 16:27:41
+date: 2017-10-27 16:27:41</description>
+<TimeStamp id="633c23c9-7dc7-42e2-86a2-2b60fce04239">
+<when>2017-10-27 16:27:41</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="92de4951-f503-41b7-bf75-10eedf819f7c">
+<coordinates>34.810955821361866,32.16989917679963</coordinates>
+</Point>
+</Placemark>
+<Placemark id="679030cb-fb43-4b6f-9b9f-d10dc59fc0d9">
+<name>Tankus</name>
+<description>![CDATA[BSSID:14:ae:db:4c:d1:55
+Id: model=SHIELD Tablet
+Frequency:10
+Timestamp: 2017-10-27 16:27:41
+date: 2017-10-27 16:27:41</description>
+<TimeStamp id="4d61ebfd-55dd-4026-8f0f-a51d0b9358cc">
+<when>2017-10-27 16:27:41</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="8f70c0f0-d9ad-48a8-94b5-8e58fb429f80">
+<coordinates>34.810955821361866,32.16989917679963</coordinates>
+</Point>
+</Placemark>
+<Placemark id="5c055146-0453-4c53-8073-fd24d34e612d">
+<name>upstairs</name>
+<description>![CDATA[BSSID:d4:6e:0e:cf:bc:ca
+Id: model=SHIELD Tablet
+Frequency:6
+Timestamp: 2017-10-27 16:27:41
+date: 2017-10-27 16:27:41</description>
+<TimeStamp id="9b0c1756-fed1-4840-b490-ced4d5772645">
+<when>2017-10-27 16:27:41</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="a04d5958-6736-4d3b-8ba2-dad606710da5">
+<coordinates>34.810955821361866,32.16989917679963</coordinates>
+</Point>
+</Placemark>
+<Placemark id="c6c067cd-b619-488e-add2-62e391321c49">
+<name>anino_5</name>
+<description>![CDATA[BSSID:90:8d:78:51:9f:57
+Id: model=SHIELD Tablet
+Frequency:48
+Timestamp: 2017-10-27 16:27:41
+date: 2017-10-27 16:27:41</description>
+<TimeStamp id="7c478f7c-710c-40a8-b928-e9a06d9fddde">
+<when>2017-10-27 16:27:41</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="1ed15c95-7784-476b-bbd4-c20db008a137">
+<coordinates>34.810955821361866,32.16989917679963</coordinates>
+</Point>
+</Placemark>
+<Placemark id="e81cec1d-e971-463b-ac5b-f95edc2360f9">
+<name>BezeqFree</name>
+<description>![CDATA[BSSID:06:ae:db:4c:d1:55
+Id: model=SHIELD Tablet
+Frequency:10
+Timestamp: 2017-10-27 16:27:41
+date: 2017-10-27 16:27:41</description>
+<TimeStamp id="2ea56ef7-aacb-492b-91af-41e26ce4a78f">
+<when>2017-10-27 16:27:41</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="6d74a902-3c7d-4f7b-a0f2-51000dd0e32e">
+<coordinates>34.810955821361866,32.16989917679963</coordinates>
+</Point>
+</Placemark>
+<Placemark id="e63dd7d5-b17d-46fa-add6-e3707112a1a6">
+<name>DIRECT-A4-HP OfficeJet 6950</name>
+<description>![CDATA[BSSID:c8:d3:ff:f9:48:a5
+Id: model=SHIELD Tablet
+Frequency:1
+Timestamp: 2017-10-27 16:27:41
+date: 2017-10-27 16:27:41</description>
+<TimeStamp id="8b06fc69-f101-495e-b23a-af4d6797f958">
+<when>2017-10-27 16:27:41</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="7f06b8f6-83dd-41ae-84c7-0ff65543c4ad">
+<coordinates>34.810955821361866,32.16989917679963</coordinates>
+</Point>
+</Placemark>
+<Placemark id="0215122c-ee94-4871-bd24-3496acc602d2">
+<name>HOTBOX-D7AA</name>
+<description>![CDATA[BSSID:00:78:9e:fa:b1:de
+Id: model=SHIELD Tablet
+Frequency:1
+Timestamp: 2017-10-27 16:27:41
+date: 2017-10-27 16:27:41</description>
+<TimeStamp id="06ee7fa6-69de-4643-b9ee-98e3804d6335">
+<when>2017-10-27 16:27:41</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="0810519f-4961-4399-9c65-cb7499b156d1">
+<coordinates>34.810955821361866,32.16989917679963</coordinates>
+</Point>
+</Placemark>
+<Placemark id="734000a1-e386-40bd-8dd4-a913da19fc4d">
+<name>Bezeq Free F026CC</name>
+<description>![CDATA[BSSID:6a:0c:c8:1d:c8:28
+Id: model=SHIELD Tablet
+Frequency:1
+Timestamp: 2017-10-27 16:27:41
+date: 2017-10-27 16:27:41</description>
+<TimeStamp id="7e4fce82-3e94-42f2-b8b4-fd00a63b2990">
+<when>2017-10-27 16:27:41</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="c6edc4e2-8aba-4358-a291-66e7cd0b451a">
+<coordinates>34.810955821361866,32.16989917679963</coordinates>
+</Point>
+</Placemark>
+<Placemark id="58b5ac2e-e661-4ee8-b129-ed6ea4272814">
+<name>alexrath</name>
+<description>![CDATA[BSSID:48:ee:0c:3d:1d:6c
+Id: model=SHIELD Tablet
+Frequency:8
+Timestamp: 2017-10-27 16:27:41
+date: 2017-10-27 16:27:41</description>
+<TimeStamp id="981eccde-245f-488f-832d-61a4c92eec89">
+<when>2017-10-27 16:27:41</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="15264b6b-ef52-4507-9999-717cf0a40474">
+<coordinates>34.810955821361866,32.16989917679963</coordinates>
+</Point>
+</Placemark>
+<Placemark id="9b0e9e3c-d282-4dc5-a5fb-dfa3a7ebb51a">
+<name>oved-main_2EX</name>
+<description>![CDATA[BSSID:74:da:38:97:66:9d
+Id: model=SHIELD Tablet
+Frequency:6
+Timestamp: 2017-10-27 16:27:41
+date: 2017-10-27 16:27:41</description>
+<TimeStamp id="2c59a9fd-9d91-42be-8823-ad999705005f">
+<when>2017-10-27 16:27:41</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="8dd7281d-78ca-424a-b909-a14795fa0207">
+<coordinates>34.810955821361866,32.16989917679963</coordinates>
+</Point>
+</Placemark>
+<Placemark id="bd0159ef-e5ae-4c96-96ca-673ea5cdf4c9">
+<name>  InnovationEndeavors</name>
+<description>![CDATA[BSSID:74:da:38:a9:1c:df
+Id: model=SHIELD Tablet
+Frequency:4
+Timestamp: 2017-10-27 16:27:41
+date: 2017-10-27 16:27:41</description>
+<TimeStamp id="b6959bd6-d726-44c0-8797-98bc727b74d7">
+<when>2017-10-27 16:27:41</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="76892750-c544-48b9-a6eb-308b808aa382">
+<coordinates>34.810955821361866,32.16989917679963</coordinates>
+</Point>
+</Placemark>
+<Placemark id="654adecc-7334-4348-a3ce-bd5af05f091f">
+<name>HOTFiber-C5F0</name>
+<description>![CDATA[BSSID:08:6a:0a:57:c1:72
+Id: model=SHIELD Tablet
+Frequency:11
+Timestamp: 2017-10-27 16:27:41
+date: 2017-10-27 16:27:41</description>
+<TimeStamp id="9b84b6f0-d7d0-45d6-b91f-0fa2d8d3bd2e">
+<when>2017-10-27 16:27:41</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="2ecb3225-2bf2-415b-8f7b-6185738cf0be">
+<coordinates>34.810955821361866,32.16989917679963</coordinates>
+</Point>
+</Placemark>
+<Placemark id="8ba5e68a-9cc9-44ae-8a12-6128abf2526f">
+<name>edimax_2.4G_A92417</name>
+<description>![CDATA[BSSID:74:da:38:a9:24:17
+Id: model=SHIELD Tablet
+Frequency:2
+Timestamp: 2017-10-27 16:27:41
+date: 2017-10-27 16:27:41</description>
+<TimeStamp id="149f6ad6-4278-4521-87cb-a862b15a6818">
+<when>2017-10-27 16:27:41</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="d5c8e209-83ba-403d-8d5d-3122b32b66eb">
+<coordinates>34.810955821361866,32.16989917679963</coordinates>
+</Point>
+</Placemark>
+<Placemark id="bd44b4a9-0e00-434a-81c7-4c5ce51a1866">
+<name>oved-main</name>
+<description>![CDATA[BSSID:74:da:3a:97:66:9e
+Id: model=SHIELD Tablet
+Frequency:6
+Timestamp: 2017-10-27 16:27:43
+date: 2017-10-27 16:27:43</description>
+<TimeStamp id="e2ac8d7c-b74e-450c-bfa9-a7cc0ad0b2c0">
+<when>2017-10-27 16:27:43</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="12112cef-2e06-4b65-bf62-af234dfff66e">
+<coordinates>34.81087908987147,32.16970896780877</coordinates>
+</Point>
+</Placemark>
+<Placemark id="cf663713-fcf1-436e-a315-5c1ab619f75a">
+<name>oved-main_2EX</name>
+<description>![CDATA[BSSID:74:da:38:97:66:9d
+Id: model=SHIELD Tablet
+Frequency:6
+Timestamp: 2017-10-27 16:27:43
+date: 2017-10-27 16:27:43</description>
+<TimeStamp id="dfb11bb2-d482-4c77-88a6-7807665b62b8">
+<when>2017-10-27 16:27:43</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="e802dc39-b37a-44fc-8459-f063d426d193">
+<coordinates>34.81087908987147,32.16970896780877</coordinates>
+</Point>
+</Placemark>
+<Placemark id="eb1d1059-57e2-4fd8-baf0-71cd4dd5c76d">
+<name>DIRECT-A4-HP OfficeJet 6950</name>
+<description>![CDATA[BSSID:c8:d3:ff:f9:48:a5
+Id: model=SHIELD Tablet
+Frequency:1
+Timestamp: 2017-10-27 16:27:43
+date: 2017-10-27 16:27:43</description>
+<TimeStamp id="a6e73643-320e-4e04-a7be-4be8bf54fb52">
+<when>2017-10-27 16:27:43</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="44a066d9-63f6-4a04-b9b4-a5059cb05e54">
+<coordinates>34.81087908987147,32.16970896780877</coordinates>
+</Point>
+</Placemark>
+<Placemark id="5e3120b6-1b42-4622-bb0d-280339c4b555">
+<name>HOTBOX6</name>
+<description>![CDATA[BSSID:d8:fb:5e:17:62:4d
+Id: model=SHIELD Tablet
+Frequency:13
+Timestamp: 2017-10-27 16:27:43
+date: 2017-10-27 16:27:43</description>
+<TimeStamp id="b9908126-2fdf-42c5-b298-bb97ff32deb6">
+<when>2017-10-27 16:27:43</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="16011c0b-64d0-4949-80cf-e0c6faef8db1">
+<coordinates>34.81087908987147,32.16970896780877</coordinates>
+</Point>
+</Placemark>
+<Placemark id="61e6cab9-a3df-4658-a137-aeab7ccefcfd">
+<name>bait</name>
+<description>![CDATA[BSSID:10:be:f5:3f:b2:ce
+Id: model=SHIELD Tablet
+Frequency:7
+Timestamp: 2017-10-27 16:27:43
+date: 2017-10-27 16:27:43</description>
+<TimeStamp id="f5364a0f-20c1-44c4-b975-2eb7e3ac7bef">
+<when>2017-10-27 16:27:43</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="c2629134-a8d1-41c3-9f9f-dd731f923812">
+<coordinates>34.81087908987147,32.16970896780877</coordinates>
+</Point>
+</Placemark>
+<Placemark id="96058a31-6117-459d-bfba-831f8e0f480b">
+<name>oved-main</name>
+<description>![CDATA[BSSID:74:da:39:54:b8:1d
+Id: model=SHIELD Tablet
+Frequency:6
+Timestamp: 2017-10-27 16:27:43
+date: 2017-10-27 16:27:43</description>
+<TimeStamp id="db4d8bf5-2a8c-4419-be5b-05f5b30554f3">
+<when>2017-10-27 16:27:43</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="dc3fa510-2ab5-427f-94e4-839d70dae100">
+<coordinates>34.81087908987147,32.16970896780877</coordinates>
+</Point>
+</Placemark>
+<Placemark id="52bfee0e-a0f2-4ddc-b993-26fe4480a4eb">
+<name>ZEISS_YEHUDA</name>
+<description>![CDATA[BSSID:00:1d:aa:fb:1f:b0
+Id: model=SHIELD Tablet
+Frequency:6
+Timestamp: 2017-10-27 16:27:51
+date: 2017-10-27 16:27:51</description>
+<TimeStamp id="44e8e185-39aa-460b-a332-72b7c7235123">
+<when>2017-10-27 16:27:51</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="312893ac-0a4c-45de-9d10-c2f97cdcb8ea">
+<coordinates>34.81057832260162,32.16888419220148</coordinates>
+</Point>
+</Placemark>
+<Placemark id="1d715db7-ac65-4bb5-a831-325edf785748">
+<name>Neeman2.4</name>
+<description>![CDATA[BSSID:20:0c:c8:1d:c8:2b
+Id: model=SHIELD Tablet
+Frequency:1
+Timestamp: 2017-10-27 16:27:51
+date: 2017-10-27 16:27:51</description>
+<TimeStamp id="4fbd3851-3bc4-4d0e-9eb9-e7bea6de2c3b">
+<when>2017-10-27 16:27:51</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="6ea075c1-959f-4f3e-926c-3a652cfdb659">
+<coordinates>34.81057832260162,32.16888419220148</coordinates>
+</Point>
+</Placemark>
+<Placemark id="dbde25f2-a22c-4850-b991-c6080b000d40">
+<name>Bezeq Free F026CC</name>
+<description>![CDATA[BSSID:6a:0c:c8:1d:c8:28
+Id: model=SHIELD Tablet
+Frequency:1
+Timestamp: 2017-10-27 16:27:51
+date: 2017-10-27 16:27:51</description>
+<TimeStamp id="df634595-f0a2-475a-b894-c1757d967060">
+<when>2017-10-27 16:27:51</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="3b4c4d0f-c3b9-44cd-a0b4-09472f1a45bc">
+<coordinates>34.81057832260162,32.16888419220148</coordinates>
+</Point>
+</Placemark>
+<Placemark id="368bec1d-8454-4464-a171-9f5af81f6099">
+<name>  InnovationEndeavors</name>
+<description>![CDATA[BSSID:74:da:38:a9:1c:df
+Id: model=SHIELD Tablet
+Frequency:4
+Timestamp: 2017-10-27 16:27:51
+date: 2017-10-27 16:27:51</description>
+<TimeStamp id="2221333a-5d27-4734-be3c-a1e2813598c8">
+<when>2017-10-27 16:27:51</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="7c753151-5c41-480b-bd2a-4165c29d478b">
+<coordinates>34.81057832260162,32.16888419220148</coordinates>
+</Point>
+</Placemark>
+<Placemark id="e1f967e4-2eb9-4f84-98a2-fb2b7ba98bb1">
+<name>edimax_2.4G_A92417</name>
+<description>![CDATA[BSSID:74:da:38:a9:24:17
+Id: model=SHIELD Tablet
+Frequency:2
+Timestamp: 2017-10-27 16:27:51
+date: 2017-10-27 16:27:51</description>
+<TimeStamp id="e577f3f6-cd20-428e-96a6-d365b39a7e87">
+<when>2017-10-27 16:27:51</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="519b43c9-3b51-45ad-b666-399f5ae15c91">
+<coordinates>34.81057832260162,32.16888419220148</coordinates>
+</Point>
+</Placemark>
+<Placemark id="11ef5435-99cc-4b35-8397-ee7d8a39a194">
+<name>oved-main</name>
+<description>![CDATA[BSSID:74:da:3a:97:66:9e
+Id: model=SHIELD Tablet
+Frequency:6
+Timestamp: 2017-10-27 16:27:53
+date: 2017-10-27 16:27:53</description>
+<TimeStamp id="07a94a9c-3563-4b74-beee-06ce138a325a">
+<when>2017-10-27 16:27:53</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="424af5b2-fa3d-4a47-8dc5-8899347781ab">
+<coordinates>34.81050710096076,32.16869113485125</coordinates>
+</Point>
+</Placemark>
+<Placemark id="af91570c-80de-4a02-b1a4-9181a11e35c5">
+<name>oved-main_2EX</name>
+<description>![CDATA[BSSID:74:da:38:97:66:9d
+Id: model=SHIELD Tablet
+Frequency:6
+Timestamp: 2017-10-27 16:27:53
+date: 2017-10-27 16:27:53</description>
+<TimeStamp id="fa53aec6-24f9-4978-b5d0-f0bb77ff27a9">
+<when>2017-10-27 16:27:53</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="4ad5ba22-7c1f-4fa7-88b7-b2cf893f2a1c">
+<coordinates>34.81050710096076,32.16869113485125</coordinates>
+</Point>
+</Placemark>
+<Placemark id="30843eed-fafc-4d83-b58b-cecf7a91788c">
+<name>DIRECT-A4-HP OfficeJet 6950</name>
+<description>![CDATA[BSSID:c8:d3:ff:f9:48:a5
+Id: model=SHIELD Tablet
+Frequency:1
+Timestamp: 2017-10-27 16:27:53
+date: 2017-10-27 16:27:53</description>
+<TimeStamp id="94055fd9-e7f7-4e5e-8a82-7ba359a88337">
+<when>2017-10-27 16:27:53</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="3536f626-0aba-43e2-8713-99562429872f">
+<coordinates>34.81050710096076,32.16869113485125</coordinates>
+</Point>
+</Placemark>
+<Placemark id="96d4a8c1-bba2-48f7-ada6-f02babc19c8a">
+<name>HOTBOX6</name>
+<description>![CDATA[BSSID:d8:fb:5e:17:62:4d
+Id: model=SHIELD Tablet
+Frequency:13
+Timestamp: 2017-10-27 16:27:53
+date: 2017-10-27 16:27:53</description>
+<TimeStamp id="eb4b832c-c3cc-4bcf-a03a-66c823069a37">
+<when>2017-10-27 16:27:53</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="9a182973-4efb-477d-b11f-95bf802e9789">
+<coordinates>34.81050710096076,32.16869113485125</coordinates>
+</Point>
+</Placemark>
+<Placemark id="9d5eba07-634f-4550-818c-c0b61a96af28">
+<name>bait</name>
+<description>![CDATA[BSSID:10:be:f5:3f:b2:ce
+Id: model=SHIELD Tablet
+Frequency:7
+Timestamp: 2017-10-27 16:27:53
+date: 2017-10-27 16:27:53</description>
+<TimeStamp id="6f6d84fe-0bdc-459b-b17e-8b619e7f0244">
+<when>2017-10-27 16:27:53</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="5601aaa8-4b46-4b6a-9d25-49e78a532eeb">
+<coordinates>34.81050710096076,32.16869113485125</coordinates>
+</Point>
+</Placemark>
+<Placemark id="6d266c55-192d-4afc-85bc-3a2129e4f4fe">
+<name>oved-main</name>
+<description>![CDATA[BSSID:74:da:39:54:b8:1d
+Id: model=SHIELD Tablet
+Frequency:6
+Timestamp: 2017-10-27 16:27:53
+date: 2017-10-27 16:27:53</description>
+<TimeStamp id="3dafa5b6-1299-4f75-bd7e-ce9eab599245">
+<when>2017-10-27 16:27:53</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="3f81ca27-4b85-4bd1-9377-686aa3128b70">
+<coordinates>34.81050710096076,32.16869113485125</coordinates>
+</Point>
+</Placemark>
+<Placemark id="5fe19371-965e-4c79-824c-d4d8304cd809">
+<name>BARON WIFI 2.4</name>
+<description>![CDATA[BSSID:60:e3:27:bf:a1:a5
+Id: model=SHIELD Tablet
+Frequency:11
+Timestamp: 2017-10-27 16:27:58
+date: 2017-10-27 16:27:58</description>
+<TimeStamp id="6e65e13d-3407-4e27-abe0-c17be2632ba2">
+<when>2017-10-27 16:27:58</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="7e5d54cc-f106-45d8-b37b-b14422e26c4e">
+<coordinates>34.81026982775982,32.16818035885044</coordinates>
+</Point>
+</Placemark>
+<Placemark id="4da25ea1-69ec-434b-ae8e-b0ab07b167f0">
+<name>kessel_2</name>
+<description>![CDATA[BSSID:90:ef:68:30:6b:69
+Id: model=SHIELD Tablet
+Frequency:5
+Timestamp: 2017-10-27 16:27:58
+date: 2017-10-27 16:27:58</description>
+<TimeStamp id="c17cb424-a0bd-47bf-a2eb-d74eae1d4095">
+<when>2017-10-27 16:27:58</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="4b018716-37d9-4959-9867-80785348b325">
+<coordinates>34.81026982775982,32.16818035885044</coordinates>
+</Point>
+</Placemark>
+<Placemark id="46634d1e-2733-4495-979c-5158e8935b51">
+<name>Levy</name>
+<description>![CDATA[BSSID:f8:ab:05:47:3f:d0
+Id: model=SHIELD Tablet
+Frequency:10
+Timestamp: 2017-10-27 16:27:58
+date: 2017-10-27 16:27:58</description>
+<TimeStamp id="a66e6ae9-0361-47ca-b0dc-c50a541fb3d3">
+<when>2017-10-27 16:27:58</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="a92eb314-56e5-4a2f-b028-7c9cb488ccb5">
+<coordinates>34.81026982775982,32.16818035885044</coordinates>
+</Point>
+</Placemark>
+<Placemark id="27e05963-ef0a-4b3d-8a84-43335f5c9d07">
+<name>Oberyn Martell</name>
+<description>![CDATA[BSSID:18:d6:c7:fb:1c:0e
+Id: model=SHIELD Tablet
+Frequency:8
+Timestamp: 2017-10-27 16:27:58
+date: 2017-10-27 16:27:58</description>
+<TimeStamp id="28256ffb-37dc-4bed-892e-e9830d1cfe7e">
+<when>2017-10-27 16:27:58</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="088265f8-b30f-4708-a66c-8e5114b25c30">
+<coordinates>34.81026982775982,32.16818035885044</coordinates>
+</Point>
+</Placemark>
+<Placemark id="3a5cce93-5ed3-4367-86b8-efa265e875db">
+<name>terry_ap</name>
+<description>![CDATA[BSSID:5c:83:8f:33:bd:68
+Id: model=SHIELD Tablet
+Frequency:1
+Timestamp: 2017-10-27 16:27:58
+date: 2017-10-27 16:27:58</description>
+<TimeStamp id="49a6e253-87ef-4894-b447-9d178eb96acc">
+<when>2017-10-27 16:27:58</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="bf7d9b51-0b55-4be5-a262-8d846ed801eb">
+<coordinates>34.81026982775982,32.16818035885044</coordinates>
+</Point>
+</Placemark>
+<Placemark id="c8a02abd-bbba-4cd2-af60-a200187de676">
+<name>terryk</name>
+<description>![CDATA[BSSID:28:c6:8e:37:50:14
+Id: model=SHIELD Tablet
+Frequency:11
+Timestamp: 2017-10-27 16:27:58
+date: 2017-10-27 16:27:58</description>
+<TimeStamp id="d5524c12-bd66-4ee8-8501-9bc2b47221b7">
+<when>2017-10-27 16:27:58</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="740e7ea1-7534-484e-831d-9d077088cfb2">
+<coordinates>34.81026982775982,32.16818035885044</coordinates>
+</Point>
+</Placemark>
+<Placemark id="5e833cff-eef7-47cb-86b2-2d3ecfb5c0f8">
+<name>ZEISS_YEHUDA</name>
+<description>![CDATA[BSSID:00:1d:aa:fb:1f:b0
+Id: model=SHIELD Tablet
+Frequency:6
+Timestamp: 2017-10-27 16:28:03
+date: 2017-10-27 16:28:03</description>
+<TimeStamp id="44ce0ff0-66aa-4776-97fe-968aaa3e2d99">
+<when>2017-10-27 16:28:03</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="adf26692-baf5-4df0-b524-24717e008b2b">
+<coordinates>34.81003220007453,32.16778360857842</coordinates>
+</Point>
+</Placemark>
+<Placemark id="21649cde-3902-4c06-8765-3a2829989e4f">
+<name>Neeman2.4</name>
+<description>![CDATA[BSSID:20:0c:c8:1d:c8:2b
+Id: model=SHIELD Tablet
+Frequency:1
+Timestamp: 2017-10-27 16:28:03
+date: 2017-10-27 16:28:03</description>
+<TimeStamp id="32c56203-c088-4bfd-a34c-9786cb119236">
+<when>2017-10-27 16:28:03</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="6e776db5-b9b1-44f1-90aa-9efa9d4d2ccf">
+<coordinates>34.81003220007453,32.16778360857842</coordinates>
+</Point>
+</Placemark>
+<Placemark id="7f4e1cdf-f032-4d96-af7e-f1aa611ec7b3">
+<name>Bezeq Free F026CC</name>
+<description>![CDATA[BSSID:6a:0c:c8:1d:c8:28
+Id: model=SHIELD Tablet
+Frequency:1
+Timestamp: 2017-10-27 16:28:03
+date: 2017-10-27 16:28:03</description>
+<TimeStamp id="bc32c7cd-4dc1-45bd-baf0-f302151db4ba">
+<when>2017-10-27 16:28:03</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="cd6d7b85-b4da-4cd8-9303-079fa895a122">
+<coordinates>34.81003220007453,32.16778360857842</coordinates>
+</Point>
+</Placemark>
+<Placemark id="25317de4-8a41-4125-8049-ecea2e92fd2e">
+<name>  InnovationEndeavors</name>
+<description>![CDATA[BSSID:74:da:38:a9:1c:df
+Id: model=SHIELD Tablet
+Frequency:4
+Timestamp: 2017-10-27 16:28:03
+date: 2017-10-27 16:28:03</description>
+<TimeStamp id="1c51f613-f1ec-4d03-9fb2-02b19a2e5ca3">
+<when>2017-10-27 16:28:03</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="5032f1a5-a15f-4e0b-9af6-056fd35af333">
+<coordinates>34.81003220007453,32.16778360857842</coordinates>
+</Point>
+</Placemark>
+<Placemark id="e06abe93-eeec-40bd-8da8-798b0db653d4">
+<name>edimax_2.4G_A92417</name>
+<description>![CDATA[BSSID:74:da:38:a9:24:17
+Id: model=SHIELD Tablet
+Frequency:2
+Timestamp: 2017-10-27 16:28:03
+date: 2017-10-27 16:28:03</description>
+<TimeStamp id="db065a93-7577-4bdd-bc70-de22558a133d">
+<when>2017-10-27 16:28:03</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="26db3274-5a0e-42e5-bfcb-a6606290425a">
+<coordinates>34.81003220007453,32.16778360857842</coordinates>
+</Point>
+</Placemark>
+<Placemark id="b6e3b4f4-02be-427d-ad58-4b28527be826">
+<name>oved-main</name>
+<description>![CDATA[BSSID:74:da:3a:97:66:9e
+Id: model=SHIELD Tablet
+Frequency:6
+Timestamp: 2017-10-27 16:28:07
+date: 2017-10-27 16:28:07</description>
+<TimeStamp id="3c85827b-411d-4637-81d5-d94753523b40">
+<when>2017-10-27 16:28:07</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="6c976cd1-848b-45c6-93a9-1fd0ce54f102">
+<coordinates>34.80990526256212,32.16765491327528</coordinates>
+</Point>
+</Placemark>
+<Placemark id="d857e565-49a2-4986-a6f3-9d20a3a37644">
+<name>oved-main_2EX</name>
+<description>![CDATA[BSSID:74:da:38:97:66:9d
+Id: model=SHIELD Tablet
+Frequency:6
+Timestamp: 2017-10-27 16:28:07
+date: 2017-10-27 16:28:07</description>
+<TimeStamp id="082aec41-7c01-41e3-974e-adfcbcaff3b7">
+<when>2017-10-27 16:28:07</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="588809ba-73c5-4f99-b79c-c061250d1b9b">
+<coordinates>34.80990526256212,32.16765491327528</coordinates>
+</Point>
+</Placemark>
+<Placemark id="bd40e4e3-5a13-4ae5-b9d2-06398c942240">
+<name>DIRECT-A4-HP OfficeJet 6950</name>
+<description>![CDATA[BSSID:c8:d3:ff:f9:48:a5
+Id: model=SHIELD Tablet
+Frequency:1
+Timestamp: 2017-10-27 16:28:07
+date: 2017-10-27 16:28:07</description>
+<TimeStamp id="b96d029a-0f5d-413a-a8fa-e2ac37115150">
+<when>2017-10-27 16:28:07</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="d3c50c3b-b87c-403f-9a0e-a137df5bd013">
+<coordinates>34.80990526256212,32.16765491327528</coordinates>
+</Point>
+</Placemark>
+<Placemark id="65fb2e57-6446-4aa2-9494-bd553e47d1ea">
+<name>HOTBOX6</name>
+<description>![CDATA[BSSID:d8:fb:5e:17:62:4d
+Id: model=SHIELD Tablet
+Frequency:13
+Timestamp: 2017-10-27 16:28:07
+date: 2017-10-27 16:28:07</description>
+<TimeStamp id="bae1851c-6833-49b8-acee-60965278a60c">
+<when>2017-10-27 16:28:07</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="25983400-223d-480a-a17c-5947244891a7">
+<coordinates>34.80990526256212,32.16765491327528</coordinates>
+</Point>
+</Placemark>
+<Placemark id="683558d5-8155-4a6b-884d-7c1cceef93d1">
+<name>bait</name>
+<description>![CDATA[BSSID:10:be:f5:3f:b2:ce
+Id: model=SHIELD Tablet
+Frequency:7
+Timestamp: 2017-10-27 16:28:07
+date: 2017-10-27 16:28:07</description>
+<TimeStamp id="18153542-8bcb-4c27-8239-3d9a9cf20e83">
+<when>2017-10-27 16:28:07</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="725158c4-9031-4352-96d3-53e7bd5d63ad">
+<coordinates>34.80990526256212,32.16765491327528</coordinates>
+</Point>
+</Placemark>
+<Placemark id="51d671cb-ebfd-4e5e-a7ce-164eda862c0a">
+<name>oved-main</name>
+<description>![CDATA[BSSID:74:da:39:54:b8:1d
+Id: model=SHIELD Tablet
+Frequency:6
+Timestamp: 2017-10-27 16:28:07
+date: 2017-10-27 16:28:07</description>
+<TimeStamp id="49853fa3-89a4-4028-b3c2-fed91754fbf9">
+<when>2017-10-27 16:28:07</when>
+</TimeStamp>
+<styleUrl>#red</styleUrl>
+<Point id="32f2af25-8c33-4035-bc8f-dd3dffc5452b">
+<coordinates>34.80990526256212,32.16765491327528</coordinates>
+</Point>
+</Placemark>
+</Folder>
+</Document>
+</kml>

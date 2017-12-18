@@ -1,0 +1,119 @@
+import java.util.ArrayList;
+import java.util.Collections;
+/**
+ * the class responsable for the sort of the wifi networks
+ *
+ */
+public class WifiSort {
+	/**
+	 * sort the signals in the list
+	 * @param list
+	 */
+	public static void signalsort (ArrayList <Wifi> list) {
+		Collections.sort(list);
+	}
+	/**
+	 * checks the amoount of wifi for each time
+	 * @param wifiarr
+	 * @param time
+	 * @return
+	 */
+	public ArrayList<Wifi> checkArraybyTime (ArrayList<Wifi> wifiarr,String time ){
+		ArrayList<Wifi> wifichecked = new ArrayList<Wifi>();
+		int index = 0, counter = 0;
+		while(index<wifiarr.size() && counter < 10) {
+			if(wifiarr.get(index).getTime().contains(time)){
+				wifichecked.add(wifiarr.get(index));
+				counter++;
+			}
+			index++;
+		}
+		return wifichecked ;
+	}
+	/**
+	 * check if the time is right
+	 * @param wifi
+	 * @param time
+	 * @return
+	 */
+	public boolean checkTime(Wifi wifi,String time ){
+		if(wifi.getTime().contains(time))
+			return true ;
+		else return false ;
+	}
+	/**
+	 * checks the amoount of wifi for each id
+	 * @param wifiarr
+	 * @param Id
+	 * @return
+	 */
+	public ArrayList<Wifi> checkArraybyId (ArrayList<Wifi> wifiarr,String Id ){
+		ArrayList<Wifi> wifichecked = new ArrayList<Wifi>();
+		int index = 0 , counter = 0;
+		while(index<wifiarr.size()&& counter < 10) {
+			if(wifiarr.get(index).getId().contains(Id)){
+				wifichecked.add(wifiarr.get(index));
+				counter++;
+			}
+			index++;
+
+		}
+		return wifichecked ;
+	}
+	/**
+	 * check if the id is right
+	 * @param wifi
+	 * @param Id
+	 * @return
+	 */
+	public boolean checkId(Wifi wifi,String Id ){
+		if(wifi.getId().contains(Id))
+			return true ;
+		else return false ;
+	}
+	/**
+	 * checks the amoount of wifi for each location
+	 * @param wifiarr
+	 * @param Lat
+	 * @param Lon
+	 * @return
+	 */
+	public ArrayList<Wifi> checkArraybyLocation (ArrayList<Wifi> wifiarr,String Lat,String Lon ){
+		ArrayList<Wifi> wifichecked = new ArrayList<Wifi>();
+		int index = 0, counter = 0;
+		while(index<wifiarr.size()&& counter < 10) {
+			if(Lat == "" && wifiarr.get(index).getLon().equals(Lon)){
+				wifichecked.add(wifiarr.get(index));
+				counter++;
+			}
+			else if(Lon == "" && wifiarr.get(index).getLat().equals(Lat)){
+				wifichecked.add(wifiarr.get(index));
+				counter++;
+			}
+
+			else if(wifiarr.get(index).getLat().equals(Lat) && wifiarr.get(index).getLon().equals(Lon)){
+				wifichecked.add(wifiarr.get(index));
+				counter++;
+			}
+			index++;
+
+		}
+		return wifichecked ;
+	}
+	/**
+	 * check if the location is right
+	 * @param wifi
+	 * @param Lat
+	 * @param Lon
+	 * @return
+	 */
+	public boolean checkLocation(Wifi wifi,String Lat,String Lon ){
+		if(Lat == "" && wifi.getLon().equals(Lon))
+			return true ;
+		else if(Lon == "" && wifi.getLat().equals(Lat))
+			return true ;
+		else if( wifi.getLat().equals(Lat) && wifi.getLon().equals(Lon))
+			return true ;
+		else return false ;
+	}
+}

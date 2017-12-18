@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="aae10325-e5e9-4863-a7e4-49d3e086bb17">
+<Style id="red">
+<IconStyle id="be19db4b-20bc-4b7f-8a0e-b9da1f2b8627">
+<Icon>
+<href>http://maps.google.com/mapfiles/ms/icons/red-dot.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Style id="green">
+<IconStyle id="d15b72ab-91b2-4e98-b464-2fcc06977681">
+<Icon>
+<href>http://maps.google.com/mapfiles/ms/icons/green-dot.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Style id="yellow">
+<IconStyle id="eb3f8b6b-9e39-433a-92d8-b952e2986ed5">
+<Icon>
+<href>http://maps.google.com/mapfiles/ms/icons/yellow-dot.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Folder id="0da5fbec-ebcc-4b03-b9a3-39efdff85e7f">
+<name>Wifi Networks</name>
+<Placemark id="dedabb1a-1157-4e6b-b85f-0e97794a3547">
+<name>HOTBOX111</name>
+<description>![CDATA[BSSID:90:f6:52:28:38:19
+Id: model=Lenovo PB2-690Y
+Frequency:11
+signal: -71
+date: 2017-10-27 16:16:22</description>
+<TimeStamp id="e65b0d8d-1bb7-498a-9116-319ec36ee218">
+<when>2017-10-27T16:16:22Z</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="809454a4-839d-42b4-a2bf-25e614553484">
+<coordinates>34.80988697,32.16763949</coordinates>
+</Point>
+</Placemark>
+<Placemark id="f58e4563-ff0d-4faa-812a-982aec466851">
+<name>HOTBOX111</name>
+<description>![CDATA[BSSID:c0:ac:54:f6:ae:5e
+Id: model=Lenovo PB2-690Y
+Frequency:11
+signal: -76
+date: 2017-10-27 16:16:22</description>
+<TimeStamp id="714c70c4-aa03-4ab5-a88f-706694c30fff">
+<when>2017-10-27T16:16:22Z</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="fc6691a3-24f5-4cf8-b56f-ca71aaa9d192">
+<coordinates>34.80988697,32.16763949</coordinates>
+</Point>
+</Placemark>
+<Placemark id="ed6fff48-1f9d-44db-8644-66517685a3bc">
+<name>888Free</name>
+<description>![CDATA[BSSID:06:8d:db:6e:71:6d
+Id: model=Lenovo PB2-690Y
+Frequency:1
+signal: -80
+date: 2017-10-27 16:16:22</description>
+<TimeStamp id="a3cd64c7-3ecc-42a3-8a37-773244556222">
+<when>2017-10-27T16:16:22Z</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="421b43ed-9701-4a1c-80a8-8c2291975bda">
+<coordinates>34.80988697,32.16763949</coordinates>
+</Point>
+</Placemark>
+<Placemark id="9bf6ef93-3005-4c67-9440-3e86fe47eb79">
+<name>CEO-WiFi_2.4</name>
+<description>![CDATA[BSSID:c4:12:f5:80:24:0b
+Id: model=Lenovo PB2-690Y
+Frequency:1
+signal: -82
+date: 2017-10-27 16:16:22</description>
+<TimeStamp id="83200664-996f-4de9-8bbe-48cd641ab544">
+<when>2017-10-27T16:16:22Z</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="4b8f310a-1a13-466f-b1ea-a3218b67628b">
+<coordinates>34.80988697,32.16763949</coordinates>
+</Point>
+</Placemark>
+<Placemark id="b0df71b5-6581-44ba-b625-4479323acf6f">
+<name>888Free</name>
+<description>![CDATA[BSSID:06:8d:db:6e:71:bf
+Id: model=Lenovo PB2-690Y
+Frequency:1
+signal: -82
+date: 2017-10-27 16:16:22</description>
+<TimeStamp id="25533f7f-a0ec-48b6-81e4-b899e93df888">
+<when>2017-10-27T16:16:22Z</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="c9c17e75-37e0-49a7-a782-3d2189c92862">
+<coordinates>34.80988697,32.16763949</coordinates>
+</Point>
+</Placemark>
+<Placemark id="2e193199-cad1-4b3a-8bc6-369d424494a7">
+<name>Nomi Fix WIFI</name>
+<description>![CDATA[BSSID:c4:6e:1f:30:2b:7c
+Id: model=Lenovo PB2-690Y
+Frequency:1
+signal: -84
+date: 2017-10-27 16:16:22</description>
+<TimeStamp id="cdc845b3-b033-4b93-8df2-39a87baff35e">
+<when>2017-10-27T16:16:22Z</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="ebc78905-7739-4557-9ba0-d5c4d5f8bd26">
+<coordinates>34.80988697,32.16763949</coordinates>
+</Point>
+</Placemark>
+<Placemark id="f7df886c-cd41-4934-aa3b-5e3c184636d2">
+<name>BezeqFree</name>
+<description>![CDATA[BSSID:6a:12:f5:f9:5e:71
+Id: model=Lenovo PB2-690Y
+Frequency:8
+signal: -85
+date: 2017-10-27 16:16:22</description>
+<TimeStamp id="2de670bd-a5fa-4d88-bcf9-fe2b5f92efc2">
+<when>2017-10-27T16:16:22Z</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="6d046d02-882b-4d8c-8c63-59983a9cd465">
+<coordinates>34.80988697,32.16763949</coordinates>
+</Point>
+</Placemark>
+<Placemark id="d7a5a939-5a5c-4e73-a0f3-8a8a2684d77a">
+<name>smartsell</name>
+<description>![CDATA[BSSID:78:e8:b6:69:2c:91
+Id: model=Lenovo PB2-690Y
+Frequency:1
+signal: -85
+date: 2017-10-27 16:16:22</description>
+<TimeStamp id="67cc3b4a-4e7e-43a4-adbe-9d2d91f9f2d1">
+<when>2017-10-27T16:16:22Z</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="40706d35-a14c-47a9-8d10-29b26622a8c9">
+<coordinates>34.80988697,32.16763949</coordinates>
+</Point>
+</Placemark>
+<Placemark id="d86fc3ba-3988-4b6e-9f86-1591283436ea">
+<name>888Free</name>
+<description>![CDATA[BSSID:06:8d:db:6e:71:be
+Id: model=Lenovo PB2-690Y
+Frequency:11
+signal: -85
+date: 2017-10-27 16:16:22</description>
+<TimeStamp id="83020b2d-0698-44cf-a057-ea95abe4e5b6">
+<when>2017-10-27T16:16:22Z</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="967c814d-76bf-45d5-ba10-5efa5d8e4485">
+<coordinates>34.80988697,32.16763949</coordinates>
+</Point>
+</Placemark>
+<Placemark id="7aba7c7a-91de-4f4d-91bb-397aef65b5c7">
+<name>Robert1</name>
+<description>![CDATA[BSSID:3c:1e:04:03:7f:17
+Id: model=Lenovo PB2-690Y
+Frequency:1
+signal: -86
+date: 2017-10-27 16:16:22</description>
+<TimeStamp id="97376df4-adb4-49d1-b910-4bd6ed2867d2">
+<when>2017-10-27T16:16:22Z</when>
+</TimeStamp>
+<styleUrl>#yellow</styleUrl>
+<Point id="ea16c7e0-bd57-4d8b-a41e-9986e4ad28bc">
+<coordinates>34.80988697,32.16763949</coordinates>
+</Point>
+</Placemark>
+</Folder>
+</Document>
+</kml>
