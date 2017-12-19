@@ -32,7 +32,7 @@ public class Main {
 			newfile = sc.nextLine();
 			File file = new File(filename);
 			ArrayList<Wifi> wifiArr = csv.getArrayList(file);
-			ArrayList<Mac> Wifismac = algo.getRouter(wifiArr, 4); 
+			ArrayList<Mac> Wifismac = new ArrayList<Mac>();
              
 			System.out.println();
 			while ( !input ){
@@ -46,6 +46,7 @@ public class Main {
 				select = sc.nextInt();
 				switch (select){
 				case 0:
+					Wifismac = algo.getRouter(wifiArr, 4);
 					cw.Array2csv(Wifismac, newfile);
 					System.out.println("print the list ?  1:yes 2:no  ");
 					int print = sc.nextInt();
@@ -120,7 +121,8 @@ public class Main {
 				int open = sc.nextInt() ;				
 				if ( open == 1){
 					System.out.println(newfile+" is opening...");
-					String path = System.getProperty("user.dir"); 
+					String path = System.getProperty("user.dir");
+					System.out.println(path);
 					Runtime.getRuntime().exec("open "+path+"/"+newfile);
 				}
 				else if (open == 2) { 
