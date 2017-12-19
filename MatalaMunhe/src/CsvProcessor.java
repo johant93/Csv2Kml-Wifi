@@ -255,6 +255,7 @@ public class CsvProcessor implements CsvWrite{
 		bw.write("comment");
 		
 		while (i < list.size()-1) {
+			bw.newLine();
 			bw.write(list.get(i).getMac()+",");
 			bw.write(list.get(i).getSsid()+",");
 			bw.write(list.get(i).getChannel()+",");
@@ -264,6 +265,7 @@ public class CsvProcessor implements CsvWrite{
 			bw.write(list.get(i).getAlt()+",");
 			bw.write(list.get(i).getTime()+",");
 			bw.write(list.get(i).getComment());
+			i++;
 			}
 		bw.close();
 	} catch (IOException e) {
