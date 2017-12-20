@@ -81,7 +81,7 @@ public class Algorithme{
 			// System.out.println("templist is empty - error"); 
 			return new Mac();
 		}
-		else {
+		else { 
 			double wSig_sum=0.0, wAlt_sum=0.0,wLon_sum=0.0,wLat_sum=0.0;
 			double routerAlt=0.0,routerLon=0.0,routerLat=0.0;
 			int nbofwifi = list.size();
@@ -107,7 +107,6 @@ public class Algorithme{
 			/* Wifi router = new Wifi(list.get(0).getTime(), list.get(0).getId(),
 	String.valueOf(routerLat),String.valueOf(routerLon), String.valueOf(routerAlt),
 	list.get(0).getSsid(), list.get(0).getMac(), list.get(0).getFreq(),list.get(0).getSignal());*/
-
 			Mac mac = new Mac(list.get(0).getTime(), String.valueOf(routerLat),
 					String.valueOf(routerLon), String.valueOf(routerAlt), list.get(0).getSsid(),
 					list.get(0).getMac(), list.get(0).getFreq(), list.get(0).getSignal());

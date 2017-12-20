@@ -9,7 +9,7 @@ import java.util.Scanner;
 public class Main {
 
 	public static void main(String[] args) throws IOException {
-		CsvProcessor csv = new CsvProcessor() ;
+		CsvRead cr = new CsvProcessor() ;
 		CsvWrite cw = new CsvProcessor();
 		WifiSort Wsort = new WifiSort() ;
 		WriteWifiKml wkml = new WriteWifiKml();
@@ -32,7 +32,11 @@ public class Main {
 			System.out.println("new file's name : ");
 			newfile = sc.nextLine();
 			File file = new File(filename);
-			ArrayList<Wifi> wifiArr = csv.getArrayList(file);
+			ArrayList<Wifi> wifiArr = new ArrayList<Wifi>();
+			if ( filename.contains("comb"))  wifiArr = cr.combo2Array(file);
+			else  wifiArr = cr.getArrayList(file);
+			
+			
 			ArrayList<Mac> Wifismac = algo.getRouter(wifiArr, 4); 
              
 			System.out.println();
