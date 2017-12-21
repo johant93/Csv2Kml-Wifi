@@ -6,7 +6,7 @@ import java.util.Comparator;
  */
 
 public class Wifi   {
-	String time, id, lat, lon, alt, ssid, mac, freq, signal;
+	String time, id, lat, lon, alt, ssid, mac, freq, signal,Pi;
 
 /**
  * builds a Wifi object
@@ -139,11 +139,20 @@ public class Wifi   {
 		this.freq = freq;
 	}
 
+	public String getPi() {
+		return Pi;
+	}
+
+	public void setPi(String pi) {
+		Pi = pi;
+	}
+
 	@Override
 	public String toString() {
 		return "Wifi [time=" + time + ", id=" + id + ", lat=" + lat + ", lon=" + lon + ", alt=" + alt + ", ssid=" + ssid
-				+ ", mac=" + mac + ", freq=" + freq + ", signal=" + signal + "]";
+				+ ", mac=" + mac + ", freq=" + freq + ", signal=" + signal + ", Pi=" + Pi + "]";
 	}
+	
 
 	 /**
 	    * new Comparator class for Signal and Time
@@ -177,6 +186,19 @@ public class Wifi   {
         	if (w1.getMac().compareTo(w2.getMac())==0)
     			return w1.getSignal().compareTo(w2.getSignal());
     		return w1.getMac().compareTo(w2.getMac());
+        }
+        
+    };
+public static Comparator<Wifi> ComparatorPi = new Comparator<Wifi>() {
+    	
+    	/**
+    	 *comparator for Pi (weight of wifi by location)
+    	 *@return if the second object smaller return negative value and if its bigger positive value.
+    	 *if they are equal return 0;
+    	 */
+        @Override
+        public int compare(Wifi w1, Wifi w2) {    
+    		return w2.getPi().compareTo(w1.getPi()); // decreasing order
         }
         
     };

@@ -1,4 +1,6 @@
+import java.io.File;
 import java.util.ArrayList;
+
 
 public class Algorithme{
 
@@ -33,7 +35,6 @@ public class Algorithme{
 					// lastwifi 
 					if ( i == list.size()-2 ){
 						templist.add(list.get(i+1));
-						System.out.println("size of templist: "+templist.size());
 						end = true;
 						full = true;
 					}
@@ -113,10 +114,8 @@ public class Algorithme{
 
 			return mac;
 		}
-
-
 	}
 
-
+   
 }
 // test

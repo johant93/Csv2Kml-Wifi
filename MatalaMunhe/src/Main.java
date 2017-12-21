@@ -14,6 +14,8 @@ public class Main {
 		WifiSort Wsort = new WifiSort() ;
 		WriteWifiKml wkml = new WriteWifiKml();
 		Algorithme algo = new Algorithme();
+		Algorithme2 algo2 = new Algorithme2();
+
 		Scanner sc = new Scanner(System.in);
 		Wifi wifi = new Wifi();
 		Mac mac = new Mac() ;
@@ -46,6 +48,7 @@ public class Main {
 				System.out.println(" 2: create a kml file ");
 				System.out.println(" 3: create a kml file by data ");
 				System.out.println(" 4: create a kml file of centers ");
+				System.out.println(" 5: create a csv file with location of the user");
 
 				System.out.println("make a choice : ");
 				select = sc.nextInt();
@@ -112,6 +115,14 @@ public class Main {
 					System.out.println("print the list ?  1:yes 2:no  ");
 					print = sc.nextInt();
 					if ( print == 1 ) mac.printMaclist(Wifismac);
+					input = true ;
+					break;
+				case 5 :
+					sc.nextLine(); // get the sc.getInt() that precede
+					System.out.println("Please, enter the Path name of the input file : ");
+					filename = sc.nextLine();
+					File inputfile = new File(filename);
+					algo2.FindUserLocation(inputfile, file, newfile);
 					input = true ;
 					break;
 				default : System.out.println("wrong input");

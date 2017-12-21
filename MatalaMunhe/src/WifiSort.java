@@ -14,9 +14,7 @@ public class WifiSort {
 	 */
 	
 	public void signalAndMacsort (ArrayList <Wifi> list){
-		Collections.sort(list,Wifi.ComparatorSignalAndMac);
-
-		
+		Collections.sort(list,Wifi.ComparatorSignalAndMac);	
 	}
 	public  void signalAndTimesort (ArrayList <Wifi> list) {
 		Collections.sort(list,Wifi.ComparatorSignalAndTime);
