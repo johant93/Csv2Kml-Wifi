@@ -17,61 +17,52 @@ public class Algorithme2 {
 	private static String nosignal = "-120";
 	private static double diffnosign = 100;
 
+	
 	public void FindUserLocation (File inputfile,File datafile,String newfile){
 		try {
 
 			BufferedWriter bw = new BufferedWriter(new FileWriter(newfile));
 			ArrayList<Wifi> dataList = new ArrayList<>() ;
 			Scanner inputsc = new Scanner(inputfile);
-			Scanner datasc = new Scanner(datafile);
 			String inputline = "",dataline = "",inputwithcoordinates="";
-			double difference = 0,weight=0,Pi = 1.0;
+			double difference = 0,weight=0;
+			int datalist = 0;
 			boolean macfound = false ;
 			//checking for each line of input if Wifis' Mac of data correspond to Wifis' Mac of input 
 			while (inputsc.hasNextLine()) {
 				inputline = inputsc.nextLine();
 				ArrayList<Wifi> inputemp = LineToArray(inputline) ;
-
+				Scanner datasc = new Scanner(datafile);
 				// checking each line of data 
 				while (datasc.hasNextLine()) {
 					dataline = datasc.nextLine();
 					ArrayList<Wifi> datatemp = LineToArray(dataline) ;
-					// comparing each wifi of inputemp with each wifi of datatemp 
-					System.out.println("datatemp: ");
-					wf.printWifilist(datatemp);
+                     double Pi = 1.0;
+					// comparing each wifi of inputemp with each wifi of datatemp 	
 					for (Wifi inputwifi : inputemp){
 						macfound = false ;
 						for (Wifi datawifi : datatemp){	
-							if (!macfound && inputwifi.getMac().equals(datawifi.getMac())) {
+							if (macfound==false && inputwifi.getMac().equals(datawifi.getMac())) {
 								difference = getDiff(inputwifi.getSignal(), datawifi.getSignal());
 								weight = getWeight(difference, inputwifi.getSignal());
 								macfound = true ;
-								//System.out.println("weight :"+weight);
-
 							}
-
 						}
-						if(!macfound) {
+						if(macfound==false) {
 							difference = diffnosign ;
 							weight = getWeight(difference, inputwifi.getSignal());
-							//System.out.println("weight mac not found  :"+weight);
 						}
 						Pi = Pi*weight ;		
-						//System.out.println("Pi  :"+Pi);
-
 					}
 					setPi2Arraylist(datatemp, Pi);
-					wf.printWifilist(datatemp);
-					System.out.println();
 					emptyIn(datatemp,dataList);
+
 				}
+				datasc.close();
+				datalist++;
 				Collections.sort(dataList,Wifi.ComparatorPi);
-				// wf.printWifilist(dataList);
 				ArrayList<Wifi> listofwificlose = getfirstDifferentwifi(dataList, 4);
-				System.out.println("wifi closes: ");
-				wf.printWifilist(listofwificlose);
 				Coordinate coord = setCoordinates(listofwificlose); 
-				System.out.println("coordonnees: "+coord);
 				inputwithcoordinates = placeCoordinates(inputline,coord);  
 				bw.write(inputwithcoordinates);
 				bw.newLine();
@@ -80,7 +71,6 @@ public class Algorithme2 {
 			}
 			bw.close();
 			inputsc.close();
-			datasc.close();
 
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
