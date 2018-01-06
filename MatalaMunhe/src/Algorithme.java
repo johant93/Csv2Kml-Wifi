@@ -75,6 +75,43 @@ public class Algorithme{
 			System.out.println("wifi list2 is empty - error"); 
 		return listRouter ;
 	}
+	/**
+	 * This function find the approximative localization of macAdress
+	 * @param list
+	 * @param wifisbase
+	 * @param macAdress
+	 * @return
+	 */
+	public Mac getMac (ArrayList<Wifi> list,int wifisbase,String macAdress){
+		Wsort.signalAndMacsort(list);
+		if (list.isEmpty())
+			System.out.println("wifi list is empty - error"); 
+		ArrayList<Wifi> templist = new ArrayList<Wifi>();
+		int i = 0, counter = 0;
+		boolean Macfound = false;
+		
+		while ( i<list.size()-1 && !Macfound){	
+			String mac =list.get(i).getMac();
+			String mac_next =list.get(i+1).getMac();
+			if(macAdress.equals(mac)&& counter < wifisbase){
+				templist.add(list.get(i));
+				counter++;
+				if ( i == list.size()-2 && mac.compareTo(mac_next) == 0 ){
+					templist.add(list.get(i+1));
+					Macfound = true;
+				}
+				if(counter == wifisbase || mac.compareTo(mac_next) != 0 )
+					Macfound = true ;
+			}		
+			if ( Macfound == false && i == list.size()-2 && macAdress.equals(mac_next))
+				templist.add(list.get(i+1));		
+			i++;
+		}
+		Mac macResult = algorithme1(templist);
+      
+		return macResult;
+		
+	}
 
 	public static Mac algorithme1 (ArrayList<Wifi> list){
 

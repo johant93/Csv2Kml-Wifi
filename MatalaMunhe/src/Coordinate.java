@@ -41,7 +41,7 @@ public class Coordinate {
 
 	@Override
 	public String toString() {
-		return "Coordinate [Lon=" + Lon + ", Lat=" + Lat + ", Alt=" + Alt + "]";
+		return "Coordinate: " + Lon + "," + Lat + "," + Alt;
 	}
 	
 	

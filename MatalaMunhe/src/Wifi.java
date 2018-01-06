@@ -152,8 +152,26 @@ public class Wifi   {
 		return "Wifi [time=" + time + ", id=" + id + ", lat=" + lat + ", lon=" + lon + ", alt=" + alt + ", ssid=" + ssid
 				+ ", mac=" + mac + ", freq=" + freq + ", signal=" + signal + ", Pi=" + Pi + "]";
 	}
-	
-
+	public boolean isSignal(String signal){	
+		if (isInt(signal)){
+		if(Integer.parseInt(signal)>=-100 && Integer.parseInt(signal)<=-40)
+		return true ;
+		}
+		return false ;
+	}
+	public boolean isMac(String mac){
+		if(mac.length()==17)
+			return true ;
+		return false ;
+	}
+	public static boolean isInt(String chaine) {
+		try {
+			Integer.parseInt(chaine);
+		} catch (NumberFormatException e){
+			return false;
+		}
+		return true;
+	}
 	 /**
 	    * new Comparator class for Signal and Time
 	    */

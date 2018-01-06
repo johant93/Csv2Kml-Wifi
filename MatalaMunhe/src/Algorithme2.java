@@ -17,7 +17,121 @@ public class Algorithme2 {
 	private static String nosignal = "-120";
 	private static double diffnosign = 100;
 
-	
+public Coordinate getcoordinate(ArrayList<Wifi> inputemp,ArrayList<Wifi> dataList){
+		
+		ArrayList<Wifi> WifiPiList = new ArrayList<Wifi>();
+		double difference = 0,weight=0;
+		boolean macfound = false ;
+		ArrayList<Wifi> datatemp = new ArrayList<Wifi>() ;
+		datatemp.add(dataList.get(0));
+		int index = 0;
+		while( index < dataList.size()-1){
+			String time = dataList.get(index).getTime();
+			String time_next = dataList.get(index+1).getTime();
+            if (time.equals(time_next)){
+            	datatemp.add(dataList.get(index+1));
+            }
+            else {
+            	 double Pi = 1.0;
+					// comparing each wifi of inputemp with each wifi of datatemp 	
+					for (Wifi inputwifi : inputemp){
+						macfound = false ;
+						for (Wifi datawifi : datatemp){	
+							if (macfound==false && inputwifi.getMac().equals(datawifi.getMac())) {
+								difference = getDiff(inputwifi.getSignal(), datawifi.getSignal());
+								weight = getWeight(difference, inputwifi.getSignal());
+								macfound = true ;
+							}
+						}
+						if(macfound==false) {
+							difference = diffnosign ;
+							weight = getWeight(difference, inputwifi.getSignal());
+						}
+						Pi = Pi*weight ;		
+					}
+					setPi2Arraylist(datatemp, Pi);
+					emptyIn(datatemp,WifiPiList);
+				}
+			index++;	
+			}
+		
+		Collections.sort(WifiPiList,Wifi.ComparatorPi);
+		ArrayList<Wifi> listofwificlose = getfirstDifferentwifi(WifiPiList, 4);
+		Coordinate coord = setCoordinates(listofwificlose); 
+		     
+		return coord ;
+
+	}
+	public Coordinate getcoordinate(String samplescan,ArrayList<Wifi> dataList){
+		
+		ArrayList<Wifi> WifiPiList = new ArrayList<Wifi>();
+		double difference = 0,weight=0;
+		boolean macfound = false ,end = false;
+		ArrayList<Wifi> inputemp = LineToArray(samplescan) ;
+		ArrayList<Wifi> datatemp = new ArrayList<Wifi>() ;
+		datatemp.add(dataList.get(0));
+		int index = 0;
+		while( index < dataList.size()-1){
+			String time = dataList.get(index).getTime();
+			String time_next = dataList.get(index+1).getTime();
+            if (time.equals(time_next)){
+            	datatemp.add(dataList.get(index+1));
+            	if(index+1 == dataList.size()-1) // check if we ran until the last samplescan
+            		end = true;
+            }
+            else {
+            	 double Pi = 1.0;
+					// comparing each wifi of inputemp with each wifi of datatemp 	
+					for (Wifi inputwifi : inputemp){
+						macfound = false ;
+						for (Wifi datawifi : datatemp){	
+							if (macfound==false && inputwifi.getMac().equals(datawifi.getMac())) {
+								difference = getDiff(inputwifi.getSignal(), datawifi.getSignal());
+								weight = getWeight(difference, inputwifi.getSignal());
+								macfound = true ;
+							}
+						}
+						if(macfound==false) {
+							difference = diffnosign ;
+							weight = getWeight(difference, inputwifi.getSignal());
+						}
+						Pi = Pi*weight ;		
+					}
+					setPi2Arraylist(datatemp, Pi);
+					emptyIn(datatemp,WifiPiList);
+				}
+			index++;	
+			}
+		/*if(!end){ // if last wifi was not include in the program we add it here.
+         	datatemp.add(dataList.get(index+1));
+         	 double Pi = 1.0;
+				// comparing each wifi of inputemp with each wifi of datatemp 	
+				for (Wifi inputwifi : inputemp){
+					macfound = false ;
+					for (Wifi datawifi : datatemp){	
+						if (macfound==false && inputwifi.getMac().equals(datawifi.getMac())) {
+							difference = getDiff(inputwifi.getSignal(), datawifi.getSignal());
+							weight = getWeight(difference, inputwifi.getSignal());
+							macfound = true ;
+						}
+					}
+					if(macfound==false) {
+						difference = diffnosign ;
+						weight = getWeight(difference, inputwifi.getSignal());
+					}
+					Pi = Pi*weight ;		
+				}
+				setPi2Arraylist(datatemp, Pi);
+				emptyIn(datatemp,WifiPiList);
+		}*/
+			
+		Collections.sort(WifiPiList,Wifi.ComparatorPi);
+		ArrayList<Wifi> listofwificlose = getfirstDifferentwifi(WifiPiList, 4);
+		Coordinate coord = setCoordinates(listofwificlose); 
+		     
+		return coord ;
+
+	}
 	public void FindUserLocation (File inputfile,File datafile,String newfile){
 		try {
 
@@ -25,7 +139,7 @@ public class Algorithme2 {
 			ArrayList<Wifi> dataList = new ArrayList<>() ;
 			Scanner inputsc = new Scanner(inputfile);
 			String inputline = "",dataline = "",inputwithcoordinates="";
-			double difference = 0,weight=0;
+			double difference = 0,weight=0; 
 			int datalist = 0;
 			boolean macfound = false ;
 			//checking for each line of input if Wifis' Mac of data correspond to Wifis' Mac of input 
