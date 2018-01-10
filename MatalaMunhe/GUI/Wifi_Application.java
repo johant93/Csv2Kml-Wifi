@@ -43,7 +43,11 @@ import java.awt.Panel;
 import javax.swing.Box;
 import java.awt.SystemColor;
 import javax.swing.UIManager;
-
+/**
+ * Wifi GUI application
+ * @author joh
+ *
+ */
 public class Wifi_Application  {
 
 	public JFrame frameApp;

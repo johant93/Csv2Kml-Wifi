@@ -1,5 +1,11 @@
 import java.util.ArrayList;
 
+/**
+ * this abstract class create the object Filter
+ * this object allow us to combine many filters and to use Operators 
+ * @author joh
+ *
+ */
 abstract class Filter {
 	
 	String Operator = "OR", notOperator =""  ;

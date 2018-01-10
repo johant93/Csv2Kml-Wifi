@@ -1,11 +1,20 @@
 import java.util.ArrayList;
-
+/**
+ * this class filters the Database by position
+ * @arguments Lat , Long , Radius (latitude,longitude,radius)
+ * @author joh
+ *
+ */
 public class FilterByPosition extends Filter {
 	
 	String Lat , Long , Radius ;
 
 	
-	
+	/**
+	 * @param database
+	 * this method set the filter on database
+	 * @return database filtered
+	 */
 public  ArrayList<Wifi> setFilter (ArrayList<Wifi> dataBase){
 		
 		ArrayList<Wifi> dataBasefiltered = new ArrayList<Wifi>();
@@ -17,7 +26,10 @@ public  ArrayList<Wifi> setFilter (ArrayList<Wifi> dataBase){
 		return dataBasefiltered ;
 		
 	}
-	
+/**
+ * @param wifi
+ * @return true if the wifi contain the name selected
+ */
 	   public boolean isTrue (Wifi wifi){
 		   if (Radius(wifi,Lat,Long,Radius))
 			   return true ;

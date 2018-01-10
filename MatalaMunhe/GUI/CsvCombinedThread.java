@@ -1,6 +1,10 @@
 import java.io.File;
 import java.util.ArrayList;
 
+/**
+ * this class create CSV files
+ * @author joh
+ */
 public class CsvCombinedThread extends Thread  {
 
 	private DataBase database ;

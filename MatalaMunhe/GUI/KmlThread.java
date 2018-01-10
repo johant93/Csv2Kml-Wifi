@@ -1,5 +1,10 @@
 import java.util.ArrayList;
 
+/**
+ * this class create KML files
+ * @author joh
+ *
+ */
 public class KmlThread extends Thread{
 	private DataBase database ;
 	private String name;

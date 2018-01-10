@@ -2,7 +2,12 @@ import java.util.Scanner;
 
 import javax.swing.JFileChooser;
 
-
+/**
+ * this class allow us to select a file from the computer
+ * and import his pathname 
+ * @author joh
+ *
+ */
 public class OpenFile {
 
 	JFileChooser fileChooser = new JFileChooser();
