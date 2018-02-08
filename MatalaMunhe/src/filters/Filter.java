@@ -14,8 +14,8 @@ public abstract class Filter {
 	
 	String Operator = "OR", notOperator =""  ;
 	
-   abstract ArrayList<Wifi> setFilter (ArrayList<Wifi> dataBase);
-   abstract boolean isTrue (Wifi wifi);
+   public abstract ArrayList<Wifi> setFilter (ArrayList<Wifi> dataBase);
+   public abstract boolean isTrue (Wifi wifi);
    public abstract String toString ();
    
    
