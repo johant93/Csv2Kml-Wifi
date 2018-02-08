@@ -1070,6 +1070,7 @@ public class Wifi_Application  {
 				if(getPath.isEmpty()) JOptionPane.showMessageDialog(null, "enter name of a file !", "Empty path",2 );
 				else if(db.isGoodFile(getPath)){  	   
 					db.addToDatabase(getPath);
+					dbfiltered.setDatabase(db.getDatabase());
 
 					if(!myFilters.isEmpty()){
 						int reset = JOptionPane.showConfirmDialog(
