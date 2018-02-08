@@ -1,0 +1,38 @@
+
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'application'
+
+mainClassName = 'main.java.Main'
+
+task yala(type: JavaExec) {
+    main = "main.java.testgrad"
+    classpath = sourceSets.main.runtimeClasspath
+}
+
+task hello {
+  doLast({println "hello"})
+}
+
+// tag::repositories[]
+repositories {
+    mavenCentral()
+}
+// end::repositories[]
+
+// tag::jar[]
+jar {
+    baseName = 'gs-gradle'
+    version =  '0.1.0'
+}
+// end::jar[]
+
+// tag::dependencies[]
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+dependencies {
+    compile files('libs/org.boehn.kmlframework_20090718.jar',)    
+    
+    testCompile "junit:junit:4.12"
+}
